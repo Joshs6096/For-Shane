@@ -235,25 +235,37 @@ KCD manages three iconic American consumer brand IP portfolios: Kenmore (applian
 
 ### 3C. Sears & Kmart Retail Stores (B&M)
 
-**Status: TERMINAL WIND-DOWN — KMART OUTPERFORMING SEARS**
+**Status: SEARS TERMINAL (92% COLLAPSED) — KMART STABILIZING**
 
-**Annual Inflows from BU Beta (FY annuals):**
-| Year | Sears Stores ($M) | Kmart Stores ($M) | Combined ($M) |
-|------|------------------|------------------|--------------|
-| FY2024 | $52.2M | $113.2M | **$165.4M** |
-| FY2025 | $25.7M | $89.7M | **$115.4M** |
-| FY2026 (forecast) | $15.3M | $83.1M | **$98.4M** |
+**Complete Fiscal Year History (FY = February–January, confirmed from BU beta 60-month series):**
 
-**Daily inflows from Inflows Actuals (average monthly):**
-- Sep 2022: Sears ~$19M/month; Kmart ~$19M/month
-- FY2025 last 12mo avg: Sears $0.34M/month; Kmart $2.43M/month
-*(Note: daily actuals are at individual store-day level; BU beta monthly summaries show higher annuals)*
+| Fiscal Year | Sears ($M) | YoY | Kmart ($M) | YoY | Kmart:Sears Ratio |
+|-------------|-----------|-----|-----------|-----|-------------------|
+| FY2022 | $198.5M | — | $142.6M | — | 0.7x |
+| FY2023 | $201.4M | **+1.5%** | $142.0M | -0.4% | 0.7x |
+| FY2024 | $52.2M | **-74.1%** | $113.2M | -20.3% | 2.2x |
+| FY2025 | $25.7M | -50.8% | $89.7M | -20.8% | 3.5x |
+| FY2026 (forecast) | $15.3M | -40.4% | $83.1M | -7.4% | **5.4x** |
+| FY2027 (forecast) | $16.0M | +4.4% | $83.6M | +0.6% | 5.2x |
 
-**The Sears/Kmart divergence:** Sears has declined 94.2% in inflows over the period (first 12mo avg $5.7M/month → last 12mo avg $0.34M/month). Kmart has declined 61.5% ($6.3M → $2.4M/month). Kmart's slower decline is likely attributable to its value-format appeal and the strength of remaining Puerto Rico/USVI/Guam territory stores.
+**Critical findings:**
 
-**Territory stores (Guam, USVI, Puerto Rico):** Present in inflows data throughout the entire period. Puerto Rico Hato Rey generates $158–164K/month in lease income alone, suggesting meaningful retail operations continue there. St. Croix and St. Thomas each contribute $63–79K/month.
+**1. Sears was flat until it wasn't.** FY2022 and FY2023 both showed ~$200M in Sears inflows — essentially flat year-over-year. The collapse was not gradual: it was sudden and concentrated. **The -74.1% drop in FY2024** (corresponding to calendar year 2023 store closures) was the single largest year-over-year destruction event in the company's post-bankruptcy history.
 
-**Total retail inflow decline (Sears + Kmart combined):** From ~$165M in FY2024 to ~$98M forecast in FY2026 — a 41% decline in two years. At this pace, combined retail inflows fall below $50M annually by FY2028.
+**2. Kmart is stabilizing.** After declining 20% annually in FY2024–25, Kmart decelerated to just -7.4% in FY2026 and is projected essentially flat in FY2027 ($83.6M vs $83.1M). Kmart has reached a terminal store base — the remaining stores appear to be sticky, likely the Puerto Rico/USVI/Guam territories plus a handful of mainland value-format locations.
+
+**3. Kmart now generates 5.4x Sears.** By FY2026, Kmart ($83.1M) dwarfs Sears ($15.3M). Single-month May 2026 actuals confirm: Kmart $0.80M vs Sears $0.01M in the first week.
+
+**4. December 2022 was the last meaningful Sears holiday.** The final real holiday season: Sears $23.75M and Kmart $15.75M in December 2022. Both crashed in January 2023 and never recovered to holiday levels again.
+
+**5. Sears CAGR since FY22: -42%.** At this rate, Sears inflows reach zero by FY2028. FY2027 forecast (+4.4%) suggests model-assumed stabilization — likely reflecting the last few surviving stores and territory operations.
+
+**Channel mix:** Kmart is 95.6% pure B&M retail. Sears had ~40% non-store revenue (warranty, financial services, HS) that masked the depth of store-level decline in early years.
+
+**Quarterly decline — Sears:** Q4-2022: $56.5M → Q4-2023: $10.1M (82% drop in one year) → Q4-2024: $3.6M.
+**Quarterly decline — Kmart:** Q4-2022: $36.1M → Q4-2023: $28.9M (-20%) → Q4-2024: $20.1M (stable thereafter at ~$20–23M/quarter).
+
+**Territory stores:** No dedicated territory columns in the inflow data — territory retail is consolidated into main brand totals. Territory lease income (Puerto Rico, USVI) is tracked separately under Tenant Income ($200–330K/month combined from Hato Rey, St. Croix, St. Thomas), suggesting these stores remain operational.
 
 ---
 
