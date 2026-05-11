@@ -1,0 +1,808 @@
+{
+  "title": "Supply Chain & Logistics Business Unit Analysis",
+  "period": "Sep 2022 \u2013 May 2026 (3.5 years)",
+  "analysis_date": "2026-05-11",
+  "sources_used": [
+    "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+    "Daily Cash Fcst - 1.17.23_BU view_JanBOD.xlsx",
+    "Daily Cash Fcst - 5.26.23_BU view_24 adj_MayBOD_Liquidity & May actuals.xlsx",
+    "Daily Cash Fcst - 8.22.23_BU view_AugBOD.xlsx",
+    "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+    "Daily Cash Fcst - 6.18.24_BU view_JunBOD.xlsx",
+    "Daily Cash Fcst - 9.24.24_BU view_deck version_BOD.xlsx",
+    "Daily Cash Fcst - 12.10.24_BU view_deck version_BOD_SC wo 3 RE Interco IF_$9M.xlsx",
+    "Daily Cash Fcst - 3.18.25_BU view_deck version_MarBOD.xlsx",
+    "Daily Cash Fcst - 7.22.25_BU view_deck version_condensed_JulBOD.xlsx",
+    "Daily Cash Fcst - 12.15.25_BU view_DecBOD.xlsx",
+    "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+    "cash file details.xlsx"
+  ],
+  "executive_summary": {
+    "business_description": "Supply Chain (SC) / 3PL is Transform Holdco's third-party logistics unit, operating distribution centers (DCs) under the Innovel/Supply Chain brand. The unit provides warehousing, fulfillment, parcel delivery (via UPS, FedEx), ocean freight (Tetria Global Logistics, Crowley), truckload/LTL carrier management (Ultra, Intermodal Sales, Echo Global), and offshore (Hawaii/Puerto Rico) shipping. The business evolved from the legacy Sears/Kmart logistics infrastructure into a third-party revenue-generating 3PL business.",
+    "scale_at_peak": "BU beta tabs show SC inflows of $4M\u2013$8M/month in FY22 (Sept 2022 BOD: $4.74M\u2013$8.49M/month, implied FY22 run-rate $59.3M/yr per internal 'zCF' annotation: 'Supply Chain $82M/yr'). SC disbursements (logistics costs: carriers, DC operations) averaged $2.0M\u2013$2.9M/month in FY22.",
+    "3PL_note": "The $82M/yr reference on BU beta includes intercompany SC services to Home Services, Retail, and KCD divisions. True external 3PL revenue (from third parties) was tracked separately in the 'SC IF Forecast' tabs, totaling ~$1.9M\u2013$2.6M/month ($23\u201331M/yr) by 2025. This is the commercially distinct 3PL revenue stream."
+  },
+  "sc_inflows_monthly_by_BOD": {
+    "note": "Inflows Detail tab column 14 = Supply Chain cash inflows per month. BU beta inflows (row 17-18) represent the broader SC inflow line including intercompany. All figures $M.",
+    "Sep2022_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "SEP_2022": 0.58,
+        "OCT_2022": 3.94,
+        "NOV_2022": 4.22,
+        "DEC_2022": 5.13,
+        "JAN_2023": 4.24
+      },
+      "BU_beta_FY22_total_sc_inflow": 59.28,
+      "BU_beta_monthly_sc_inflow_FY22": {
+        "Feb_2022": 4.74,
+        "Mar_2022": 8.49,
+        "Apr_2022": 1.97,
+        "May_2022": 7.43,
+        "Jun_2022": 4.63,
+        "Jul_2022": 4.51,
+        "Aug_2022": 5.25,
+        "Sep_2022": 4.73,
+        "Oct_2022": 3.94,
+        "Nov_2022": 4.22,
+        "Dec_2022": 5.13,
+        "Jan_2023": 4.24
+      },
+      "BU_beta_monthly_sc_disb_FY22": {
+        "Feb_2022": -2.192,
+        "Mar_2022": -2.851,
+        "Apr_2022": -2.268,
+        "May_2022": -2.079,
+        "Jun_2022": -4.63,
+        "Jul_2022": -1.971,
+        "Aug_2022": -1.571,
+        "Sep_2022": -2.95,
+        "Oct_2022": -2.046,
+        "Nov_2022": -1.826,
+        "Dec_2022": -2.774,
+        "Jan_2023": -2.04
+      },
+      "note": "BU beta FY22 total SC disbursements: $26.92M. Internal annotation: 'Bruce has a 3PL Tracker that logs all invoices and payments'"
+    },
+    "Jan2023_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "FEB_2023": 3.3,
+        "MAR_2023": 3.95
+      },
+      "BU_beta_monthly_sc_inflow_FY23_extension": {
+        "FY23_run_rate_implied": "~$3.3-5.9M/month per BU beta",
+        "Sep_2022": 5.9,
+        "Oct_2022_rev": 5.6,
+        "Nov_2022_rev": 4.15,
+        "Dec_2022_rev": 5.69,
+        "Jan_2023": 3.55,
+        "FY22_revised": 61.91
+      }
+    },
+    "May2023_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "JUN_2023": 5.1,
+        "JUL_2023": 5.0,
+        "AUG_2023": 5.0
+      },
+      "note": "SC inflow sustained at $5M/month through H1 FY23"
+    },
+    "Aug2023_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "SEP_2023": 4.32,
+        "OCT_2023": 4.5,
+        "NOV_2023": 4.5
+      }
+    },
+    "Jan2024_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "JAN_2024": 0.32,
+        "FEB_2024": 3.08,
+        "MAR_2024": 3.08,
+        "APR_2024": 3.08
+      },
+      "note": "Step down to ~$3M/month range as retail operations wound down"
+    },
+    "Jun2024_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "JUN_2024": 0.76,
+        "JUL_2024": 2.15,
+        "AUG_2024": 2.38,
+        "SEP_2024": 2.62
+      }
+    },
+    "Sep2024_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "SEP_2024": 0.63,
+        "OCT_2024": 2.38,
+        "NOV_2024": 2.38,
+        "DEC_2024": 2.62
+      }
+    },
+    "Dec2024_BOD": {
+      "file_name": "SC wo 3 RE Interco IF_$9M",
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "DEC_2024": 0.72,
+        "JAN_2025": 2.38,
+        "FEB_2025": 2.38,
+        "MAR_2025": 2.62
+      },
+      "note": "This file title indicates SC inflows EXCLUDING 3 Real Estate Intercompany items totaling $9M. See dec_2024_9m_re_interco section for details."
+    },
+    "Mar2025_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "MAR_2025": 1.66,
+        "APR_2025": 3.3,
+        "MAY_2025": 4.0,
+        "JUN_2025": 4.08
+      },
+      "note": "Uptick to $4M/month - new 3PL clients being added"
+    },
+    "Jul2025_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "JUL_2025": 1.54,
+        "AUG_2025": 2.75,
+        "SEP_2025": 2.99,
+        "OCT_2025": 2.75
+      }
+    },
+    "Dec2025_BOD": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "DEC_2025": 0.04,
+        "JAN_2026": 2.24,
+        "FEB_2026": 2.09
+      }
+    },
+    "May2026_BU": {
+      "sheet": "Inflows Detail",
+      "actuals_and_near_term_forecast": {
+        "MAY_2026": 0.8,
+        "JUN_2026": 2.21,
+        "JUL_2026": 2.09
+      }
+    }
+  },
+  "sc_disbursements_logistics_costs": {
+    "note": "Logistics disbursements tracked in 'logistics details'/'SC detail'/'Logistics XXXX' tabs. All figures $M. These are cash outflows for carrier payments.",
+    "carrier_categories": {
+      "Parcel": "UPS ($2.9M\u20134.4M/month), FedEx (secondary/backup), CEVA Freight (large parcel)",
+      "Ocean_Freight": "Tetria Global Logistics (primary ocean), UPS Supply Chain Solutions (backup)",
+      "Offshore": "Crowley Liner Services (Puerto Rico/Hawaii primary), Pacific Transportation Lines (Hawaii), Island Delivery Service",
+      "TL_Carriers": "Ultra Logistics, Coyote Logistics, Intermodal Sales, Heartland Express, Swift Transportation, AFN/GlobalTranz",
+      "LTL": "Echo Global Logistics, TForce (fka UPS Freight), CH Robinson",
+      "DC_Operations": "Penske Truck Leasing (equipment), Brightview Landscape (DC maintenance), various DC construction vendors"
+    },
+    "total_monthly_transport_actuals": {
+      "Feb_Apr_2022": "$6.0M\u2013$8.0M/month total transportation disbursements",
+      "FY2022_total_transport": "$70M+ (actuals from logistics detail tabs)",
+      "FY2023_transport": "Approximately $55\u201365M (declining as retail volume reduced)",
+      "FY2024_transport": "$25\u201335M (step-down due to B&M store closures)",
+      "FY2025_transport": "$15\u201325M (3PL-only operations)",
+      "note": "Transportation costs allocated primarily to HS (96%), Retail (2-4%), OBU (2-3%), KCD (1%) per BU allocation columns. SC/3PL column typically 0% for carrier costs \u2014 carriers bill intercompany through HS/Retail cost centers."
+    },
+    "BU_beta_sc_disbursements_FY22_monthly_M": {
+      "Feb_2022": -2.192,
+      "Mar_2022": -2.851,
+      "Apr_2022": -2.268,
+      "May_2022": -2.079,
+      "Jun_2022": -2.348,
+      "Jul_2022": -1.971,
+      "Aug_2022": -1.571,
+      "Sep_2022": -2.95,
+      "Oct_2022": -2.046,
+      "Nov_2022": -1.826,
+      "Dec_2022": -2.774,
+      "Jan_2023": -2.04,
+      "FY22_total": -26.917
+    },
+    "BU_beta_sc_disbursements_later_years_M": {
+      "FY23_approx": -26.865,
+      "FY24_approx": "~-25 to -26M (gradual reduction per BU beta)",
+      "Jun2024_2month_view": {
+        "Jun_Jul_2024_pair": -26.05
+      },
+      "Sep2024_2month_view": {
+        "Sep_Oct_2024_pair": -25.06
+      },
+      "Dec2024_2month_view": {
+        "Dec24_Jan25_pair": -24.91
+      },
+      "Mar2025_2month_view": {
+        "Mar_Apr_2025_pair": -24.64
+      },
+      "Jul2025_3month_view": {
+        "Jul_Aug_Sep_2025": -21.86
+      },
+      "Dec2025_4month_view": {
+        "Q4_2025_avg": -19.3
+      },
+      "May2026_6month_view": {
+        "FY26_est": "declining to $3-5M/month by mid-2026 as operations wind down"
+      }
+    }
+  },
+  "three_pl_external_revenue_by_dc": {
+    "note": "From SC IF Forecast tabs (Sep 2024, Dec 2024, Mar 2025, Jul 2025). These track third-party customer revenue \u2014 NOT intercompany SC services. All figures monthly $, converted to $M for summary.",
+    "distribution_centers": {
+      "Lawrence_KS": {
+        "description": "Large fulfillment DC; primary clients: Smucker's, Tractor Supply, Ware2Go, Brands",
+        "FY25_monthly_range_$": "$505K\u2013$720K/month",
+        "key_clients": [
+          "Smucker's ($180K\u2013377K/month)",
+          "Tractor Supply ($127K\u2013156K)",
+          "Ware2Go Misc (~$100K+)",
+          "Brands Transform ($25K\u201388K)",
+          "American Freight ($115K\u2013141K)"
+        ],
+        "FY25_annual_est_M": 7.0
+      },
+      "Manteno_IL": {
+        "description": "CDFC (Cross-Dock Fulfillment Center) \u2014 the primary IL distribution hub; Gotion was noted as a $630K payment (FY25 'Manteno/Gotion 3of3')",
+        "note": "Manteno is key to Dec 2022 RE closing ($8.1M disbursement on 12/30/22 per RE & Debt tab). PDC (Pricing & Delivery Center) revenue from Manteno CDFC was tracked separately.",
+        "FY25_monthly_range_$": "$198K\u2013$1.39M/month (includes Home Services $250K-480K interco)",
+        "key_clients": [
+          "Home Services (interco: $133K\u2013480K)",
+          "American Freight",
+          "NexAmp Solar",
+          "Uber Freight Sort Center (potential: $480K)",
+          "Tovala",
+          "Sun Joy",
+          "Ware2Go Misc"
+        ],
+        "FY25_annual_est_M": 4.5
+      },
+      "Fairless_Hills_PA": {
+        "description": "Large DC near Philadelphia; anchor tenants include Post (cereal), Mars M&M, Ware2Go, ECR4Kids",
+        "FY25_monthly_range_$": "$850K\u2013$1.1M/month",
+        "key_clients": [
+          "Post ($115K/month)",
+          "Mars M&M ($120K/month)",
+          "Ware2Go Misc ($350K\u2013500K)",
+          "ECR4Kids ($168K\u2013233K)",
+          "Amazon Parking ($100K/month)",
+          "Amazon Parking E&F ($43K/month)",
+          "Balsam Brands",
+          "Ski Equipment"
+        ],
+        "FY25_annual_est_M": 11.5
+      },
+      "Ocala_FL": {
+        "description": "Florida DC; mix of consumer goods; Blue Triton (water) was large anchor",
+        "FY25_monthly_range_$": "$285K\u2013$660K/month",
+        "key_clients": [
+          "Blue Triton ($108K\u2013298K)",
+          "Signature Brands/Pop ($167K\u2013264K est)",
+          "Ware2Go Misc ($20K\u201335K)",
+          "Dollar Tree ($13K)",
+          "Brands ($10K\u201371K)"
+        ],
+        "FY25_annual_est_M": 5.0
+      },
+      "Arvin_CA": {
+        "description": "California DC; smaller 3PL clients via FlowSpace, Ware2Go",
+        "FY25_monthly_range_$": "$74K\u2013$132K/month",
+        "key_clients": [
+          "Brands ($22K\u201372K)",
+          "LMNT ($35K)",
+          "ScottBro/Candy ($5K\u201338K)",
+          "Hilco ($16K)"
+        ],
+        "FY25_annual_est_M": 1.2
+      }
+    },
+    "grand_total_external_3PL_revenue": {
+      "Dec2024_BOD_FY25_monthly_total": {
+        "Feb_2025": 1.914,
+        "Mar_2025": 2.128,
+        "Apr_2025": 2.288,
+        "May_2025": 2.396,
+        "Jun_2025": 2.444,
+        "Jul_2025": 2.51,
+        "Aug_2025": 2.632,
+        "Sep_2025": 2.613,
+        "Oct_2025": 2.686,
+        "Nov_2025": 2.626,
+        "Dec_2025": 2.327,
+        "Jan_2026": 2.099,
+        "FY25_annual_total": 29.66
+      },
+      "note": "Grand Total DCs sourced from SC IF Forecast_9.16.24 in Dec2024 BOD file. $M."
+    }
+  },
+  "dec_2024_9m_re_interco_analysis": {
+    "file": "Daily Cash Fcst - 12.10.24_BU view_deck version_BOD_SC wo 3 RE Interco IF_$9M.xlsx",
+    "title_meaning": "This BOD file presents the Supply Chain cash flow EXCLUDING 3 Real Estate intercompany items totaling $9M. This was created to show the 'pure' SC/3PL cash contribution without inflating it with non-3PL intercompany RE transactions.",
+    "the_3_RE_interco_items_identified": {
+      "source_sheet": "SC Interco",
+      "items": [
+        {
+          "item": "Amazon/Berry Plastics Parking Revenue",
+          "amount_annual_M": 1.74,
+          "monthly_M": 0.145,
+          "description": "Parking revenue from Amazon and Berry Plastics at Fairless Hills DC. Was booked to Real Estate BU but SC team questioned: 'currently booked to Real Estate - why?' Should flow through SC/3PL P&L."
+        },
+        {
+          "item": "Revised Revenue Forecast Adjustment",
+          "amount_FY24_M": 1.9,
+          "description": "True inflows upside \u2014 revised baseline SC revenue forecast not reflected in the Oct 2024 version of the CF model."
+        },
+        {
+          "item": "Brands Revenue (3PL invoices to Brands/KCD)",
+          "amount_annual_M": 1.838,
+          "monthly_M": 0.077,
+          "description": "3PL invoices from SC to Brands/KCD divisions. Home Services intercompany was already eliminated, but Brands/KCD were not being invoiced. '3PL invoices to Brands - revenue not currently in this version of the CF.'"
+        }
+      ],
+      "total_3_items_M": 5.47,
+      "note": "The file title references '$9M' but the SC Interco sheet shows total net CF change of $4.39M (FY24). The $9M likely refers to the gross revenue upside including TBD items or refers to a prior version. The 3 identified RE interco items sum to ~$5.5M annually. Additional intercompany items include: Retail Services ($3.096M/yr \u2014 3PL expenses for Retail not being invoiced back).",
+      "sc_interco_total_revenue_upside_FY24_M": 6.39,
+      "sc_interco_total_expense_reduction_FY24_M": -15.08,
+      "sc_interco_net_CF_change_FY24_M": 4.39,
+      "interco_items_deducted_from_46M_baseline": {
+        "internal_interco_inflows_M": 4.489,
+        "retail_B_and_M_interco_M": 3.096,
+        "description": "Items removed from $46M SC inflow baseline to get true external 3PL number"
+      }
+    }
+  },
+  "propco_arrangement": {
+    "source": "cash file details.xlsx, Sheet1",
+    "description": "Transform pays PropCo (Holdco's real estate entity / property company) monthly per a reconciliation file. The PropCo relationship for Supply Chain specifically covers: (1) 3PL EBITDA sharing for Lawrence KS and Morrisville facilities, (2) Management fees. This is a monthly outflow from Transform to PropCo.",
+    "cash_flow_line": {
+      "label": "Propco",
+      "type": "Outflow",
+      "FY25_YTD_M": -5.05,
+      "Dec_2025_monthly_M": -1.0,
+      "Jan_2025_monthly_M": -1.0,
+      "FY25_total_M": -7.05,
+      "FY26_forecast_M": -12.0,
+      "description_from_cash_file": "Monthly recon file with Propco (for 3PL EBITDA (for Lawrence & Morrisville), mgmt fees, etc)"
+    },
+    "propco_2025_line": {
+      "label": "PropCo 2025",
+      "type": "Outflow",
+      "FY25_YTD_M": -4.49,
+      "description": "Midco paying PH25 for property taxes for UBS properties accrued prior to FY25. Should only be mgmt fees in FY26."
+    },
+    "interpretation": "Transform operates the distribution centers at Lawrence KS and Morrisville (PA/NJ) under an arrangement where PropCo owns the real estate. Transform collects the 3PL EBITDA (operating profit from warehousing/3PL services) and then remits a portion to PropCo via monthly reconciliation. This is not a pure lease \u2014 it's a profit-sharing or management fee arrangement specifically tied to 3PL EBITDA performance. The FY26 forecast of $12M/yr in Propco outflows suggests this is a significant ongoing obligation.",
+    "related_dc_locations": [
+      "Lawrence, KS",
+      "Morrisville, PA/NJ"
+    ],
+    "note_on_morrisville": "Morrisville DC construction items appeared in Mar 2025 Logistics tab: AKON Curtains LLC and Gallen Engineering for Morrisville construction \u2014 indicating active capital investment in this DC during 2025."
+  },
+  "key_distribution_centers": {
+    "Manteno_IL": {
+      "role": "Cross-Dock Fulfillment Center (CDFC) \u2014 primary Illinois hub",
+      "events": [
+        "Dec 29, 2022: Manteno closing listed in RE & Debt init \u2014 $8.1M disbursement on 12/30/22 suggests a real estate transaction",
+        "Gotion tenant: $630K payment (3 of 3) in FY25 \u2014 likely land/space lease",
+        "PDC (Pricing & Delivery Center) revenue from Manteno tracked in SC IF Forecast",
+        "Amazon parking sub-lease revenue (~$100K/month from Fairless Hills, but also Manteno-related)"
+      ],
+      "note": "The Jan 2023 BOD file tab is explicitly named 'RE & Debt init with Manteno' \u2014 Manteno was central to RE restructuring in late 2022"
+    },
+    "Lawrence_KS": {
+      "role": "Large fulfillment DC; PropCo arrangement for 3PL EBITDA sharing",
+      "key_tenants": [
+        "Smucker's (largest: $180K\u2013$377K/month)",
+        "Tractor Supply (Flexe: $127K\u2013156K)",
+        "Ware2Go clients",
+        "Brands division",
+        "Berry Plastics",
+        "Smuckers Ingredients"
+      ],
+      "propco_link": "3PL EBITDA shared with PropCo per cash file details.xlsx"
+    },
+    "Morrisville_PA_NJ": {
+      "role": "East Coast fulfillment DC; PropCo arrangement for 3PL EBITDA sharing",
+      "note": "Construction activity in 2025 (AKON Curtains, Gallen Engineering). This is likely the 'Fairless Hills' DC or a related facility.",
+      "propco_link": "3PL EBITDA shared with PropCo per cash file details.xlsx"
+    },
+    "Fairless_Hills_PA": {
+      "role": "Large east coast DC \u2014 may be the same facility as or adjacent to Morrisville",
+      "key_tenants": [
+        "Post cereal ($115K/month)",
+        "Mars M&M ($120K/month)",
+        "Ware2Go ($350K\u2013500K)",
+        "ECR4Kids ($168K\u2013233K)",
+        "Amazon Parking ($143K/month total)"
+      ]
+    },
+    "Ocala_FL": {
+      "role": "Florida distribution hub for southeast/PR/VI",
+      "key_tenants": [
+        "Blue Triton/Nestl\u00e9 Water ($108K\u2013298K)",
+        "Signature Brands"
+      ],
+      "note": "Offshore freight to Puerto Rico (Crowley, Francisco Vega Otero, Island Delivery) and Hawaii (Pacific Transportation Lines) managed through Ocala"
+    },
+    "Arvin_CA": {
+      "role": "California small-format DC, primarily 3PL via FlowSpace, Ware2Go",
+      "key_tenants": [
+        "Brands division",
+        "LMNT supplement brand",
+        "Hilco liquidation"
+      ]
+    }
+  },
+  "sc_disbursements_over_time_trend": {
+    "note": "BU beta SC disbursements represent the intercompany allocation of SC costs to the SC BU. Not the total logistics spend \u2014 that flows through HS/Retail cost centers.",
+    "FY22_annual_M": -26.917,
+    "FY23_annual_M_approx": -26.865,
+    "FY24_annual_M_range": "~-25 to -26M",
+    "FY25_quarterly_trajectory": {
+      "Q1_FY25_pair": -24.637,
+      "Q2_FY25_pair": -21.86,
+      "Q3_Q4_FY25_avg": -19.3,
+      "note": "Declining as retail operations wind down"
+    },
+    "FY26_trajectory": "Declining sharply \u2014 from ~$5M/month to $3-4M range as only 3PL remains"
+  },
+  "carrier_relationships_key": {
+    "UPS": {
+      "role": "Primary parcel carrier; 96% of parcel spend allocated to HS, 2% Retail, 2% OBU",
+      "DUNS": "1000131894",
+      "pay_terms_days": 5,
+      "replacement": "FedEx",
+      "monthly_spend_FY22_M": 2.947,
+      "note": "UPS also operates UPS CUSTOMHOUSE BROKERAGE for ocean import"
+    },
+    "FedEx": {
+      "role": "Secondary parcel carrier / backup to UPS",
+      "DUNS": "471672",
+      "note": "Listed as replacement carrier for UPS in logistics detail"
+    },
+    "Crowley_Liner_Services": {
+      "role": "Offshore shipping \u2014 Puerto Rico and US territories",
+      "DUNS": "1000107604",
+      "pay_terms_days": 15,
+      "monthly_spend_FY22_M": 0.149,
+      "note": "Primary offshore container shipper"
+    },
+    "Tetria_Global_Logistics": {
+      "role": "Ocean freight \u2014 primary ocean carrier",
+      "DUNS": "716492",
+      "pay_terms_days": 7,
+      "monthly_spend_FY22_M": 0.769,
+      "note": "Dropped sharply from $769K (Feb 2022) as ocean volume declined"
+    },
+    "Pacific_Transportation_Lines": {
+      "role": "Hawaii offshore shipping",
+      "DUNS": "1000107847",
+      "monthly_spend_FY22_avg_M": 0.135,
+      "note": "Hawaii store delivery via container"
+    },
+    "Ultra_Logistics": {
+      "role": "TL carrier \u2014 truckload",
+      "DUNS": "162529",
+      "pay_terms_days": 30,
+      "monthly_spend_range_M": "0.127\u20130.402"
+    },
+    "Intermodal_Sales": {
+      "role": "Intermodal TL carrier (Hub Group/Rail)",
+      "DUNS": "1000107740",
+      "pay_terms_days": 7,
+      "monthly_spend_FY22_M": 0.469
+    },
+    "Coyote_Logistics": {
+      "role": "TL/intermodal brokerage",
+      "DUNS": "699698",
+      "pay_terms_days": 30,
+      "monthly_spend_range_M": "0.204\u20130.347"
+    },
+    "Echo_Global_Logistics": {
+      "role": "LTL broker",
+      "DUNS": "712550",
+      "pay_terms_days": 7,
+      "monthly_spend_FY22_M": 0.19,
+      "note": "Mgmt Fee + Weight/Miles model"
+    }
+  },
+  "3pl_client_brokers": {
+    "FlowSpace": "Tech platform connecting clients to SC DCs \u2014 largest external broker relationship",
+    "Ware2Go": "Amazon-backed logistics marketplace \u2014 significant client pipeline across all DCs",
+    "Flexe": "On-demand warehousing platform \u2014 anchor tenants at Fairless Hills (Post, Mars, Ski Equipment)",
+    "RXO": "Freight marketplace (XPO spinoff) \u2014 smaller allocations",
+    "Transform_direct": "Direct 3PL contracts \u2014 Home Services (interco), American Freight, Brands, Smucker's, Tractor Supply"
+  },
+  "longitudinal_sc_inflow_trend_M": {
+    "note": "Monthly SC inflows from Inflows Detail (col 14). These are actual cash deposits tagged SC.",
+    "data": [
+      {
+        "period": "Sep 2022",
+        "sc_inflow_M": 0.58,
+        "source": "Sep2022 BOD"
+      },
+      {
+        "period": "Oct 2022",
+        "sc_inflow_M": 3.94,
+        "source": "Sep2022 BOD"
+      },
+      {
+        "period": "Nov 2022",
+        "sc_inflow_M": 4.22,
+        "source": "Sep2022 BOD"
+      },
+      {
+        "period": "Dec 2022",
+        "sc_inflow_M": 5.13,
+        "source": "Sep2022 BOD"
+      },
+      {
+        "period": "Jan 2023",
+        "sc_inflow_M": 4.24,
+        "source": "Sep2022 BOD"
+      },
+      {
+        "period": "Feb 2023",
+        "sc_inflow_M": 3.3,
+        "source": "Jan2023 BOD"
+      },
+      {
+        "period": "Mar 2023",
+        "sc_inflow_M": 3.95,
+        "source": "Jan2023 BOD"
+      },
+      {
+        "period": "Jun 2023",
+        "sc_inflow_M": 5.1,
+        "source": "May2023 BOD"
+      },
+      {
+        "period": "Jul 2023",
+        "sc_inflow_M": 5.0,
+        "source": "May2023 BOD"
+      },
+      {
+        "period": "Aug 2023",
+        "sc_inflow_M": 5.0,
+        "source": "May2023 BOD"
+      },
+      {
+        "period": "Sep 2023",
+        "sc_inflow_M": 4.32,
+        "source": "Aug2023 BOD"
+      },
+      {
+        "period": "Oct 2023",
+        "sc_inflow_M": 4.5,
+        "source": "Aug2023 BOD"
+      },
+      {
+        "period": "Nov 2023",
+        "sc_inflow_M": 4.5,
+        "source": "Aug2023 BOD"
+      },
+      {
+        "period": "Jan 2024",
+        "sc_inflow_M": 0.32,
+        "source": "Jan2024 BOD"
+      },
+      {
+        "period": "Feb 2024",
+        "sc_inflow_M": 3.08,
+        "source": "Jan2024 BOD"
+      },
+      {
+        "period": "Mar 2024",
+        "sc_inflow_M": 3.08,
+        "source": "Jan2024 BOD"
+      },
+      {
+        "period": "Apr 2024",
+        "sc_inflow_M": 3.08,
+        "source": "Jan2024 BOD"
+      },
+      {
+        "period": "Jun 2024",
+        "sc_inflow_M": 0.76,
+        "source": "Jun2024 BOD"
+      },
+      {
+        "period": "Jul 2024",
+        "sc_inflow_M": 2.15,
+        "source": "Jun2024 BOD"
+      },
+      {
+        "period": "Aug 2024",
+        "sc_inflow_M": 2.38,
+        "source": "Jun2024 BOD"
+      },
+      {
+        "period": "Sep 2024",
+        "sc_inflow_M": 2.62,
+        "source": "Jun2024 BOD / Sep2024 BOD"
+      },
+      {
+        "period": "Oct 2024",
+        "sc_inflow_M": 2.38,
+        "source": "Sep2024 BOD"
+      },
+      {
+        "period": "Nov 2024",
+        "sc_inflow_M": 2.38,
+        "source": "Sep2024 BOD"
+      },
+      {
+        "period": "Dec 2024",
+        "sc_inflow_M": 0.72,
+        "source": "Dec2024 BOD"
+      },
+      {
+        "period": "Jan 2025",
+        "sc_inflow_M": 2.38,
+        "source": "Dec2024 BOD"
+      },
+      {
+        "period": "Feb 2025",
+        "sc_inflow_M": 2.38,
+        "source": "Dec2024 BOD"
+      },
+      {
+        "period": "Mar 2025",
+        "sc_inflow_M": 1.66,
+        "source": "Mar2025 BOD"
+      },
+      {
+        "period": "Apr 2025",
+        "sc_inflow_M": 3.3,
+        "source": "Mar2025 BOD"
+      },
+      {
+        "period": "May 2025",
+        "sc_inflow_M": 4.0,
+        "source": "Mar2025 BOD"
+      },
+      {
+        "period": "Jun 2025",
+        "sc_inflow_M": 4.08,
+        "source": "Mar2025 BOD"
+      },
+      {
+        "period": "Jul 2025",
+        "sc_inflow_M": 1.54,
+        "source": "Jul2025 BOD"
+      },
+      {
+        "period": "Aug 2025",
+        "sc_inflow_M": 2.75,
+        "source": "Jul2025 BOD"
+      },
+      {
+        "period": "Sep 2025",
+        "sc_inflow_M": 2.99,
+        "source": "Jul2025 BOD"
+      },
+      {
+        "period": "Oct 2025",
+        "sc_inflow_M": 2.75,
+        "source": "Jul2025 BOD"
+      },
+      {
+        "period": "Dec 2025",
+        "sc_inflow_M": 0.04,
+        "source": "Dec2025 BOD"
+      },
+      {
+        "period": "Jan 2026",
+        "sc_inflow_M": 2.24,
+        "source": "Dec2025 BOD"
+      },
+      {
+        "period": "Feb 2026",
+        "sc_inflow_M": 2.09,
+        "source": "Dec2025 BOD"
+      },
+      {
+        "period": "May 2026",
+        "sc_inflow_M": 0.8,
+        "source": "May2026 BU"
+      },
+      {
+        "period": "Jun 2026",
+        "sc_inflow_M": 2.21,
+        "source": "May2026 BU"
+      },
+      {
+        "period": "Jul 2026",
+        "sc_inflow_M": 2.09,
+        "source": "May2026 BU"
+      }
+    ],
+    "trend_narrative": "SC cash inflows from Inflows Detail peaked at $5\u20136M/month during FY23 (mid-2023), stepped down to $3\u20134M/month in early-mid FY24 as B&M retail wound down, then settled at $2\u20132.6M/month steady-state through late FY24 and into FY25 (pure 3PL mode). An uptick to $3.3\u20134M in Apr-Jun 2025 reflects new client wins (Franchise Group, AFNewCo, Uber Freight Sort Center, Church & Dwight). By late FY25 and FY26, inflows appear to reset to $2M range, possibly reflecting client churn or seasonal patterns.",
+    "note_on_monthly_starts": "Month-start SC values (SEP, DEC, MAR, JUL BOD cutoff months) show near-zero because those are the first day(s) of the new BOD period with no deposits yet. The sub-$1M months (Jun 2024, Jan 2024, Dec 2024, Jul 2025, Dec 2025) are partial-month actuals at BOD date, not full-month."
+  },
+  "net_sc_contribution_to_cash_flow": {
+    "note": "Net = SC inflows (3PL cash received) minus SC disbursements (BU beta allocation). FY22 data most complete.",
+    "FY22_annual": {
+      "sc_inflows_M": 59.28,
+      "sc_disbursements_M": -26.917,
+      "net_M": 32.36,
+      "note": "FY22 net contribution $32.4M before overhead allocations. BU beta data."
+    },
+    "FY23_estimated": {
+      "sc_inflows_M": "~55\u201365M (est from partial BOD data)",
+      "sc_disbursements_M": "~-26.9M",
+      "net_M": "~28\u201338M estimated"
+    },
+    "FY24_estimated": {
+      "sc_inflows_M": "~35\u201340M (est, stepped down)",
+      "sc_disbursements_M": "~-25M",
+      "net_M": "~10\u201315M estimated"
+    },
+    "FY25_3PL_only": {
+      "external_3PL_revenue_M": 29.66,
+      "note": "From SC IF Forecast Grand Total FY25. Does not include intercompany HS revenue.",
+      "propco_outflow_M": -7.05,
+      "net_after_propco_M": 22.61
+    }
+  },
+  "sc_internal_cost_structure_per_interco_sheet": {
+    "source": "SC Interco sheet in Dec2024, Mar2025, Jul2025, Dec2025 BOD files",
+    "items_identified_as_non_3pl": [
+      {
+        "item": "SC Transportation Payroll",
+        "annual_M": -2.172,
+        "description": "Mgmt comp + benefits for Transportation Team \u2014 does NOT support 3PL"
+      },
+      {
+        "item": "IT Payroll",
+        "annual_M": -0.768,
+        "description": "IT Team payroll \u2014 does NOT support 3PL"
+      },
+      {
+        "item": "Retail Services",
+        "annual_M": -3.096,
+        "description": "3PL expenses for supporting Retail B&M \u2014 not invoiced back"
+      }
+    ],
+    "home_office_allocations_to_3pl": [
+      {
+        "item": "Finance",
+        "annual_M": -0.331
+      },
+      {
+        "item": "HR",
+        "annual_M": -0.215
+      },
+      {
+        "item": "Legal",
+        "annual_M": -0.041
+      },
+      {
+        "item": "Member Tech",
+        "annual_M": -0.571
+      },
+      {
+        "item": "Outside Services",
+        "annual_M": -5.876
+      },
+      {
+        "item": "SW & HW vendors",
+        "annual_M": -1.295
+      },
+      {
+        "item": "SHI",
+        "annual_M": -0.712
+      }
+    ],
+    "total_non_3pl_costs_identified_M": -9.474,
+    "total_expense_reduction_if_cleaned_up_M": -15.081,
+    "net_CF_improvement_if_properly_structured_M": 4.386,
+    "sc_payroll_total_gross_M": 21.2,
+    "sc_payroll_supporting_3pl_only_M": 11.726,
+    "cross_charge_to_retail_annual_M": 2.09,
+    "cross_charge_to_kcd_annual_M": 1.656
+  }
+}

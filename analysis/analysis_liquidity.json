@@ -1,0 +1,1433 @@
+{
+  "analysis_metadata": {
+    "source_directory": "/Users/josh/Downloads/SP_Analysis/",
+    "files_analyzed": 50,
+    "date_range_covered": "2022-09-19 to 2026-05-08",
+    "generated_date": "2026-05-11",
+    "note": "All values in $M unless noted. Available Cash = freely accessible cash (AC = AC No HTS in all files, meaning HTS facility not actively offsetting). Unavailable Cash = segregated/restricted/unavailable accounts. Total Cash = Available + Segregated + Unavailable.",
+    "model_convention": "The Cash Flow model floors Available Cash at $0 when operational cash is exhausted. Zero-days in near-term forecast (within 30 days) represent genuine modeled stress \u2014 they indicate the company expected to need external capital, asset sale proceeds, or equity draws within that window."
+  },
+  "actuals_timeline": [
+    {
+      "date": "2022-09-19",
+      "avail_cash_M": 9.91,
+      "total_cash_M": 234.5,
+      "unavail_cash_M": 218.55,
+      "source_file": "9.19.22 Sep BOD"
+    },
+    {
+      "date": "2022-10-18",
+      "avail_cash_M": 7.08,
+      "total_cash_M": 208.82,
+      "unavail_cash_M": 195.69,
+      "source_file": "10.18.22 BOD"
+    },
+    {
+      "date": "2022-11-16",
+      "avail_cash_M": 29.92,
+      "total_cash_M": 225.08,
+      "unavail_cash_M": 189.12,
+      "source_file": "11.16.22 Nov BOD"
+    },
+    {
+      "date": "2022-12-07",
+      "avail_cash_M": 34.57,
+      "total_cash_M": 230.37,
+      "unavail_cash_M": 189.76,
+      "source_file": "12.7.22 Dec BOD (liquidity update)"
+    },
+    {
+      "date": "2022-12-30",
+      "avail_cash_M": 6.31,
+      "total_cash_M": 191.72,
+      "unavail_cash_M": 179.36,
+      "source_file": "12.30.22"
+    },
+    {
+      "date": "2023-01-17",
+      "avail_cash_M": 72.63,
+      "total_cash_M": 286.35,
+      "unavail_cash_M": 207.68,
+      "source_file": "1.17.23 Jan BOD"
+    },
+    {
+      "date": "2023-01-31",
+      "avail_cash_M": 65.19,
+      "total_cash_M": 271.27,
+      "unavail_cash_M": 200.04,
+      "source_file": "1.31.23 (FY23a)"
+    },
+    {
+      "date": "2023-02-27",
+      "avail_cash_M": 56.97,
+      "total_cash_M": 206.45,
+      "unavail_cash_M": 143.43,
+      "source_file": "2.27.23 BOD (liquidity update)"
+    },
+    {
+      "date": "2023-03-31",
+      "avail_cash_M": 12.99,
+      "total_cash_M": 138.46,
+      "unavail_cash_M": 119.44,
+      "source_file": "3.31.23"
+    },
+    {
+      "date": "2023-04-25",
+      "avail_cash_M": 21.26,
+      "total_cash_M": 163.72,
+      "unavail_cash_M": 136.43,
+      "source_file": "4.25.23 Apr BOD"
+    },
+    {
+      "date": "2023-05-26",
+      "avail_cash_M": 23.1,
+      "total_cash_M": 153.67,
+      "unavail_cash_M": 124.74,
+      "source_file": "5.26.23 May BOD (liquidity update)"
+    },
+    {
+      "date": "2023-06-20",
+      "avail_cash_M": 16.7,
+      "total_cash_M": 141.95,
+      "unavail_cash_M": 119.42,
+      "source_file": "6.20.23 Jun BOD"
+    },
+    {
+      "date": "2023-07-25",
+      "avail_cash_M": 4.66,
+      "total_cash_M": 131.59,
+      "unavail_cash_M": 121.1,
+      "source_file": "7.25.23 Jul BOD"
+    },
+    {
+      "date": "2023-08-22",
+      "avail_cash_M": 7.43,
+      "total_cash_M": 128.14,
+      "unavail_cash_M": 114.87,
+      "source_file": "8.22.23 Aug BOD"
+    },
+    {
+      "date": "2023-09-19",
+      "avail_cash_M": 21.95,
+      "total_cash_M": 149.25,
+      "unavail_cash_M": 121.47,
+      "source_file": "9.19.23 Sep BOD"
+    },
+    {
+      "date": "2023-10-24",
+      "avail_cash_M": 55.44,
+      "total_cash_M": 188.87,
+      "unavail_cash_M": 127.59,
+      "source_file": "10.24.23 Oct BOD"
+    },
+    {
+      "date": "2023-11-14",
+      "avail_cash_M": 33.33,
+      "total_cash_M": 174.31,
+      "unavail_cash_M": 135.15,
+      "source_file": "11.14.23 Nov BOD"
+    },
+    {
+      "date": "2024-01-23",
+      "avail_cash_M": 38.95,
+      "total_cash_M": 165.57,
+      "unavail_cash_M": 120.79,
+      "source_file": "1.23.24 Jan BOD"
+    },
+    {
+      "date": "2024-02-20",
+      "avail_cash_M": 32.88,
+      "total_cash_M": 160.67,
+      "unavail_cash_M": 121.96,
+      "source_file": "2.20.24 Feb BOD"
+    },
+    {
+      "date": "2024-03-19",
+      "avail_cash_M": 12.16,
+      "total_cash_M": 150.42,
+      "unavail_cash_M": 132.43,
+      "source_file": "3.19.24 Mar BOD"
+    },
+    {
+      "date": "2024-04-30",
+      "avail_cash_M": 10.7,
+      "total_cash_M": 122.22,
+      "unavail_cash_M": 105.69,
+      "source_file": "4.30.24"
+    },
+    {
+      "date": "2024-05-07",
+      "avail_cash_M": 13.21,
+      "total_cash_M": 119.8,
+      "unavail_cash_M": 100.76,
+      "source_file": "5.7.24 May BOD"
+    },
+    {
+      "date": "2024-06-18",
+      "avail_cash_M": 10.73,
+      "total_cash_M": 120.97,
+      "unavail_cash_M": 104.99,
+      "source_file": "6.18.24 Jun BOD"
+    },
+    {
+      "date": "2024-07-23",
+      "avail_cash_M": 5.96,
+      "total_cash_M": 100.43,
+      "unavail_cash_M": 89.22,
+      "source_file": "7.23.24 Jul BOD"
+    },
+    {
+      "date": "2024-08-19",
+      "avail_cash_M": 10.9,
+      "total_cash_M": 149.41,
+      "unavail_cash_M": 133.27,
+      "source_file": "8.19.24 Aug BOD"
+    },
+    {
+      "date": "2024-09-24",
+      "avail_cash_M": 11.33,
+      "total_cash_M": 137.22,
+      "unavail_cash_M": 120.65,
+      "source_file": "9.24.24 Sep BOD"
+    },
+    {
+      "date": "2024-10-15",
+      "avail_cash_M": 10.33,
+      "total_cash_M": 117.0,
+      "unavail_cash_M": 101.43,
+      "source_file": "10.15.24 Oct BOD"
+    },
+    {
+      "date": "2024-11-12",
+      "avail_cash_M": 12.33,
+      "total_cash_M": 123.15,
+      "unavail_cash_M": 105.57,
+      "source_file": "11.12.24 Nov BOD"
+    },
+    {
+      "date": "2024-12-10",
+      "avail_cash_M": 13.52,
+      "total_cash_M": 129.51,
+      "unavail_cash_M": 110.75,
+      "source_file": "12.10.24 Dec BOD"
+    },
+    {
+      "date": "2024-12-31",
+      "avail_cash_M": 6.76,
+      "total_cash_M": 135.3,
+      "unavail_cash_M": 123.3,
+      "source_file": "12.31.24"
+    },
+    {
+      "date": "2025-01-21",
+      "avail_cash_M": 4.43,
+      "total_cash_M": 135.34,
+      "unavail_cash_M": 125.66,
+      "source_file": "1.21.25 Jan BOD"
+    },
+    {
+      "date": "2025-02-18",
+      "avail_cash_M": 5.38,
+      "total_cash_M": 101.89,
+      "unavail_cash_M": 91.27,
+      "source_file": "2.18.25 Feb BOD"
+    },
+    {
+      "date": "2025-03-18",
+      "avail_cash_M": 3.42,
+      "total_cash_M": 80.78,
+      "unavail_cash_M": 72.12,
+      "source_file": "3.18.25 Mar BOD"
+    },
+    {
+      "date": "2025-04-18",
+      "avail_cash_M": 5.43,
+      "total_cash_M": 95.12,
+      "unavail_cash_M": 84.45,
+      "source_file": "4.18.25 Apr BOD"
+    },
+    {
+      "date": "2025-05-20",
+      "avail_cash_M": 7.43,
+      "total_cash_M": 104.15,
+      "unavail_cash_M": 91.48,
+      "source_file": "5.20.25 May BOD"
+    },
+    {
+      "date": "2025-06-17",
+      "avail_cash_M": 3.73,
+      "total_cash_M": 99.8,
+      "unavail_cash_M": 90.83,
+      "source_file": "6.17.25 Jun BOD"
+    },
+    {
+      "date": "2025-07-22",
+      "avail_cash_M": 7.12,
+      "total_cash_M": 98.65,
+      "unavail_cash_M": 86.28,
+      "source_file": "7.22.25 Jul BOD"
+    },
+    {
+      "date": "2025-08-26",
+      "avail_cash_M": 9.57,
+      "total_cash_M": 109.83,
+      "unavail_cash_M": 95.02,
+      "source_file": "8.26.25 Aug BOD"
+    },
+    {
+      "date": "2025-09-30",
+      "avail_cash_M": 3.9,
+      "total_cash_M": 100.88,
+      "unavail_cash_M": 91.74,
+      "source_file": "9.30.25"
+    },
+    {
+      "date": "2025-10-21",
+      "avail_cash_M": 4.47,
+      "total_cash_M": 98.53,
+      "unavail_cash_M": 88.82,
+      "source_file": "10.21.25 Oct BOD"
+    },
+    {
+      "date": "2025-11-18",
+      "avail_cash_M": 8.54,
+      "total_cash_M": 99.91,
+      "unavail_cash_M": 86.13,
+      "source_file": "11.18.25 Nov BOD"
+    },
+    {
+      "date": "2025-12-15",
+      "avail_cash_M": 4.64,
+      "total_cash_M": 92.97,
+      "unavail_cash_M": 83.09,
+      "source_file": "12.15.25 Dec BOD"
+    },
+    {
+      "date": "2025-12-30",
+      "avail_cash_M": 1.21,
+      "total_cash_M": 88.67,
+      "unavail_cash_M": 82.22,
+      "source_file": "12.30.25"
+    },
+    {
+      "date": "2026-01-16",
+      "avail_cash_M": 2.48,
+      "total_cash_M": 90.16,
+      "unavail_cash_M": 82.43,
+      "source_file": "01.16.26 Jan BOD (asset sales)"
+    },
+    {
+      "date": "2026-02-17",
+      "avail_cash_M": 3.74,
+      "total_cash_M": 91.36,
+      "unavail_cash_M": 82.37,
+      "source_file": "02.17.26"
+    },
+    {
+      "date": "2026-03-03",
+      "avail_cash_M": 6.52,
+      "total_cash_M": 95.01,
+      "unavail_cash_M": 83.25,
+      "source_file": "03.03.26 Mar BOD (post-reductions)"
+    },
+    {
+      "date": "2026-03-31",
+      "avail_cash_M": 1.84,
+      "total_cash_M": 88.65,
+      "unavail_cash_M": 81.56,
+      "source_file": "03.31.26"
+    },
+    {
+      "date": "2026-04-21",
+      "avail_cash_M": 4.26,
+      "total_cash_M": 91.7,
+      "unavail_cash_M": 82.2,
+      "source_file": "04.21.26 Apr BOD"
+    },
+    {
+      "date": "2026-05-05",
+      "avail_cash_M": 3.25,
+      "total_cash_M": 92.73,
+      "unavail_cash_M": 84.24,
+      "source_file": "05.05.26"
+    },
+    {
+      "date": "2026-05-08",
+      "avail_cash_M": 1.51,
+      "total_cash_M": 89.59,
+      "unavail_cash_M": 82.84,
+      "source_file": "05.08.26 (latest)"
+    }
+  ],
+  "danger_zone_events": {
+    "definition": "Available Cash < $2.0M (critical threshold)",
+    "events": [
+      {
+        "date": "2025-12-30",
+        "avail_cash_M": 1.21,
+        "note": "Lowest recorded in full 3.5-year history"
+      },
+      {
+        "date": "2026-03-31",
+        "avail_cash_M": 1.84
+      },
+      {
+        "date": "2026-05-08",
+        "avail_cash_M": 1.51
+      }
+    ]
+  },
+  "warning_zone_events": {
+    "definition": "Available Cash $2.0M\u2013$5.0M (elevated concern)",
+    "events": [
+      {
+        "date": "2023-07-25",
+        "avail_cash_M": 4.66
+      },
+      {
+        "date": "2025-01-21",
+        "avail_cash_M": 4.43
+      },
+      {
+        "date": "2025-03-18",
+        "avail_cash_M": 3.42
+      },
+      {
+        "date": "2025-06-17",
+        "avail_cash_M": 3.73
+      },
+      {
+        "date": "2025-09-30",
+        "avail_cash_M": 3.9
+      },
+      {
+        "date": "2025-10-21",
+        "avail_cash_M": 4.47
+      },
+      {
+        "date": "2025-12-15",
+        "avail_cash_M": 4.64
+      },
+      {
+        "date": "2026-01-16",
+        "avail_cash_M": 2.48
+      },
+      {
+        "date": "2026-02-17",
+        "avail_cash_M": 3.74
+      },
+      {
+        "date": "2026-04-21",
+        "avail_cash_M": 4.26
+      },
+      {
+        "date": "2026-05-05",
+        "avail_cash_M": 3.25
+      }
+    ]
+  },
+  "forecast_zero_liquidity_analysis": {
+    "note": "Days_to_first_zero = calendar days from file date until first modeled zero-avail day in near-term forecast. This measures how imminent the modeled cash crisis was at each BOD.",
+    "events": [
+      {
+        "file_date": "2022-09-19",
+        "days_to_first_zero": 9,
+        "first_zero_date": "2022-09-28",
+        "zero_days_in_30d": 16,
+        "as_of_avail_M": 9.91,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2022-10-18",
+        "days_to_first_zero": 6,
+        "first_zero_date": "2022-10-24",
+        "zero_days_in_30d": 19,
+        "as_of_avail_M": 7.08,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2022-11-16",
+        "days_to_first_zero": null,
+        "first_zero_date": null,
+        "zero_days_in_30d": 0,
+        "as_of_avail_M": 29.92,
+        "severity": "STABLE"
+      },
+      {
+        "file_date": "2022-12-07",
+        "days_to_first_zero": 23,
+        "first_zero_date": "2022-12-30",
+        "zero_days_in_30d": 6,
+        "as_of_avail_M": 34.57,
+        "severity": "WARNING"
+      },
+      {
+        "file_date": "2022-12-30",
+        "days_to_first_zero": 5,
+        "first_zero_date": "2023-01-04",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 6.31,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2023-01-17",
+        "days_to_first_zero": null,
+        "first_zero_date": null,
+        "zero_days_in_30d": 0,
+        "as_of_avail_M": 72.63,
+        "severity": "STABLE"
+      },
+      {
+        "file_date": "2023-01-31",
+        "days_to_first_zero": 28,
+        "first_zero_date": "2023-02-28",
+        "zero_days_in_30d": 1,
+        "as_of_avail_M": 65.19,
+        "severity": "WATCH"
+      },
+      {
+        "file_date": "2023-02-27",
+        "days_to_first_zero": null,
+        "first_zero_date": null,
+        "zero_days_in_30d": 0,
+        "as_of_avail_M": 56.97,
+        "severity": "STABLE"
+      },
+      {
+        "file_date": "2023-03-31",
+        "days_to_first_zero": 6,
+        "first_zero_date": "2023-04-06",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 12.99,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2023-04-25",
+        "days_to_first_zero": 6,
+        "first_zero_date": "2023-05-01",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 21.26,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2023-05-26",
+        "days_to_first_zero": 5,
+        "first_zero_date": "2023-05-31",
+        "zero_days_in_30d": 14,
+        "as_of_avail_M": 23.1,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2023-06-20",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2023-06-22",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 16.7,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2023-07-25",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2023-07-27",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 4.66,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2023-08-22",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2023-08-25",
+        "zero_days_in_30d": 20,
+        "as_of_avail_M": 7.43,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2023-09-19",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2023-09-27",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 21.95,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2023-10-24",
+        "days_to_first_zero": 6,
+        "first_zero_date": "2023-10-30",
+        "zero_days_in_30d": 19,
+        "as_of_avail_M": 55.44,
+        "severity": "WARNING (buffer from Oct 18 injection)"
+      },
+      {
+        "file_date": "2023-11-14",
+        "days_to_first_zero": 16,
+        "first_zero_date": "2023-11-30",
+        "zero_days_in_30d": 11,
+        "as_of_avail_M": 33.33,
+        "severity": "WARNING"
+      },
+      {
+        "file_date": "2024-01-23",
+        "days_to_first_zero": null,
+        "first_zero_date": null,
+        "zero_days_in_30d": 0,
+        "as_of_avail_M": 38.95,
+        "severity": "STABLE"
+      },
+      {
+        "file_date": "2024-02-20",
+        "days_to_first_zero": 14,
+        "first_zero_date": "2024-03-05",
+        "zero_days_in_30d": 13,
+        "as_of_avail_M": 32.88,
+        "severity": "WARNING"
+      },
+      {
+        "file_date": "2024-03-19",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2024-03-27",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 12.16,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2024-04-30",
+        "days_to_first_zero": 7,
+        "first_zero_date": "2024-05-07",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 10.7,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2024-05-07",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2024-05-10",
+        "zero_days_in_30d": 20,
+        "as_of_avail_M": 13.21,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2024-06-18",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2024-06-26",
+        "zero_days_in_30d": 16,
+        "as_of_avail_M": 10.73,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2024-07-23",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2024-07-25",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 5.96,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2024-08-19",
+        "days_to_first_zero": 9,
+        "first_zero_date": "2024-08-28",
+        "zero_days_in_30d": 16,
+        "as_of_avail_M": 10.9,
+        "severity": "CRITICAL"
+      },
+      {
+        "file_date": "2024-09-24",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2024-09-26",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 11.33,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2024-10-15",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2024-10-18",
+        "zero_days_in_30d": 19,
+        "as_of_avail_M": 10.33,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2024-11-12",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2024-11-14",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 12.33,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2024-12-10",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2024-12-13",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 13.52,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2024-12-31",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2025-01-03",
+        "zero_days_in_30d": 20,
+        "as_of_avail_M": 6.76,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-01-21",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2025-01-29",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 4.43,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-02-18",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2025-02-26",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 5.38,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-03-18",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2025-03-26",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 3.42,
+        "severity": "DANGER+ACUTE"
+      },
+      {
+        "file_date": "2025-04-18",
+        "days_to_first_zero": 5,
+        "first_zero_date": "2025-04-23",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 5.43,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-05-20",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2025-05-28",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 7.43,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-06-17",
+        "days_to_first_zero": 13,
+        "first_zero_date": "2025-06-30",
+        "zero_days_in_30d": 14,
+        "as_of_avail_M": 3.73,
+        "severity": "DANGER+ACUTE"
+      },
+      {
+        "file_date": "2025-07-22",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2025-07-30",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 7.12,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-08-26",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2025-08-29",
+        "zero_days_in_30d": 20,
+        "as_of_avail_M": 9.57,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-09-30",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2025-10-08",
+        "zero_days_in_30d": 16,
+        "as_of_avail_M": 3.9,
+        "severity": "DANGER+ACUTE"
+      },
+      {
+        "file_date": "2025-10-21",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2025-10-24",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 4.47,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-11-18",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2025-11-20",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 8.54,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-12-15",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2025-12-17",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 4.64,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2025-12-30",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2026-01-02",
+        "zero_days_in_30d": 20,
+        "as_of_avail_M": 1.21,
+        "severity": "DANGER+ACUTE (lowest in history)"
+      },
+      {
+        "file_date": "2026-01-16",
+        "days_to_first_zero": 5,
+        "first_zero_date": "2026-01-21",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 2.48,
+        "severity": "DANGER+ACUTE"
+      },
+      {
+        "file_date": "2026-02-17",
+        "days_to_first_zero": 6,
+        "first_zero_date": "2026-02-23",
+        "zero_days_in_30d": 19,
+        "as_of_avail_M": 3.74,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2026-03-03",
+        "days_to_first_zero": 8,
+        "first_zero_date": "2026-03-11",
+        "zero_days_in_30d": 17,
+        "as_of_avail_M": 6.52,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2026-03-31",
+        "days_to_first_zero": 2,
+        "first_zero_date": "2026-04-02",
+        "zero_days_in_30d": 21,
+        "as_of_avail_M": 1.84,
+        "severity": "DANGER+ACUTE"
+      },
+      {
+        "file_date": "2026-04-21",
+        "days_to_first_zero": 3,
+        "first_zero_date": "2026-04-24",
+        "zero_days_in_30d": 20,
+        "as_of_avail_M": 4.26,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2026-05-05",
+        "days_to_first_zero": 6,
+        "first_zero_date": "2026-05-11",
+        "zero_days_in_30d": 19,
+        "as_of_avail_M": 3.25,
+        "severity": "ACUTE"
+      },
+      {
+        "file_date": "2026-05-08",
+        "days_to_first_zero": 5,
+        "first_zero_date": "2026-05-13",
+        "zero_days_in_30d": 18,
+        "as_of_avail_M": 1.51,
+        "severity": "DANGER+ACUTE"
+      }
+    ]
+  },
+  "crisis_events_and_remediation": [
+    {
+      "crisis_id": 1,
+      "period": "Sep\u2013Oct 2022",
+      "description": "First acute liquidity crisis. Available Cash fell to $9.9M (Sep 19) and $7.1M (Oct 18). Sep model forecast hit zero Available Cash within 9 days. Oct model hit zero in 6 days.",
+      "triggers": [
+        "Large non-operating disbursements (~$13.6M on Sep 21, ~$10M on Sep 30)",
+        "Operating cash flows persistently negative (daily -$0.6M to -$12M)",
+        "Total cash declining from ~$235M to $209M as unavailable accounts absorbed losses"
+      ],
+      "remediation": {
+        "type": "Equity offering draws",
+        "detail": "Aug 2022 $120M offering (uncommitted equity): $5M draw Oct 24, $22M draw Oct 28, $53M draw Oct 31. Full $80M drawn by Oct 31. Additional draws from Jun 2022 $140M offering in Nov 2022.",
+        "avail_cash_after": 29.92,
+        "recovery_date": "2022-11-16"
+      }
+    },
+    {
+      "crisis_id": 2,
+      "period": "Dec 2022",
+      "description": "Second acute crisis. Available Cash fell to $6.3M on Dec 30. Dec 7 BOD (liquidity update) showed $34.6M available but forecast hit zero by Dec 30. Dec 30 file showed zero forecast in just 5 days (Jan 4).",
+      "triggers": [
+        "Large non-operating disbursement on Dec 30 (-$12.04M)",
+        "Operating cash flows chronically negative through December",
+        "Remaining Aug offering fully drawn, Jun offering still ~$69.9M undrawn"
+      ],
+      "remediation": {
+        "type": "Jun 2022 $140M equity offering draw",
+        "detail": "$65M+ injection from Jun 2022 offering received Jan 11, 2023 (Net Change in Cash +$2.89M but Available Cash jumped from $9.69M to $74.67M = $65M+ equity draw reflected in model formula)",
+        "avail_cash_after": 72.63,
+        "recovery_date": "2023-01-17"
+      }
+    },
+    {
+      "crisis_id": 3,
+      "period": "Mar\u2013Jun 2023",
+      "description": "Prolonged drawdown phase. Available Cash fell from $57M (Feb 27) to $13M (Mar 31) and never recovered above $23M through Jun 2023. Mar 31 and Apr 25 BODs both showed zero forecast within 6 days. May BOD hit zero in 5 days.",
+      "triggers": [
+        "No more large equity offering balances available (Jun/Aug 2022 offerings exhausted)",
+        "Large non-operating disbursements including Mar 31 (-$6.26M), creating model floor at zero",
+        "Structural revenue decline \u2014 total cash falling from $206M (Feb) to $142M (Jun)"
+      ],
+      "remediation": {
+        "type": "Incremental term loan draws and asset sales",
+        "detail": "Apr 2023: $15M term loan draw per Liquidity tab. May 2023: $33M term loan. Jun 2023: $20M term loan. Small asset sales throughout. Avail cash stabilized in $16-23M range.",
+        "avail_cash_after": 16.7,
+        "recovery_date": "2023-06-20"
+      }
+    },
+    {
+      "crisis_id": 4,
+      "period": "Jun\u2013Aug 2023",
+      "description": "Most acute forecast stress of the 2023 period. Jun BOD hit zero in 2 days (Jun 22); Jul BOD hit zero in 2 days (Jul 27) with only $4.7M available \u2014 the worst reading since Oct 2022. Aug BOD hit zero in 3 days.",
+      "triggers": [
+        "Jun 2023: Large non-op CF items \u2014 $6M inflow Jun 29 offset by -$13.2M Jun 30 disbursement",
+        "Jul 2023: Month-end disbursements -$10M Jul 31, -$7.8M Aug 1",
+        "Declining inflows base \u2014 total cash fell from $154M (May) to $128M (Aug)"
+      ],
+      "remediation": {
+        "type": "Asset sales + equity draws",
+        "detail": "Aug/Sep 2023: $12.57M asset sales + $32.5M equity/term loan draws per Liquidity tab. Sep BOD avail recovered to $21.95M. Plus large Oct injection pending.",
+        "avail_cash_after": 21.95,
+        "recovery_date": "2023-09-19"
+      }
+    },
+    {
+      "crisis_id": 5,
+      "period": "Oct 2023 (rescue event)",
+      "description": "LARGEST SINGLE RESCUE IN THE HISTORY. On Oct 18, 2023, Available Cash jumped from $9.67M to $146.93M \u2014 a +$137.3M injection. The Oct 19 saw a -$90.66M non-op CF disbursement, bringing avail to $49M. Net result: Oct 24 BOD recorded $55.44M available cash, the highest since Jan 2023.",
+      "triggers": "N/A \u2014 this is a rescue event",
+      "remediation": {
+        "type": "Term loan / debt injection",
+        "detail": "Liquidity tab shows 'October 2023: Term Loan/Other Financial = $173.19M'. This represents a major new credit facility or term loan draw. Net of disbursements ($90.66M on Oct 19 alone), cash settled ~$49-55M.",
+        "avail_cash_after": 55.44,
+        "injection_amount_M": 173.19,
+        "injection_date": "2023-10-18"
+      }
+    },
+    {
+      "crisis_id": 6,
+      "period": "2024 (chronic moderate stress)",
+      "description": "Throughout 2024, Available Cash ranged $5.96M\u2013$38.95M. Never broke above $39M. Forecasts consistently showed zero Available Cash within 2-9 business days. Jul 2024 hit $5.96M \u2014 near-danger territory. Total cash declined from $165M (Jan 2024) to $100M (Jul 2024) before recovering to $135M (Dec 2024).",
+      "triggers": [
+        "No new major equity offerings \u2014 reliant on ongoing term loan draws and asset sales",
+        "Persistent operating cash deficit driving weekly zero-forecast pattern",
+        "Total cash declining as unavailable accounts drawn down"
+      ],
+      "remediation": {
+        "type": "Ongoing term loan draws + asset sales",
+        "detail": "Multiple $15-40M monthly draws per Liquidity tab throughout 2024. No single large rescue event. Aug 2024 total cash jumped to $149M (from $100M Jul) \u2014 suggests a large RE closing or debt draw.",
+        "note": "Aug 2024 total cash jump: $100.43M (Jul 23) \u2192 $149.41M (Aug 19) = +$49M. Likely a real estate sale or new debt."
+      }
+    },
+    {
+      "crisis_id": 7,
+      "period": "2025 (deteriorating baseline)",
+      "description": "Available Cash never exceeded $9.57M across all 2025 BOD readings. Structurally in warning/danger zone all year. Three danger+acute events: Mar 18 ($3.42M), Jun 17 ($3.73M), Sep 30 ($3.90M). All forecasts showed zero within 2-13 days.",
+      "triggers": [
+        "Continued revenue/inflow decline \u2014 total cash declined from $135M (Jan 2025) to $88-100M range by year-end",
+        "Unavailable cash also declining, reducing buffer",
+        "Exhaustion of equity offering balances \u2014 no new large draws visible in equity columns"
+      ],
+      "remediation": {
+        "type": "Incremental asset sales (smaller scale)",
+        "detail": "Mar 2026 BOD file labeled 'post-reductions' suggesting cost cuts. Jan 2026 BOD labeled 'asset sales' suggesting RE sales planned. No single rescue event visible in 2025 data.",
+        "note": "The total cash chart shows a clear structural downtrend: $234M (Sep 2022) \u2192 $129M (Dec 2024) \u2192 $89-92M (2026 range)"
+      }
+    },
+    {
+      "crisis_id": 8,
+      "period": "Dec 2025 \u2013 May 2026 (ongoing crisis zone)",
+      "description": "NEW CRISIS: Available Cash has entered and remained below $2M for multiple readings. Dec 30, 2025: $1.21M (all-time low). Mar 31, 2026: $1.84M. May 8, 2026: $1.51M (second lowest). All 2026 files show zero forecast within 2-6 days. The company appears to be in a rolling near-zero cash state with no rescue event yet recorded.",
+      "triggers": [
+        "Total cash in $88-95M range but >90% unavailable/segregated",
+        "Structural liquidity deterioration \u2014 available cash declining faster than total cash",
+        "All equity offerings from 2022 appear fully exhausted (balances show $0 in Aug120/Jun140 columns by end of 2023)",
+        "Operating cash deficit continues unabated"
+      ],
+      "remediation": {
+        "type": "PENDING \u2014 no large rescue recorded through May 8, 2026",
+        "detail": "Jan 2026 BOD labeled 'asset sales' suggests planned RE transactions. Mar 2026 labeled 'post-reductions' suggests headcount/cost cuts. But as of May 8, 2026, Available Cash remains in $1.5-$4M range with zero forecast within days.",
+        "status": "UNRESOLVED"
+      }
+    }
+  ],
+  "structural_observations": [
+    {
+      "observation": "Total cash secular decline",
+      "detail": "Total Cash has fallen from ~$234M (Sep 2022) to ~$89M (May 2026), a decline of ~$145M over 3.5 years. Unavailable cash has also fallen, but Available Cash as a percentage of Total Cash has remained roughly 3-8% throughout \u2014 suggesting the cash structure (unavailable vs available) has been broadly stable while the absolute pool shrinks."
+    },
+    {
+      "observation": "Zero-forecast within 30 days is now structural",
+      "detail": "Since mid-2023 (Jun 2023 BOD onward), EVERY single BOD model has shown Available Cash hitting zero within the 30-day near-term forecast window. This shifted from an occasional warning signal (Sep-Dec 2022) to a permanent baseline condition. It reflects that the company has been operationally cash-flow negative and dependent on non-recurring items (debt draws, asset sales, equity injections) to maintain any liquidity."
+    },
+    {
+      "observation": "HTS facility not actively used in any reviewed file",
+      "detail": "Available Cash = AC (No HTS) in every file analyzed. The HTS facility (appearing in the Cash Flow sheet header) does not appear to be actively drawing a differential between available and HTS-free cash. This means Available Cash figures reported are the true unrestricted available amount."
+    },
+    {
+      "observation": "Rescue mechanism evolution",
+      "detail": "2022: Equity offering draws ($120M Aug offering, $140M Jun offering) provided large one-time rescues. 2023 H1: Smaller term loan draws ($15-33M/month). Oct 2023: $173M debt injection (largest single rescue). 2024 onward: Smaller/irregular asset sales and term loan draws. 2025-2026: No large rescue mechanism visible \u2014 operating in sub-$5M available cash sustainably."
+    },
+    {
+      "observation": "The Oct 18, 2023 injection ($137M+ to Available Cash) was the largest single-day liquidity event",
+      "detail": "On Oct 18, 2023, Available Cash jumped from $9.67M to $146.93M \u2014 a +$137.3M increase. This corresponds to a $173.19M term loan/debt injection per the October 2023 Liquidity summary tab, net of concurrent disbursements. This single event prevented what would have been a complete liquidity failure, as the Sep 2023 model had been forecasting zero-avail as early as Sep 27."
+    }
+  ],
+  "per_file_summary": [
+    {
+      "file": "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+      "file_date": "2022-09-19",
+      "avail_M": 9.91,
+      "total_M": 234.5,
+      "unavail_M": 218.55,
+      "30d_first_zero": "2022-09-28",
+      "days_to_zero": 9
+    },
+    {
+      "file": "Daily Cash Fcst - 10.18.22_BU view_BOD.xlsx",
+      "file_date": "2022-10-18",
+      "avail_M": 7.08,
+      "total_M": 208.82,
+      "unavail_M": 195.69,
+      "30d_first_zero": "2022-10-24",
+      "days_to_zero": 6
+    },
+    {
+      "file": "Daily Cash Fcst - 11.16.22_BU view_NovBOD.xlsx",
+      "file_date": "2022-11-16",
+      "avail_M": 29.92,
+      "total_M": 225.08,
+      "unavail_M": 189.12,
+      "30d_first_zero": null,
+      "days_to_zero": null
+    },
+    {
+      "file": "Daily Cash Fcst - 12.7.22_BU view_DecBOD Treasury_liquidity update final.xlsx",
+      "file_date": "2022-12-07",
+      "avail_M": 34.57,
+      "total_M": 230.37,
+      "unavail_M": 189.76,
+      "30d_first_zero": "2022-12-30",
+      "days_to_zero": 23
+    },
+    {
+      "file": "Daily Cash Fcst - 12.30.22_BU view.xlsx",
+      "file_date": "2022-12-30",
+      "avail_M": 6.31,
+      "total_M": 191.72,
+      "unavail_M": 179.36,
+      "30d_first_zero": "2023-01-04",
+      "days_to_zero": 5
+    },
+    {
+      "file": "Daily Cash Fcst - 1.17.23_BU view_JanBOD.xlsx",
+      "file_date": "2023-01-17",
+      "avail_M": 72.63,
+      "total_M": 286.35,
+      "unavail_M": 207.68,
+      "30d_first_zero": null,
+      "days_to_zero": null
+    },
+    {
+      "file": "Daily Cash Fcst - 1.31.23_BU view_Bohemia Adj New Methodology_Use for FY23a.xlsx",
+      "file_date": "2023-01-31",
+      "avail_M": 65.19,
+      "total_M": 271.27,
+      "unavail_M": 200.04,
+      "30d_first_zero": "2023-02-28",
+      "days_to_zero": 28
+    },
+    {
+      "file": "Daily Cash Fcst - 2.27.23_BU view_BOD_3.2.23_liquidity update.xlsx",
+      "file_date": "2023-02-27",
+      "avail_M": 56.97,
+      "total_M": 206.45,
+      "unavail_M": 143.43,
+      "30d_first_zero": null,
+      "days_to_zero": null
+    },
+    {
+      "file": "Daily Cash Fcst - 3.31.23_BU view.xlsx",
+      "file_date": "2023-03-31",
+      "avail_M": 12.99,
+      "total_M": 138.46,
+      "unavail_M": 119.44,
+      "30d_first_zero": "2023-04-06",
+      "days_to_zero": 6
+    },
+    {
+      "file": "Daily Cash Fcst - 4.25.23_BU view_April 27 BOD.xlsx",
+      "file_date": "2023-04-25",
+      "avail_M": 21.26,
+      "total_M": 163.72,
+      "unavail_M": 136.43,
+      "30d_first_zero": "2023-05-01",
+      "days_to_zero": 6
+    },
+    {
+      "file": "Daily Cash Fcst - 5.26.23_BU view_24 adj_MayBOD_Liquidity & May actuals.xlsx",
+      "file_date": "2023-05-26",
+      "avail_M": 23.1,
+      "total_M": 153.67,
+      "unavail_M": 124.74,
+      "30d_first_zero": "2023-05-31",
+      "days_to_zero": 5
+    },
+    {
+      "file": "Daily Cash Fcst - 6.20.23_BU view_JunBOD.xlsx",
+      "file_date": "2023-06-20",
+      "avail_M": 16.7,
+      "total_M": 141.95,
+      "unavail_M": 119.42,
+      "30d_first_zero": "2023-06-22",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 7.25.23_BU view_JulBOD_7.27.23.xlsx",
+      "file_date": "2023-07-25",
+      "avail_M": 4.66,
+      "total_M": 131.59,
+      "unavail_M": 121.1,
+      "30d_first_zero": "2023-07-27",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 8.22.23_BU view_AugBOD.xlsx",
+      "file_date": "2023-08-22",
+      "avail_M": 7.43,
+      "total_M": 128.14,
+      "unavail_M": 114.87,
+      "30d_first_zero": "2023-08-25",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 9.19.23_BU view_SepBOD.xlsx",
+      "file_date": "2023-09-19",
+      "avail_M": 21.95,
+      "total_M": 149.25,
+      "unavail_M": 121.47,
+      "30d_first_zero": "2023-09-27",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 10.24.23_BU view_HS retail interco_OctBOD.xlsx",
+      "file_date": "2023-10-24",
+      "avail_M": 55.44,
+      "total_M": 188.87,
+      "unavail_M": 127.59,
+      "30d_first_zero": "2023-10-30",
+      "days_to_zero": 6
+    },
+    {
+      "file": "Daily Cash Fcst - 11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx",
+      "file_date": "2023-11-14",
+      "avail_M": 33.33,
+      "total_M": 174.31,
+      "unavail_M": 135.15,
+      "30d_first_zero": "2023-11-30",
+      "days_to_zero": 16
+    },
+    {
+      "file": "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+      "file_date": "2024-01-23",
+      "avail_M": 38.95,
+      "total_M": 165.57,
+      "unavail_M": 120.79,
+      "30d_first_zero": null,
+      "days_to_zero": null
+    },
+    {
+      "file": "Daily Cash Fcst - 2.20.24_BU view_BOD.xlsx",
+      "file_date": "2024-02-20",
+      "avail_M": 32.88,
+      "total_M": 160.67,
+      "unavail_M": 121.96,
+      "30d_first_zero": "2024-03-05",
+      "days_to_zero": 14
+    },
+    {
+      "file": "Daily Cash Fcst - 3.19.24_BU view_MarBOD.xlsx",
+      "file_date": "2024-03-19",
+      "avail_M": 12.16,
+      "total_M": 150.42,
+      "unavail_M": 132.43,
+      "30d_first_zero": "2024-03-27",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 4.30.24_BU view_final_online adj.xlsx",
+      "file_date": "2024-04-30",
+      "avail_M": 10.7,
+      "total_M": 122.22,
+      "unavail_M": 105.69,
+      "30d_first_zero": "2024-05-07",
+      "days_to_zero": 7
+    },
+    {
+      "file": "Daily Cash Fcst - 5.7.24_BU view_MayBOD_5.9.24.xlsx",
+      "file_date": "2024-05-07",
+      "avail_M": 13.21,
+      "total_M": 119.8,
+      "unavail_M": 100.76,
+      "30d_first_zero": "2024-05-10",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 6.18.24_BU view_JunBOD.xlsx",
+      "file_date": "2024-06-18",
+      "avail_M": 10.73,
+      "total_M": 120.97,
+      "unavail_M": 104.99,
+      "30d_first_zero": "2024-06-26",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 7.23.24_deck_JulBOD_FY25.xlsx",
+      "file_date": "2024-07-23",
+      "avail_M": 5.96,
+      "total_M": 100.43,
+      "unavail_M": 89.22,
+      "30d_first_zero": "2024-07-25",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 8.19.24_BU view_AugBOD.xlsx",
+      "file_date": "2024-08-19",
+      "avail_M": 10.9,
+      "total_M": 149.41,
+      "unavail_M": 133.27,
+      "30d_first_zero": "2024-08-28",
+      "days_to_zero": 9
+    },
+    {
+      "file": "Daily Cash Fcst - 9.24.24_BU view_deck version_BOD.xlsx",
+      "file_date": "2024-09-24",
+      "avail_M": 11.33,
+      "total_M": 137.22,
+      "unavail_M": 120.65,
+      "30d_first_zero": "2024-09-26",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 10.15.24_BU view_deck version_OctBOD.xlsx",
+      "file_date": "2024-10-15",
+      "avail_M": 10.33,
+      "total_M": 117.0,
+      "unavail_M": 101.43,
+      "30d_first_zero": "2024-10-18",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 11.12.24_BU view_deck version_NovBOD.xlsx",
+      "file_date": "2024-11-12",
+      "avail_M": 12.33,
+      "total_M": 123.15,
+      "unavail_M": 105.57,
+      "30d_first_zero": "2024-11-14",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 12.10.24_BU view_deck version_BOD_SC wo 3 RE Interco IF_$9M.xlsx",
+      "file_date": "2024-12-10",
+      "avail_M": 13.52,
+      "total_M": 129.51,
+      "unavail_M": 110.75,
+      "30d_first_zero": "2024-12-13",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 12.31.24_BU view.xlsx",
+      "file_date": "2024-12-31",
+      "avail_M": 6.76,
+      "total_M": 135.3,
+      "unavail_M": 123.3,
+      "30d_first_zero": "2025-01-03",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+      "file_date": "2025-01-21",
+      "avail_M": 4.43,
+      "total_M": 135.34,
+      "unavail_M": 125.66,
+      "30d_first_zero": "2025-01-29",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 2.18.25_BU view_deck version_FebBOD.xlsx",
+      "file_date": "2025-02-18",
+      "avail_M": 5.38,
+      "total_M": 101.89,
+      "unavail_M": 91.27,
+      "30d_first_zero": "2025-02-26",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 3.18.25_BU view_deck version_MarBOD.xlsx",
+      "file_date": "2025-03-18",
+      "avail_M": 3.42,
+      "total_M": 80.78,
+      "unavail_M": 72.12,
+      "30d_first_zero": "2025-03-26",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 4.18.25_BU view_prelim AprBOD.xlsx",
+      "file_date": "2025-04-18",
+      "avail_M": 5.43,
+      "total_M": 95.12,
+      "unavail_M": 84.45,
+      "30d_first_zero": "2025-04-23",
+      "days_to_zero": 5
+    },
+    {
+      "file": "Daily Cash Fcst - 5.20.25_BU view_deck version_MayBOD.xlsx",
+      "file_date": "2025-05-20",
+      "avail_M": 7.43,
+      "total_M": 104.15,
+      "unavail_M": 91.48,
+      "30d_first_zero": "2025-05-28",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 6.17.25_BU view_deck version_JunBOD.xlsx",
+      "file_date": "2025-06-17",
+      "avail_M": 3.73,
+      "total_M": 99.8,
+      "unavail_M": 90.83,
+      "30d_first_zero": "2025-06-30",
+      "days_to_zero": 13
+    },
+    {
+      "file": "Daily Cash Fcst - 7.22.25_BU view_deck version_condensed_JulBOD.xlsx",
+      "file_date": "2025-07-22",
+      "avail_M": 7.12,
+      "total_M": 98.65,
+      "unavail_M": 86.28,
+      "30d_first_zero": "2025-07-30",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 8.26.25_BU view_final deck version.xlsx",
+      "file_date": "2025-08-26",
+      "avail_M": 9.57,
+      "total_M": 109.83,
+      "unavail_M": 95.02,
+      "30d_first_zero": "2025-08-29",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 9.30.25_BU view_deck version.xlsx",
+      "file_date": "2025-09-30",
+      "avail_M": 3.9,
+      "total_M": 100.88,
+      "unavail_M": 91.74,
+      "30d_first_zero": "2025-10-08",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 10.21.25_BU view_deck version_OctBOD.xlsx",
+      "file_date": "2025-10-21",
+      "avail_M": 4.47,
+      "total_M": 98.53,
+      "unavail_M": 88.82,
+      "30d_first_zero": "2025-10-24",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 11.18.25_BU view_deck version_NovBOD no meeting.xlsx",
+      "file_date": "2025-11-18",
+      "avail_M": 8.54,
+      "total_M": 99.91,
+      "unavail_M": 86.13,
+      "30d_first_zero": "2025-11-20",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 12.15.25_BU view_DecBOD.xlsx",
+      "file_date": "2025-12-15",
+      "avail_M": 4.64,
+      "total_M": 92.97,
+      "unavail_M": 83.09,
+      "30d_first_zero": "2025-12-17",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 12.30.25_BU view_deck version final.xlsx",
+      "file_date": "2025-12-30",
+      "avail_M": 1.21,
+      "total_M": 88.67,
+      "unavail_M": 82.22,
+      "30d_first_zero": "2026-01-02",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx",
+      "file_date": "2026-01-16",
+      "avail_M": 2.48,
+      "total_M": 90.16,
+      "unavail_M": 82.43,
+      "30d_first_zero": "2026-01-21",
+      "days_to_zero": 5
+    },
+    {
+      "file": "Daily Cash Fcst - 02.17.26_BU view_deck version.xlsx",
+      "file_date": "2026-02-17",
+      "avail_M": 3.74,
+      "total_M": 91.36,
+      "unavail_M": 82.37,
+      "30d_first_zero": "2026-02-23",
+      "days_to_zero": 6
+    },
+    {
+      "file": "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+      "file_date": "2026-03-03",
+      "avail_M": 6.52,
+      "total_M": 95.01,
+      "unavail_M": 83.25,
+      "30d_first_zero": "2026-03-11",
+      "days_to_zero": 8
+    },
+    {
+      "file": "Daily Cash Fcst - 03.31.26_BU view_deck version.xlsx",
+      "file_date": "2026-03-31",
+      "avail_M": 1.84,
+      "total_M": 88.65,
+      "unavail_M": 81.56,
+      "30d_first_zero": "2026-04-02",
+      "days_to_zero": 2
+    },
+    {
+      "file": "Daily Cash Fcst - 04.21.26_ BU version_deck version_AprBOD.xlsx",
+      "file_date": "2026-04-21",
+      "avail_M": 4.26,
+      "total_M": 91.7,
+      "unavail_M": 82.2,
+      "30d_first_zero": "2026-04-24",
+      "days_to_zero": 3
+    },
+    {
+      "file": "Daily Cash Fcst - 05.05.26_BU view_deck version.xlsx",
+      "file_date": "2026-05-05",
+      "avail_M": 3.25,
+      "total_M": 92.73,
+      "unavail_M": 84.24,
+      "30d_first_zero": "2026-05-11",
+      "days_to_zero": 6
+    },
+    {
+      "file": "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+      "file_date": "2026-05-08",
+      "avail_M": 1.51,
+      "total_M": 89.59,
+      "unavail_M": 82.84,
+      "30d_first_zero": "2026-05-13",
+      "days_to_zero": 5
+    }
+  ]
+}

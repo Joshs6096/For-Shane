@@ -1,0 +1,327 @@
+{
+  "analysis_date": "2026-05-11",
+  "data_sources": "BOD files from 9.19.22 through 05.08.26 (Inflows Actuals, SYWR_CF, Inflows Detail, Online Detail sheets)",
+  "notes": {
+    "currency": "All amounts in $M unless noted",
+    "actuals_vs_forecast": "Earlier periods in each file are actuals; later periods are forecasts. The most current file has the best actuals.",
+    "data_source_file_for_actuals": "05.08.26_BU view used for most current actuals through Apr 2026"
+  },
+  "shop_your_way_syw": {
+    "description": "Shop Your Way Rewards (SYWR) program - loyalty/credit card rewards platform. Separately tracked in SYWR_CF sheets.",
+    "credit_card_program": {
+      "note": "SYW credit card program (with Citi/Fidem) launched late 2025 per 'SYW 12.4.25' sheet. Wachtell doing 'Credit card program launch' legal work.",
+      "card_accounts_buildup": {
+        "Nov-2025": 2752,
+        "Dec-2025": 5238,
+        "Jan-2026": 10212,
+        "Feb-2026": 15161,
+        "Mar-2026": 20085,
+        "Apr-2026": 29985,
+        "May-2026": 39835,
+        "Jun-2026": 49636
+      },
+      "card_spend_per_month_K": {
+        "Nov-2025": 932.5,
+        "Dec-2025": 1779.7,
+        "Jan-2026": 3469.3,
+        "Feb-2026": 5154.7,
+        "Mar-2026": 6831.7,
+        "Apr-2026": 10194.6,
+        "May-2026": 13549.2,
+        "Jun-2026": 16887.0
+      },
+      "total_offer_funding_K": {
+        "Nov-2025": 527.6,
+        "Dec-2025": 543.0,
+        "Jan-2026": 573.7,
+        "Feb-2026": 604.4,
+        "Mar-2026": 634.9,
+        "Apr-2026": 685.5,
+        "May-2026": 746.6,
+        "Jun-2026": 1307.3
+      }
+    },
+    "syw_total_inflows_by_year": {
+      "note": "Extracted from SYWR_CF sheets. Includes CITI funded points, retailer S/K/Online/HS redemption fees, affiliate commissions, Raise Marketplace commissions, ad platforms (Strand). 'SYW total inflows' = all cash received into SYW program entity.",
+      "2021": {
+        "total_M": null,
+        "note": "Only partial data; FY21 total approx $9.3M (TOTAL INFLOWS row in Sep 2022 file)"
+      },
+      "2022": {
+        "total_M": 33.65,
+        "note": "From Nov 2023+ files which have FY22 as complete actuals"
+      },
+      "2023": {
+        "total_M": 37.09,
+        "note": "From 3.19.24 onwards - stabilized at $37.09M"
+      },
+      "2024": {
+        "total_M": 51.08,
+        "note": "From Aug/Dec 2025 files. Higher due to Telluride externalization and new services revenue"
+      },
+      "2025": {
+        "total_M": 47.33,
+        "note": "From Aug 2025 deck. Includes Wildfire, RMN, Rakuten affiliate revenue"
+      },
+      "growth_trend": "GROWING - SYW inflows rising: $29.7M (2022 early est) -> $33.7M (2022 actual) -> $37.1M (2023) -> $51.1M (2024) -> $47.3M (FY25 est)"
+    },
+    "citi_funded_syw_points_by_year": {
+      "note": "CITI credit card-funded SYW points - cash from Citi for points issued on credit card purchases (pre-SYW card launch). Separate from new SYW credit card program.",
+      "2021_partial": {
+        "M": 6.24,
+        "note": "FY21 partial (Apr-Jan only)"
+      },
+      "2022": {
+        "M": 10.94,
+        "note": "Full FY22 per Jan 2023 file"
+      },
+      "2023_est": {
+        "M": 14.37,
+        "note": "FY23 estimate per Sep 2022 file projection"
+      }
+    },
+    "syw_disbursements_by_year": {
+      "note": "Cost of SYW Raise redemptions + Other Redemptions (per SYWR_CF FY25 data from Aug 2025 file)",
+      "monthly_sample_fy25_K": {
+        "Feb-2025": {
+          "raise_redemptions": 1813.8,
+          "cost_of_sales": 1326.8,
+          "other": 265.0
+        },
+        "Mar-2025": {
+          "raise_redemptions": 1155.3,
+          "cost_of_sales": 697.5,
+          "other": 206.5
+        },
+        "Jun-2025": {
+          "raise_redemptions": 1739.3,
+          "cost_of_sales": 1047.3,
+          "other": 246.4
+        }
+      }
+    },
+    "affiliate_partners": [
+      "Raise Marketplace (commission on gift card sales)",
+      "Gasbuddy",
+      "Lending Tree",
+      "Button Inc",
+      "Wildfire Systems",
+      "Rakuten",
+      "IMPACT/Other affiliates",
+      "Strand/Ad Networks (marketing)"
+    ],
+    "disbursements_in_cash_flow": {
+      "note": "SYW appears as OUTFLOW in main Cash Flow sheet under P-Card and SYWR columns in payroll/disbursements. Also SYW direct vendors tracked separately.",
+      "syw_vendors_sample_FY26_monthly_K": "Sailthru $41.9K/mo, Brightgrove $35.8K/mo, Wildfire $15-30K/mo, Verifone $15.6K/mo, Adzerk $13.7K/mo"
+    }
+  },
+  "online_ecommerce": {
+    "description": "Online/Marketplace business unit - Sears.com, Kmart.com, Marketplace (3rd party sellers), Fusion (supply chain integration), Kenmore.com",
+    "inflows_by_year_M": {
+      "note": "From Inflows Actuals 'Online' column (col 41 in later files), first appears as a separately tracked column in 4.30.24 (online adj) file. Earlier data from Online_Krishna sheet and Online Detail inflows sheets.",
+      "FY2021": {
+        "M": null,
+        "note": "Not separately tracked in cash model; embedded in Sears/Kmart B&M inflows"
+      },
+      "FY2022": {
+        "M": null,
+        "note": "Not separately tracked; Online_Krishna shows FY21 monthly GMV $4-12M but cash embedded in retail"
+      },
+      "FY2023": {
+        "total_M": 37.79,
+        "note": "First year separately tracked. Inflows Actuals Online column. Monthly breakdown shows $3.0-4.6M/mo, higher H2 ($7.5-11.7M in Aug-Dec)",
+        "monthly_online_detail_K": {
+          "Feb-2023": 4155,
+          "Mar-2023": 4273,
+          "Apr-2023": 3171,
+          "May-2023": 3558,
+          "Jun-2023": 4437,
+          "Jul-2023": 4039,
+          "Aug-2023": 7535,
+          "Sep-2023": 9554,
+          "Oct-2023": 8465,
+          "Nov-2023": 10637,
+          "Dec-2023": 10883,
+          "note": "Source: Online Detail inflows 5.23 sheet. Units: $000s. Strong H2 spike in Aug-Dec reflects Kenmore/SPAN and marketplace growth"
+        }
+      },
+      "FY2024": {
+        "total_M": 20.56,
+        "note": "DECLINING - only $20.6M vs $37.8M in FY23. Apr 2024 'online adj' file was created to reconcile/adjust online inflows. Monthly from Inflows Actuals.",
+        "monthly_M": {
+          "Jan-2024": 2.742,
+          "Feb-2024": 1.919,
+          "Mar-2024": 2.205,
+          "Apr-2024": 0.498
+        },
+        "decline_explanation": "The Apr 2024 'online adj' file was a reconciliation adjustment - see PA_IW_EW interco sheet which shows Online was bearing HS merchandise disbursements for PA replacements. $6.7M YTD Sep charged to Online for HS PA parts. The 'online adj' corrected intercompany allocations."
+      },
+      "FY2025": {
+        "total_M": 11.32,
+        "note": "From 12.30.25 year end file. FURTHER DECLINING. Monthly ~$1-2.5M from Online inflows Pratik 11.18.24 sheet: Core $0.67-1.24M + Marketplace $0.85-1.24M",
+        "monthly_detail": {
+          "Feb": 1.518,
+          "Mar": 2.233,
+          "Apr": 1.672,
+          "May": 1.734,
+          "Jun": 2.29,
+          "Jul": 1.826,
+          "Aug": 1.894,
+          "Sep": 2.316,
+          "Oct": 2.08,
+          "Nov": 2.213,
+          "Dec": 2.478,
+          "source": "Online inflows Pratik 11.18.24 sheet - Total Online Inflows row"
+        },
+        "replacement_project": {
+          "monthly_M": 0.101,
+          "note": "Parts/tech recovery cross-charge to other BUs"
+        }
+      },
+      "FY2026_ytd": {
+        "total_M_thru_Apr": 3.58,
+        "note": "From 05.08.26 file. May 2026=$0.782M, Jun=$1.433M, Jul=$1.362M",
+        "trend": "DECLINING vs FY25 run rate"
+      }
+    },
+    "component_breakdown": {
+      "core_direct": "Sears.com direct sales - largest component",
+      "fusion": "Supply chain integration platform sales",
+      "marketplace_gmv": "3rd party marketplace sales on Sears/Kmart platform",
+      "kenmore_span": "Kenmore.com + SPAN smart panel sales (new in H2 2023)",
+      "monetization_revenue": "Advertising/data monetization ($142-160K/month in FY23)",
+      "replacement_project": "PA parts Search & Recovery + Tech Spec cross-charges"
+    },
+    "raise_marketplace": {
+      "note": "Raise Marketplace appears as VENDOR PAYMENT in NetSuite ($5.1K on May 8, 2026). Raise is a gift card marketplace. SYW/Transformco sells gift cards through Raise; Raise commissions flow INTO SYW inflows in SYWR_CF sheet.",
+      "raise_commissions_FY21_K": "Month range $6.9-37.7K (from SYWR_CF sheet)"
+    },
+    "trend_assessment": "STRONGLY DECLINING. FY23 peak of $37.8M -> FY24 $20.6M -> FY25 $11.3M -> FY26 run rate ~$5-7M annually. Online business contracting sharply."
+  },
+  "pharmacy_rx": {
+    "description": "Express Scripts Rx rebate and pharmacy inflows. Sears had in-store pharmacies; these are residual rebate payments post-pharmacy wind-down.",
+    "inflows_by_year_M": {
+      "note": "From Inflows Actuals 'Rx' column across all files",
+      "FY2022": {
+        "total_M": 0.08,
+        "detail": "Single payment Nov-2022: $0.08M"
+      },
+      "FY2023": {
+        "total_M": 0.45,
+        "detail": "Single payment Sep-2023: $0.45M (Express Scripts Rx rebate)"
+      },
+      "FY2024": {
+        "total_M": 0.0,
+        "detail": "No Rx payments in FY24"
+      },
+      "FY2025": {
+        "total_M": 3.04,
+        "detail": "SIGNIFICANT INCREASE - multiple payments resuming: Feb $0.41M, Mar $0.12M, Apr $0.81M, May $0.70M, Jul $0.12M, Aug $0.09M, Sep $0.32M, Oct $0.16M, Nov $0.12M, Dec $0.19M",
+        "note": "The resumption of payments in FY25 likely reflects settlement of outstanding Express Scripts Rx rebates from the pharmacy wind-down period"
+      },
+      "FY2026_ytd": {
+        "total_M": 1.74,
+        "detail": "Jan $0.21M, Mar $1.46M (large payment), Apr $0.07M",
+        "note": "The March 2026 $1.46M payment is notably large - possibly a settlement or large rebate tranche"
+      }
+    },
+    "monthly_detail_all": {
+      "2022-11": 0.08,
+      "2023-09": 0.45,
+      "2025-02": 0.41,
+      "2025-03": 0.12,
+      "2025-04": 0.81,
+      "2025-05": 0.7,
+      "2025-07": 0.12,
+      "2025-08": 0.09,
+      "2025-09": 0.32,
+      "2025-10": 0.16,
+      "2025-11": 0.12,
+      "2025-12": 0.19,
+      "2026-01": 0.21,
+      "2026-03": 1.46,
+      "2026-04": 0.07
+    },
+    "trend_assessment": "IRREGULAR/EPISODIC. Not winding down - actually increased sharply in FY25 ($3.0M vs $0.5M prior years). Payments are lump-sum rebate settlements rather than ongoing operations. Pharmacy itself wound down years ago; these are tail receivables from Express Scripts rebate agreements.",
+    "express_scripts_note": "Express Scripts Rx rebate appears twice per the cash file details ($0.51M and $0.78M referenced) - consistent with the episodic payment pattern observed"
+  },
+  "miscellaneous_inflows": {
+    "citi_reimbursement": {
+      "description": "Citi bank reimbursement - appears to be credit card processing fee reimbursements and promotional funding from Citi partnership with Sears/Transformco",
+      "inflows_by_year_M": {
+        "FY2022": 78.09,
+        "FY2023": 82.42,
+        "FY2024": 55.37,
+        "FY2025": 53.24,
+        "FY2026_ytd": 3.51,
+        "note": "DECLINING SHARPLY in FY24-FY26 vs FY22-FY23. Monthly range: FY22 $5.3-8.5M/mo, FY24 $1.7-8.6M/mo (very lumpy), FY25 $3.3-8.1M/mo. The Dec 2025 and Jan 2026 data shows near-zero ($0.27M and $0M), suggesting wind-down of the Citi relationship."
+      },
+      "monthly_highlights": {
+        "peak_months": "Nov 2022: $5.33M, Sep 2022: $8.47M, Jan 2023: $8.07M, Oct 2023: $8.92M",
+        "decline_months": "Dec 2025: $0.27M, Jan 2026: $0.00M, Mar 2026: $0.52M",
+        "note": "Significant step-down beginning in late FY24 suggesting Citi partnership contract changes or wind-down"
+      }
+    },
+    "cchs_cross_country_home_services": {
+      "description": "Cross Country Home Services - home warranty provider. CCHS pays Transformco for access to the HS service network / warranty contract revenue share.",
+      "inflows_by_year_M": {
+        "FY2022": 56.61,
+        "FY2023": 57.68,
+        "FY2024": 35.31,
+        "FY2025": 20.91,
+        "FY2026_ytd": 4.04,
+        "note": "DECLINING - consistent decline from $57.7M (FY23) to ~$20.9M (FY25). Monthly rate declining as home services technician headcount reduces."
+      },
+      "trend_assessment": "Winding down as HS contractor network contracts. Revenue tied to service call volume which falls as technician base shrinks."
+    },
+    "shi_dividend": {
+      "description": "SHI = Sears Holdings Inc (or related SGTI - Sears Global Technology India). This is an intercompany/related-party cash flow, NOT genuine third-party income.",
+      "nature": "SHI and SGTI are legacy related entities that provide IT services and back-office support to Transformco operating entities. The 'SHI Dividend' inflow is described in the SHI 2.11.25 sheet as 'Round-tripping amount where we get $1.7M back as dividend' - suggesting a portion of SHI service fees are returned as dividends.",
+      "actual_payment_flow": "Transformco BUs pay SHI invoices (outflows via disbursements). SHI then pays dividends back. Net cash impact is the DISBURSEMENT side (outflows) minus returned dividends.",
+      "inflows_by_month_M": {
+        "2023-02": 1.66,
+        "2023-03": 1.71,
+        "2023-06": 1.69,
+        "2023-08": 1.98,
+        "2023-10": 4.93,
+        "2023-11": 4.61,
+        "2023-12": 2.0,
+        "2024-01": 2.0,
+        "2024-02": 2.22,
+        "2025-10": 1.88,
+        "2026-01": 0.01,
+        "2026-02": 0.3,
+        "2026-03": 0.3
+      },
+      "total_recorded_M": 25.29,
+      "note": "Episodic - not monthly recurring. Large payments in Oct-Dec 2023 ($4.93M, $4.61M). Then gap in FY24 (only Jan-Feb 2024 payments). Oct 2025 restart at $1.88M. Round-trip character means this is NOT economic income to the enterprise.",
+      "SHI_invoice_payments_FY25_monthly_K": "SHI invoices ~$1.4-2.6M/month (plus SGTI ~$0.2-0.4M) = ~$1.7-3.0M total; returned as 'dividend' at irregular intervals"
+    },
+    "tenant_income": {
+      "description": "Rental income from subtenants in Transformco-leased or owned properties. Includes both retail stores sublet to 3rd parties and distribution center subleases.",
+      "tenants_identified": {
+        "retail_stores": "Various sublease tenants at former Sears/Kmart locations including: Miami/Coral Gables, Tukwila WA, Anchorage AK, Pharr TX, Lafayette LA, Camp Hill PA, Palm Beach Gardens FL, Overland Park KS, Burbank CA, San Juan PR (Hato Rey), Westwood NJ, St Thomas USVI, St Croix USVI, Bridgehampton NY, Orlando FL",
+        "supply_chain_DCs": "Manteno IL (x2), Tejon Ranch/Arvin CA, Ocala FL, Groveport OH - MAJOR TENANTS paying $100-690K/month each",
+        "base_transform": "Internal Transformco space allocations"
+      },
+      "inflows_by_year_M": {
+        "FY2022": 23.06,
+        "FY2023": 18.07,
+        "FY2024": 11.86,
+        "FY2025": 6.83,
+        "FY2026_ytd": 1.59,
+        "note": "DECLINING as properties are sold or leases expire. Supply chain DC tenants (Manteno, Ocala, Tejon Ranch) are largest contributors."
+      },
+      "trend_assessment": "Steadily declining as real estate portfolio shrinks through asset sales and lease expirations."
+    }
+  },
+  "summary_and_trends": {
+    "syw_trend": "GROWING/STABLE - SYW program inflows grew from ~$30M (FY22) to $37M (FY23) to $51M (FY24), then slightly down to $47M (FY25 est). New SYW credit card launched Nov 2025 adds a NEW revenue stream. The credit card program is still early-stage but accounts are accumulating (target ~30-50K accounts by Apr-May 2026).",
+    "online_trend": "STRONGLY DECLINING - Peak FY23 $37.8M, crashed to $20.6M FY24, $11.3M FY25, run-rate ~$5-7M in FY26. The Apr 2024 'online adj' file reflected an intercompany allocation restatement (Online was being charged for HS PA merchandise). Underlying trend is genuine contraction as e-commerce platform reduces.",
+    "rx_trend": "IRREGULAR BUT INCREASING - Not winding down. Effectively $0 in FY22-FY24, then resumed at $3.0M in FY25 with multiple Express Scripts payments. Large $1.46M payment in Mar 2026. These are tail receivables from pharmacy program wind-down, being collected years after pharmacy closure.",
+    "citi_reimbursement_trend": "DECLINING - $78M (FY22) -> $82M (FY23) -> $55M (FY24) -> $53M (FY25) -> near-zero late FY25/early FY26. The Citi relationship (credit card fee reimbursements, promotional funding) is winding down.",
+    "cchs_trend": "DECLINING - $57M (FY22-23) -> $35M (FY24) -> $21M (FY25). Tracking the shrinkage of the Home Services contractor network.",
+    "shi_dividend_nature": "ROUND-TRIP - SHI/SGTI dividend is intercompany. Transformco pays SHI invoices (~$2-3M/month), and SHI periodically returns cash as 'dividend'. Net economic impact is roughly neutral but creates timing differences in the cash model. NOT a genuine external revenue source.",
+    "tenant_income_trend": "DECLINING - $23M (FY22) -> $18M (FY23) -> $12M (FY24) -> $7M (FY25). As real estate portfolio is monetized through asset sales, subtenant income falls. Key DC tenants (Manteno IL, Ocala FL, Tejon Ranch CA) are the largest remaining sources."
+  }
+}

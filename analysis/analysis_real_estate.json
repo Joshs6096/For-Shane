@@ -1,0 +1,471 @@
+{
+  "analysis_date": "2026-05-11",
+  "source_files": [
+    "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+    "Daily Cash Fcst - 12.30.22_BU view.xlsx",
+    "Daily Cash Fcst - 4.25.23_BU view_April 27 BOD.xlsx",
+    "Daily Cash Fcst - 9.19.23_BU view_SepBOD.xlsx",
+    "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+    "Daily Cash Fcst - 6.18.24_BU view_JunBOD.xlsx",
+    "Daily Cash Fcst - 10.15.24_BU view_deck version_OctBOD.xlsx",
+    "Daily Cash Fcst - 12.31.24_BU view.xlsx",
+    "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+    "Daily Cash Fcst - 7.22.25_BU view_deck version_condensed_JulBOD.xlsx",
+    "Daily Cash Fcst - 12.30.25_BU view_deck version final.xlsx",
+    "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx",
+    "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+    "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+    "cash file details.xlsx"
+  ],
+  "re_and_debt_init_with_manteno_sheet": {
+    "description": "Liquidity pro forma sheet created for the Dec 2022 debt exchange. Tracks daily liquidity impact under two scenarios (Debt exchange closes 12/30/22 vs post-12/30). Contains Manteno property closing events (GR disbursements submitted 12/9, 12/14, 12/22; closing 12/29/2022) and Delano closing (1/5/2023). Also models a UBS loan upsize of $63M on 1/11/2023 and interest savings from debt exchange. Sheet has been carried forward unchanged in all subsequent files as a historical reference.",
+    "key_events": [
+      {
+        "date": "2022-12-09",
+        "action": "Submit GR Disbursement for Manteno",
+        "status": "Completed"
+      },
+      {
+        "date": "2022-12-14",
+        "action": "Submit GR Disbursement for HQ",
+        "status": "Completed"
+      },
+      {
+        "date": "2022-12-22",
+        "action": "Submit GR Disbursement for Delano",
+        "status": "Completed"
+      },
+      {
+        "date": "2022-12-29",
+        "action": "Manteno closing",
+        "status": "Completed",
+        "cash_interest_impact_M": -8.1
+      },
+      {
+        "date": "2023-01-05",
+        "action": "Delano closing",
+        "status": "Completed"
+      },
+      {
+        "date": "2023-01-11",
+        "action": "UBS Loan Upsize + Operating Reserve Rebalance",
+        "net_proceeds_M": 64.0
+      }
+    ],
+    "interest_savings_from_exchange": {
+      "Q1_2023_M": 5.6,
+      "Q2_2023_M": 5.8,
+      "Q3_2023_M": 5.9,
+      "Q4_2023_M": 6.1,
+      "pik_due_at_maturity_scenario_a_M": 62.5,
+      "pik_due_at_maturity_scenario_b_M": 50.8
+    }
+  },
+  "trapped_cash_and_bohemia": {
+    "sheet_present_in": "All files from Sep 2022 onward",
+    "description": "Tracks restricted cash unavailable for operations, categorized by: restricted cash (LCs, segregated accounts), accounts receivable/other assets, cash and cash equivalents",
+    "bohemia_restricted_cash_as_of_jan_2026_M": 5.05,
+    "hackensack_restricted_cash_as_of_jan_2026_M": 0.57,
+    "lacey_restricted_cash_as_of_jan_2026_M": 0.0,
+    "total_restricted_cash_jan_2026_M": 56.87,
+    "safelite_rent_reserve_hackensack_M": 0.57,
+    "real_estate_escrows": {
+      "mall_of_america_M": 1.1,
+      "massapequa_M": 0.25,
+      "total_M": 1.35
+    },
+    "note": "Lacey restricted cash cleared to $0 by Jan 2026; Bohemia $5.05M and Hackensack $0.57M remain restricted as of Jan-Mar 2026"
+  },
+  "asset_sales_proceeds_tracker": {
+    "description": "Column 68 in Cash Flow sheet: 'Proceeds from Asset Sales ($250M Balance)'. Tracks cumulative asset sale proceeds against a $250M contractual obligation. Balance hit $250M cap in June 2022. Post-cap inflows are incremental and tracked separately.",
+    "balance_cap_hit_date": "2022-06-17",
+    "cumulative_to_cap_M": 250.0,
+    "column_in_sep_2022_file": 45,
+    "column_in_jan_2026_file": 68,
+    "column_label": "Proceeds from Asset Sales ($250M Balance)",
+    "historical_proceeds_by_period": {
+      "2020_pre_bankruptcy_legacy": {
+        "description": "Includes Innovel supply chain sale (~$930M Mar 2020), Kenmore/DieHard brand sales (~$89M), store liquidation proceeds. These are pre-reorganization events tracked in the same column.",
+        "Q1_2020_M": 1022.35,
+        "Q2_2020_M": 34.3,
+        "Q3_2020_M": 13.3,
+        "Q4_2020_M": 35.3,
+        "total_2020_M": 1105.25
+      },
+      "2021_RE_portfolio_wind_down": {
+        "Q1_M": 40.8,
+        "Q2_M": 25.9,
+        "Q3_M": 19.66,
+        "Q4_M": 37.7,
+        "total_M": 124.06,
+        "notable_events": [
+          {
+            "date": "2021-01-22",
+            "amount_M": 18.2
+          },
+          {
+            "date": "2021-10-15",
+            "amount_M": 20.63
+          },
+          {
+            "date": "2021-11-01",
+            "amount_M": 5.0
+          }
+        ]
+      },
+      "2022_approaching_cap": {
+        "Q1_M": 23.22,
+        "Q2_M": 42.66,
+        "Q3_M": 12.99,
+        "Q4_M": 9.41,
+        "total_M": 88.28,
+        "cap_reached": "June 2022 ($250M cumulative)",
+        "notable_events": [
+          {
+            "date": "2022-01-20",
+            "amount_M": 17.52
+          },
+          {
+            "date": "2022-05-09",
+            "amount_M": 39.26,
+            "note": "Large bulk sale brought balance to $249.9M"
+          }
+        ]
+      }
+    },
+    "post_cap_proceeds_by_year": {
+      "description": "Proceeds received AFTER $250M balance cap was hit. These flow through the system but the balance tracker stays at $250M.",
+      "2022_post_cap_M": 22.5,
+      "2023_M": 48.83,
+      "2024_M": 86.3,
+      "2025_M": 34.82,
+      "2026_ytd_M": 12.6,
+      "total_post_cap_M": 205.05
+    },
+    "post_cap_quarterly": {
+      "2022_Q3": 12.99,
+      "2022_Q4": 9.41,
+      "2023_Q1": 12.65,
+      "2023_Q2": 8.04,
+      "2023_Q3": 17.45,
+      "2023_Q4": 10.69,
+      "2024_Q1": 49.72,
+      "2024_Q2": 9.9,
+      "2024_Q3": 14.55,
+      "2024_Q4": 12.13,
+      "2025_Q1": 0.0,
+      "2025_Q2": 2.96,
+      "2025_Q3": 8.64,
+      "2025_Q4": 23.22,
+      "2026_Q1_ytd": 12.6
+    }
+  },
+  "specific_properties": {
+    "bohemia_ny": {
+      "loan_name": "Bohemia Loan (Mortgage)",
+      "cf_column": "Col 58 (Jan 2026 file)",
+      "loan_initiation_date": "2021-08-10",
+      "initial_balance_M": 27.5,
+      "peak_balance_M": 28.0,
+      "peak_balance_date": "2023-05-16",
+      "current_balance_may_2026_M": 28.0,
+      "status": "OUTSTANDING - not paid down",
+      "restricted_cash_trapped_M": 5.05,
+      "restricted_cash_source": "Bohemia LC/segregated account",
+      "re_fcst_revenue_fy2025_monthly_M": 0.355,
+      "note": "Bohemia generates ~$355K/month revenue (rental income). Loan has not been reduced as of May 2026. $5.05M remains restricted."
+    },
+    "lacey_wa": {
+      "loan_name": "Lacey, WA Loan (Mortgage) [$11.2M Facility]",
+      "cf_column": "Col 60 (Jan 2026 file)",
+      "first_draw_date": "2022-05-12",
+      "initial_draw_M": 4.861,
+      "facility_size_M": 11.2,
+      "peak_balance_M": 7.737,
+      "peak_balance_date": "2023-01-23",
+      "jan_31_2025_event": {
+        "description": "Major restructuring - column shows -$390.854M as netting adjustment. Corresponds to LeaseOpCo loan dropping from $827.4M to $436.6M on the same date.",
+        "leaseOpCo_change_M": -390.854
+      },
+      "restricted_cash_trapped_M": 0.0,
+      "status": "Column used as netting/flow account for UBS facility draws. $11.2M refers to the facility size on the Lacey WA property.",
+      "note": "The column shows large positive and negative values representing draws and repayments through the UBS Lacey facility - not the actual property value"
+    },
+    "new_brunswick_nj": {
+      "loan_name": "New Brunswick Loan",
+      "cf_column": "Col 61 (Jan 2026 file)",
+      "loan_initiation_date": "2022-09-29",
+      "initial_balance_M": 13.5,
+      "reduction_jun_2023": 8.5,
+      "reduction_oct_2023": 4.25,
+      "current_balance_M": 4.25,
+      "status": "Being paid down - $13.5M reduced to $4.25M (69% paid off)",
+      "note": "Steady amortization from $13.5M to $4.25M over ~13 months"
+    },
+    "hackensack_nj_2022": {
+      "loan_name": "Hackensack, NJ Loan (2022) / Grant Street Funding",
+      "cf_column": "Col 62 (May 2026 file)",
+      "loan_initiation_date": "2022-10-28",
+      "balance_M": 7.585,
+      "status": "Static - collateralized by Safelite rent reserve",
+      "safelite_rent_reserve_M": 0.57,
+      "note": "Small loan secured by Safelite rent payments. Balance unchanged at $7.585M since Oct 2022."
+    },
+    "hackensack_nj_citi_manteno_2022": {
+      "loan_name": "CITI/Manteno Loan \u2192 UBS/Manteno Loan \u2192 Hackensack NJ Loan (2026)",
+      "cf_column": "Col 63 (Jan-Apr 2026 file) / Col 63 (May 2026 = Hackensack 2026)",
+      "evolution": "Initially labeled 'CITI/Manteno Loan', then 'UBS/Manteno Loan' from 2024, renamed 'Hackensack NJ Loan (2026)' in May 2026",
+      "balance_history_M": [
+        {
+          "date": "2022-12-29",
+          "balance_M": 67.0,
+          "event": "Manteno property closing - loan initiated"
+        },
+        {
+          "date": "2024-01-17",
+          "balance_M": 54.5,
+          "note": "Partial paydown of $12.5M"
+        },
+        {
+          "date": "2024-06-14",
+          "balance_M": 46.5,
+          "note": "Further paydown of $8M"
+        },
+        {
+          "date": "2024-12-13",
+          "balance_M": 20.5,
+          "note": "Significant paydown of $26M"
+        },
+        {
+          "date": "2026-05-01",
+          "balance_M": 7.975,
+          "note": "Substantial paydown - $12.5M reduction"
+        }
+      ],
+      "total_paydown_to_date_M": 59.025,
+      "original_balance_M": 67.0,
+      "current_balance_may_2026_M": 7.975,
+      "pct_paid_off": 88.1,
+      "status": "ACTIVELY BEING RETIRED - 88% paid off from peak"
+    },
+    "manteno_il": {
+      "description": "Distribution Center / industrial property in Manteno, IL",
+      "closing_date": "2022-12-29",
+      "related_loan": "CITI/Manteno Loan ($67M)",
+      "re_debt_init_sheet": "RE & Debt init with Manteno - historical liquidity pro forma",
+      "notes": "Manteno property was monetized at closing Dec 29, 2022. The $67M loan was secured against Manteno collateral and has been paid down by 88% as of May 2026. Gotion received 3rd of 3 payments per cash file details ($0.63M Manteno/Gotion payment)."
+    },
+    "durham_nc": {
+      "loan_name": "Durham, NC Loan",
+      "cf_column": "Col 65 (Jan 2026 file)",
+      "loan_initiation_date": "2025-07-17",
+      "initial_balance_M": 11.645,
+      "status": "NEW - added to CF tracker July 2025. Represents a new property monetization.",
+      "note": "First appears in Jul 2025. This is a new loan/monetization event not present in pre-2025 files."
+    }
+  },
+  "propco_lease_opco_structure": {
+    "description": "PropCo / LeaseOpCo is the PropHoldco entity that holds properties leased to operating entities. LeaseOpCo loan tracks the debt balance against this portfolio.",
+    "lease_opco_loan_balance_history_M": [
+      {
+        "date": "2021-10-29",
+        "balance_M": 75.0,
+        "event": "Initial position"
+      },
+      {
+        "date": "2023-07-28",
+        "balance_M": 470.5,
+        "event": "Large drawup - UBS loan facility expansion"
+      },
+      {
+        "date": "2023-09-28",
+        "balance_M": 513.99
+      },
+      {
+        "date": "2023-10-19",
+        "balance_M": 439.5,
+        "event": "Reduction -$88M (property sale/paydown)"
+      },
+      {
+        "date": "2023-12-29",
+        "balance_M": 520.6
+      },
+      {
+        "date": "2024-01-05",
+        "balance_M": 535.6
+      },
+      {
+        "date": "2024-06-28",
+        "balance_M": 611.1
+      },
+      {
+        "date": "2024-09-30",
+        "balance_M": 703.7
+      },
+      {
+        "date": "2024-10-01",
+        "balance_M": 718.7
+      },
+      {
+        "date": "2024-12-31",
+        "balance_M": 817.4
+      },
+      {
+        "date": "2025-01-21",
+        "balance_M": 827.4,
+        "event": "Peak balance"
+      },
+      {
+        "date": "2025-01-31",
+        "balance_M": 436.6,
+        "event": "MAJOR RESTRUCTURING: -$390.8M in single day. Corresponds to UBS portfolio rebalancing."
+      },
+      {
+        "date": "2025-03-31",
+        "balance_M": 486.1
+      },
+      {
+        "date": "2025-06-30",
+        "balance_M": 530.1
+      },
+      {
+        "date": "2025-09-30",
+        "balance_M": 546.8
+      },
+      {
+        "date": "2025-12-31",
+        "balance_M": 534.7
+      },
+      {
+        "date": "2026-05-08",
+        "balance_M": 533.3
+      }
+    ],
+    "propco_cash_flows_from_cash_file_details": {
+      "fy25_ytd_M": -5.05,
+      "dec_2025_M": -1.0,
+      "jan_2025_M": -1.0,
+      "fy26_forecast_M": -12.0,
+      "description": "Monthly recon file with PropCo for 3PL EBITDA (Lawrence & Morrisville), mgmt fees, etc."
+    },
+    "propco_2025_separate_line": {
+      "description": "Separate line added in 2025 for UBS property tax payments pre-1/31/2025 proration",
+      "fy25_ytd_M": -4.49,
+      "fy26_forecast_M": 0.0,
+      "note": "Expected to be zero in FY26 - only mgmt fees going forward"
+    }
+  },
+  "real_estate_transactions_by_year": {
+    "description": "RE Transactions column (col 101 in Jan 2026) captures lease termination settlements, MOAC litigation costs, and other one-time RE cash flows (outflows negative)",
+    "from_cash_file_details": {
+      "fy25_total_M": -8.27,
+      "breakdown": [
+        {
+          "item": "SRZ Liquidating Trust - Bloomington & MOAC",
+          "amount_M": -2.05
+        },
+        {
+          "item": "Brunswick termination",
+          "amount_M": -0.4
+        },
+        {
+          "item": "Pharr TX termination",
+          "amount_M": -0.3
+        },
+        {
+          "item": "St Thomas VI termination (x2)",
+          "amount_M": -0.6
+        },
+        {
+          "item": "Hato Rey PR termination",
+          "amount_M": -1.8
+        },
+        {
+          "item": "Charleston WV settlement",
+          "amount_M": -1.2
+        },
+        {
+          "item": "Bridgeview IL settlement",
+          "amount_M": -0.5
+        },
+        {
+          "item": "Other",
+          "amount_M": -1.4
+        }
+      ]
+    },
+    "actuals_2024_confirmed": [
+      {
+        "date": "2024-10-15",
+        "amount_M": -1.23
+      },
+      {
+        "date": "2024-10-17",
+        "amount_M": -2.03
+      },
+      {
+        "date": "2024-11-07",
+        "amount_M": -0.81
+      }
+    ],
+    "actuals_2025_notable": [
+      {
+        "date": "2025-09-02",
+        "amount_M": -1.8,
+        "likely": "Hato Rey PR termination"
+      },
+      {
+        "date": "2025-09-12",
+        "amount_M": -1.24
+      }
+    ]
+  },
+  "jan_2026_strategic_shift": {
+    "file": "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx",
+    "significance": "First time 'asset sales' appears in the file name itself, signaling a strategic pivot to explicit asset monetization as a primary liquidity lever",
+    "structural_changes_from_prior_files": [
+      "File renamed to include 'new format' and 'asset sales' for first time",
+      "Durham NC Loan added as new column (col 65) - represents new property monetization active since Jul 2025",
+      "PropCo 2025 separated as distinct line item (col 103) alongside PropCo (col 110)",
+      "Column 137: 'Cash Flows no Asset Sales' explicitly added - management now tracking operating CF independently from asset monetization",
+      "RE Fcst Summary 1.16.26 added as a new detailed sheet (previously was RE Fcst Summary 12.10.24)",
+      "Hackensack NJ restricted cash ($570K) and Bohemia restricted cash ($5.05M) specifically itemized in Trapped Cash",
+      "capex forecast 1.16.26 sheet shows $36.7M FY26 capex for PH2.0 portfolio and $5M for Bohemia"
+    ],
+    "asset_sales_pipeline_as_of_jan_2026": [
+      {
+        "date_forecasted": "2026-02-13",
+        "amount_M": 5.5,
+        "actual": true,
+        "actual_amount_M": 5.57
+      }
+    ],
+    "interpretation": "The Jan 2026 'new format' represents management explicitly repositioning the company around RE asset monetization as the primary path forward. The addition of 'Cash Flows no Asset Sales' column suggests awareness that operating CF alone is insufficient and asset sales are now a planned, systematic (not opportunistic) source of liquidity."
+  },
+  "monetization_pace_analysis": {
+    "summary": "Asset sale proceeds have been highly variable, driven by lumpy individual transactions rather than a systematic disposal program. The $250M tracker cap (reached Jun 2022) relates to a contractual obligation, not the total proceeds available.",
+    "pre_2022_phase": "Legacy divestiture - Innovel, brands, store-level assets from bankruptcy proceedings",
+    "2022_2023_phase": "Property-level disposals: Manteno IL (Dec 2022), Delano, smaller store terminations and settlements",
+    "2024_acceleration": {
+      "total_M": 86.3,
+      "key_event": "March 12, 2024: $34.5M single-day event (largest post-cap transaction)",
+      "note": "2024 was the peak post-cap year. The $34.5M event on 3/12/2024 confirmed in Inflows Actuals. Corresponds to -$25M LeaseOpCo reduction on 3/13 suggesting partial UBS portfolio monetization."
+    },
+    "2025_deceleration": {
+      "total_M": 34.8,
+      "note": "Slower pace. No Q1 2025 asset sales. Q4 2025 had $23.2M driven by Oct 17, 2025 $15.45M event. Oct event correlates with -$15.5M LeaseOpCo reduction suggesting another UBS/PropCo property sale.",
+      "pace_vs_2024": "59% decline from 2024"
+    },
+    "2026_ytd_pace": {
+      "q1_ytd_M": 12.6,
+      "annualized_run_rate_M": 50.4,
+      "note": "Three events: Jan 30 $4.94M, Feb 13 $5.57M, Feb 27 $2.09M. No March-May actuals. Hackensack 2026 loan shows $7.975M on May 1 (from $20.5M Dec 2024) - suggesting ~$12.5M in paydowns applied, consistent with asset sale proceeds being used to retire this loan."
+    },
+    "hackensack_2026_paydown_trajectory": {
+      "dec_2024_balance_M": 20.5,
+      "may_2026_balance_M": 7.975,
+      "paydown_M": 12.525,
+      "note": "This $12.5M paydown aligns with the $12.6M in 2026 YTD asset sale proceeds - strong evidence that asset sales are being directed to Hackensack loan retirement"
+    }
+  }
+}

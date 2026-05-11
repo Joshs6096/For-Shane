@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "generated": "2026-05-11",
+    "analyst": "Claude Sonnet 4.6",
+    "source_directory": "/Users/josh/Downloads/SP_Analysis/",
+    "purpose": "Business Unit breakdown analysis across 6 Daily Cash Forecast BU view files",
+    "currency": "USD millions",
+    "notes": "All figures from BU beta sheet (data_only=True). FY = fiscal year (Feb-Jan). Values are cash inflows (positive) or disbursements (negative)."
+  },
+  "files_analyzed": {
+    "file_1": {
+      "filename": "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+      "date": "2022-09-19",
+      "label": "Sep 2022 (Sep BOD)",
+      "sheet_count": 43,
+      "sheets_sample": [
+        "Net Cash Flow",
+        "Cash Flow",
+        "KES & KCD Cash Flow",
+        "Trapped Cash",
+        "Merch Walk",
+        "BU beta",
+        "Treasury SUMMARY 9.19",
+        "Liquidity",
+        "KCD warranty",
+        "BU beta retail",
+        "Disbursement Detail"
+      ],
+      "bu_tab": "BU beta"
+    },
+    "file_2": {
+      "filename": "Daily Cash Fcst - 10.24.23_BU view_HS retail interco_OctBOD.xlsx",
+      "date": "2023-10-24",
+      "label": "Oct 2023 (Oct BOD)",
+      "sheet_count": 57,
+      "bu_tab": "BU beta"
+    },
+    "file_3": {
+      "filename": "Daily Cash Fcst - 11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx",
+      "date": "2023-11-14",
+      "label": "Nov 2023 (Nov BOD)",
+      "sheet_count": 61,
+      "sheets_sample": [
+        "Net Cash Flow",
+        "Cash Flow",
+        "BU beta",
+        "HS FY23 Inflows_11.12.23",
+        "HS FY24 Inflows_11.13.23",
+        "BU HS Allocations",
+        "KCD backup_11.13.23",
+        "Treasury SUMMARY 11.14",
+        "Liquidity"
+      ],
+      "bu_tab": "BU beta",
+      "bupnl_note": "BUPNL in filename = 'BU HS Allocations' sheet \u2014 Home Services P&L by sub-unit (IHR, SHIP, Parts Direct, SC) with FY23 actuals and FY24 forecast for both inflows and disbursements."
+    },
+    "file_4": {
+      "filename": "Daily Cash Fcst - 7.23.24_deck_JulBOD_FY25.xlsx",
+      "date": "2024-07-23",
+      "label": "Jul 2024 (Jul BOD)",
+      "sheet_count": 82,
+      "bu_tab": "BU beta"
+    },
+    "file_5": {
+      "filename": "Daily Cash Fcst - 04.21.26_ BU version_deck version_AprBOD.xlsx",
+      "date": "2026-04-21",
+      "label": "Apr 2026 (Apr BOD)",
+      "sheet_count": 51,
+      "sheets_sample": [
+        "RE & Debt init with Manteno",
+        "SOP",
+        "KES & KCD Cash Flow",
+        "Cash Flow",
+        "Disbursement Actuals",
+        "Disbursement Detail",
+        "Treasury SUMMARY 4.21",
+        "BU beta",
+        "BU HS Allocations 4.14.26",
+        "KCD backup_4.10.26BR"
+      ],
+      "bu_tab": "BU beta"
+    },
+    "file_6": {
+      "filename": "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+      "date": "2026-05-08",
+      "label": "May 2026 (most recent)",
+      "sheet_count": 48,
+      "bu_tab": "BU beta"
+    }
+  },
+  "key_finding_what_is_bu_view": {
+    "answer": "BU view means the 'BU beta' sheet contains a SINGLE UNIFIED cash flow model organized as AGGREGATE ROWS by Business Unit \u2014 NOT separate column sections for each BU. The Cash Flow sheet is the standard consolidated daily cash flow with no BU columns whatsoever.",
+    "bu_beta_structure": "Rows = line items (inflows by BU, then disbursements by cost category). Columns = monthly time periods (actuals + forecast). Multiple fiscal years shown side by side with a FY total column per year. Same layout across all 6 files though column positions shift as more history is added.",
+    "cash_flow_sheet_structure": "Rows = daily dates. Columns = consolidated cash metrics only: Operating CF, Non-Op CF, Net Change, Available Cash, Segregated Account, Unavailable Cash, Total Cash, Equity tranches, Revolver-DIP, Surplus/Deficit metrics, Previous forecast comparison, Term Loan tranche balances. Zero BU breakdown in Cash Flow sheet.",
+    "bupnl_finding": "BUPNL label in Nov 2023 filename corresponds to 'BU HS Allocations' sheet \u2014 the closest available BU P&L, showing Home Services broken into IHR, SHIP, Parts Direct, and Supply Chain sub-units with full inflow and outflow detail."
+  },
+  "cash_flow_column_map_most_recent_file": {
+    "source": "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+    "sheet": "Cash Flow",
+    "columns": {
+      "A": "Date",
+      "B": "Day of week",
+      "C": "Month name",
+      "D": "Week number",
+      "E": "Operating Cash Flows (daily net)",
+      "F": "Non-Operating Cash Flows",
+      "G": "Net Cash Flow",
+      "H": "Equity/ABL injection (misc)",
+      "I": "Net Change in Cash (running)",
+      "J": "Net Change in Cash (alternate)",
+      "K": "Available Cash",
+      "L": "AC (No HTS) - Available Cash excl HTS prefunds",
+      "M": "Segregated Account balance",
+      "N": "Unavailable Cash",
+      "O": "Total Cash (Available + Unavailable)",
+      "P": "TopCo Undrawn Equity",
+      "Q": "April 2022 $110M PPM - Uncommitted Equity",
+      "R": "June 2022 $140M offering - Uncommitted Equity",
+      "S": "August 2022 $120M offering - Uncommitted Equity",
+      "T": "Revolver - DIP",
+      "U": "Cash Surplus/(Deficit) including Asset Sales",
+      "V": "Cash Surplus/(Deficit)",
+      "W": "LC Opportunities",
+      "X": "Cash Surplus/(Deficit) + LC Opportunities",
+      "Y": "Cash Requirement",
+      "Z": "Previous Surplus/(Deficit)",
+      "AA": "Variance vs. Previous Forecast",
+      "AB": "Tranche 1 Principal",
+      "AC": "Tranche 2 Principal",
+      "AD": "Tranche 3 Principal",
+      "AE": "Tranche 4 Principal",
+      "AF": "Cyrus Term Loan",
+      "AG": "Tranche 6 Principal",
+      "AH": "Tranche 7 Principal",
+      "AI": "Tranche 8 Principal",
+      "AJ": "Tranche 9 Principal",
+      "AK": "Tranche 10 Principal",
+      "AL": "Tranche 11 Principal",
+      "AM": "Cyrus $55M Term Loan",
+      "AN": "ESL $15M Term Loan"
+    },
+    "no_bu_columns": true,
+    "note": "Cash Flow sheet is fully consolidated \u2014 no Business Unit columns. BU data is entirely in BU beta sheet."
+  },
+  "bu_inflows_by_year": {
+    "description": "Operating inflows by Business Unit across fiscal years ($M). FY = Feb-Jan. Sources cited per data point.",
+    "Sears_Stores": {
+      "FY22_from_Sep22file": 205.74,
+      "FY22_from_Nov23file": 203.01,
+      "FY23_from_Nov23file": 121.72,
+      "FY23_from_Jul24file": 83.86,
+      "FY24_from_Jul24file": 59.37,
+      "FY24_from_Apr26file": 52.2,
+      "FY25_from_Jul24file": 43.49,
+      "FY25_from_Apr26file": 25.66,
+      "FY26_forecast_from_May26file": 15.29,
+      "FY27_forecast_from_May26file": 15.96
+    },
+    "Kmart_Stores": {
+      "FY22_from_Sep22file": 149.58,
+      "FY22_from_Nov23file": 142.81,
+      "FY23_from_Nov23file": 137.84,
+      "FY23_from_Jul24file": 135.06,
+      "FY24_from_Jul24file": 131.38,
+      "FY24_from_Apr26file": 113.24,
+      "FY25_from_Jul24file": 146.72,
+      "FY25_from_Apr26file": 89.68,
+      "FY26_forecast_from_May26file": 83.06,
+      "FY27_forecast_from_May26file": 83.57
+    },
+    "Home_Services": {
+      "FY22_from_Sep22file": 781.08,
+      "FY22_from_Nov23file": 725.0,
+      "FY23_from_Nov23file": 645.64,
+      "FY23_from_Jul24file": 627.93,
+      "FY24_from_Jul24file": 623.52,
+      "FY24_from_Apr26file": 487.5,
+      "FY25_from_Jul24file": 679.89,
+      "FY25_from_Apr26file": 370.34,
+      "FY26_forecast_from_May26file": 366.64,
+      "FY27_forecast_from_May26file": 418.15,
+      "note": "FY24 discrepancy between Jul24 ($623M) and Apr26 ($487M) files suggests scope reduction or methodology change between filings."
+    },
+    "KCD": {
+      "FY22_from_Sep22file": 23.86,
+      "FY22_from_Nov23file": 25.27,
+      "FY23_from_Nov23file": 6.15,
+      "FY23_from_Jul24file": 8.01,
+      "FY24_from_Jul24file": 3.6,
+      "FY24_from_Apr26file": 5.73,
+      "FY25_from_Apr26file": 5.21,
+      "FY26_forecast_from_May26file": 42.22,
+      "FY27_forecast_from_May26file": 77.23
+    },
+    "Supply_Chain": {
+      "FY22_from_Sep22file": 59.28,
+      "FY22_from_Nov23file": 63.76,
+      "FY23_from_Nov23file": 61.17,
+      "FY23_from_Jul24file": 59.26,
+      "FY24_from_Jul24file": 34.21,
+      "FY24_from_Apr26file": 28.27,
+      "FY25_from_Apr26file": 29.64,
+      "FY26_forecast_from_May26file": 33.1,
+      "FY27_forecast_from_May26file": 35.44
+    },
+    "CITI_Reimbursement": {
+      "FY22_from_Sep22file": 82.87,
+      "FY23_from_Jul24file": 82.93,
+      "FY24_from_Jul24file": 52.73,
+      "FY24_from_Apr26file": 52.45,
+      "FY25_from_Apr26file": 47.58,
+      "FY26_forecast_from_May26file": 4.81,
+      "FY27_forecast_from_May26file": null
+    },
+    "Cross_Country_Home_Services": {
+      "FY22_from_Sep22file": 62.71,
+      "FY22_from_Nov23file": 62.18,
+      "FY23_from_Nov23file": 53.14,
+      "FY23_from_Jul24file": 55.56,
+      "FY24_from_Jul24file": 34.32,
+      "FY24_from_Apr26file": 34.24,
+      "FY25_from_Apr26file": 19.65,
+      "FY26_forecast_from_May26file": 6.4,
+      "FY27_forecast_from_May26file": 0.21
+    },
+    "HTS_Sears_Home_Improvement": {
+      "FY22_from_Sep22file": 140.89,
+      "FY23_from_Nov23file": null,
+      "FY24_and_beyond": null,
+      "note": "HTS was major BU ($141M FY22) \u2014 phased out or merged into Home Services by FY24. Not present in 2026 files."
+    },
+    "Monark": {
+      "FY22_from_Sep22file": 34.8,
+      "FY23_from_Nov23file": null,
+      "FY26_from_May26file": 0,
+      "note": "Fully wound down by FY26."
+    },
+    "Online": {
+      "FY24_from_Apr26file": 19.09,
+      "FY25_from_Apr26file": 11.0,
+      "FY26_forecast_from_May26file": 14.73,
+      "FY27_forecast_from_May26file": 15.73,
+      "note": "Emerged as standalone BU in recent files. Not present in Sep22 model."
+    },
+    "Sears_Mexico_KCD": {
+      "FY22_from_Sep22file": 8.79,
+      "FY22_from_Nov23file": 9.14,
+      "FY23_from_Nov23file": 20.37,
+      "FY23_from_Jul24file": 22.92,
+      "FY24_from_Jul24file": 17.91,
+      "FY25_from_Apr26file": 16.85,
+      "FY26_forecast_from_May26file": 9.78,
+      "FY27_forecast_from_May26file": null
+    }
+  },
+  "total_operating_inflows": {
+    "description": "Total operating inflows (excl. interco eliminations) \u2014 consolidated across all BUs ($M)",
+    "FY22_from_Sep22file": 1601.45,
+    "FY22_from_Nov23file": 1518.85,
+    "FY23_from_Nov23file": 1151.31,
+    "FY23_from_Jul24file": 1137.52,
+    "FY24_from_Jul24file": 1023.75,
+    "FY24_from_Apr26_May26file": 835.68,
+    "FY25_from_Jul24file": 1045.07,
+    "FY25_from_Apr26_May26file": 632.19,
+    "FY26_forecast_from_May26file": 610.97,
+    "FY27_forecast_from_May26file": 766.87,
+    "total_inflows_incl_asset_sales_debt": {
+      "FY22_from_Sep22file": 1739.77,
+      "FY22_from_Nov23file": 1707.31,
+      "FY23_from_Nov23file": 1325.12,
+      "FY23_from_Jul24file": 1343.02,
+      "FY24_from_Jul24file": 1257.73,
+      "FY24_from_Apr26_May26file": 1288.72,
+      "FY25_from_Jul24file": 1128.03,
+      "FY25_from_May26file": 877.75,
+      "FY26_forecast_from_May26file": 738.42,
+      "FY27_forecast_from_May26file": 891.88
+    }
+  },
+  "disbursements": {
+    "direct_payroll_1a": {
+      "FY22_from_Sep22file": -390.73,
+      "FY22_from_Nov23file": -386.73,
+      "FY23_from_Nov23file": -360.62,
+      "FY23_from_Jul24file": -357.9,
+      "FY24_from_Jul24file": -333.15,
+      "FY24_from_Apr26_May26file": -309.6,
+      "FY25_from_Jul24file": -316.98,
+      "FY25_from_May26file": -228.86,
+      "FY26_forecast_from_May26file": -195.56,
+      "FY27_forecast_from_May26file": -209.53
+    },
+    "total_payroll_incl_backoffice": {
+      "FY22_from_Sep22file": -439.16,
+      "FY24_from_Apr26_May26file": -347.21,
+      "FY25_from_May26file": -258.98,
+      "FY26_forecast_from_May26file": -221.3,
+      "FY27_forecast_from_May26file": -235.89
+    },
+    "grand_total_merch_disbursements": {
+      "FY22_from_Sep22file": -466.19,
+      "FY22_from_Nov23file": -419.63,
+      "FY23_from_Nov23file": -268.92,
+      "FY23_from_Jul24file": -268.42,
+      "FY24_from_Jul24file": -270.15,
+      "FY24_from_Apr26_May26file": -225.84,
+      "FY25_from_Jul24file": -278.4,
+      "FY25_from_May26file": -150.93,
+      "FY26_forecast_from_May26file": -146.97,
+      "FY27_forecast_from_May26file": -176.66
+    },
+    "merch_total_incl_pcard_sl_ship": {
+      "FY22_from_Sep22file": -529.53,
+      "FY23_from_Nov23file": null,
+      "FY24_from_Apr26file": -245.02,
+      "FY25_from_May26file": -164.96,
+      "FY26_forecast_from_May26file": -166.64,
+      "FY27_forecast_from_May26file": -224.93
+    },
+    "home_services_merch_only": {
+      "FY22_from_Sep22file": -121.03,
+      "FY22_from_Nov23file": -125.5,
+      "FY23_from_Nov23file": -134.09,
+      "FY23_from_Jul24file": -131.89,
+      "FY24_from_Jul24file": -125.61,
+      "FY24_from_Apr26_May26file": -98.47,
+      "FY25_from_Jul24file": -131.36,
+      "FY25_from_May26file": -71.24,
+      "FY26_forecast_from_May26file": -67.05,
+      "FY27_forecast_from_May26file": -77.48
+    },
+    "kcd_merch": {
+      "FY22_from_Sep22file": -30.2,
+      "FY22_from_Nov23file": -25.46,
+      "FY23_from_Nov23file": -6.17,
+      "FY24_from_Jul24file": -30.43,
+      "FY24_from_Apr26_May26file": -28.14,
+      "FY25_from_May26file": -7.88,
+      "FY26_forecast_from_May26file": -16.05,
+      "FY27_forecast_from_May26file": -35.35
+    },
+    "assurant_home_warranty": {
+      "FY22_from_Nov23file": -100.57,
+      "FY23_from_Nov23file": -52.23,
+      "FY24_from_Apr26_May26file": -10.88,
+      "FY25_from_May26file": -4.96,
+      "FY26_forecast_from_May26file": -2.69,
+      "FY27_forecast_from_May26file": -0.48
+    }
+  },
+  "net_operating_cash_flow": {
+    "direct_net_operating_cf": {
+      "description": "BU-direct inflows minus BU-direct costs, before shared/corp overhead",
+      "FY22_from_Sep22file": 291.68,
+      "FY22_from_Nov23file": 285.26,
+      "FY23_from_Nov23file": 210.53,
+      "FY23_from_Jul24file": 213.26,
+      "FY24_from_Jul24file": 190.05,
+      "FY24_from_Apr26_May26file": 89.86,
+      "FY25_from_Jul24file": 230.93,
+      "FY25_from_May26file": 88.04,
+      "FY26_forecast_from_May26file": 97.97,
+      "FY27_forecast_from_May26file": 137.24
+    },
+    "net_operating_cf_after_all_indirect": {
+      "description": "After indirect and shared costs \u2014 bottom-line operating cash burn or generation",
+      "FY24_from_Apr26_May26file": -157.85,
+      "FY25_from_May26file": -85.17,
+      "FY26_forecast_from_May26file": -30.61,
+      "FY27_forecast_from_May26file": 15.96,
+      "note": "Clear improving trend toward cash flow breakeven \u2014 FY26 near breakeven, FY27 turns modestly positive"
+    }
+  },
+  "bupnl_home_services_sub_unit_breakdown": {
+    "source": "Daily Cash Fcst - 11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx",
+    "sheet": "BU HS Allocations",
+    "description": "Most granular BU P&L available \u2014 Home Services broken into sub-units",
+    "inflows_FY23_actual_USD_M": {
+      "IHR_B2B_Vendor_Payments": 300.8,
+      "IHR_D2C_and_B2B_HW_PA_Deductibles": 120.7,
+      "Supply_Chain": 155.9,
+      "SHIP": 38.6,
+      "Parts_Direct": 73.8,
+      "Misc_incl_Franchise_Taxes": 4.7,
+      "Adjustments": 3.8,
+      "Total_HS": 698.3
+    },
+    "inflows_FY24_forecast_USD_M": {
+      "IHR_B2B_Vendor_Payments": 433.3,
+      "IHR_D2C_and_B2B_HW_PA_Deductibles": 145.3,
+      "Supply_Chain": 140.8,
+      "SHIP": 73.0,
+      "Parts_Direct": 82.3,
+      "Misc_incl_Franchise_Taxes": 17.2,
+      "Adjustments": 3.5,
+      "Total_HS": 895.4
+    },
+    "outflows_payroll_FY23_USD_M": {
+      "Home_Services_direct": -258.8,
+      "Service_Live": -1.31,
+      "Back_office": -19.77,
+      "Total_payroll": -277.6
+    },
+    "outflows_payroll_FY24_forecast_USD_M": {
+      "Home_Services_direct": -307.35,
+      "Service_Live": -0.96,
+      "Back_office": -19.42,
+      "Total_payroll": -327.73
+    },
+    "outflows_merch_FY23_USD_M": {
+      "Home_Services_core_merch": -134.09,
+      "P_card_HS_parts_inventory": -13.97,
+      "ServicePower_Merch": -9.05,
+      "SHIP_Merch": -15.22,
+      "Contractors_1099": -11.76,
+      "Total_3_merch_disbursements": -173.01
+    },
+    "outflows_merch_FY24_forecast_USD_M": {
+      "Home_Services_core_merch": -182.12,
+      "P_card_HS_parts_inventory": -18.57,
+      "ServicePower_Merch": -5.29,
+      "SHIP_Merch": -20.67,
+      "Contractors_1099": -14.81,
+      "Total_3_merch_disbursements": -226.64
+    }
+  },
+  "bu_comparison_fy22_vs_fy26": {
+    "description": "Sep 2022 (FY22 actual) vs May 2026 (FY26 forecast) \u2014 BU inflow comparison",
+    "methodology": "FY22 full-year actuals from Sep22 file BU beta vs FY26 forecast from May26 file BU beta (col 12)",
+    "comparisons": [
+      {
+        "bu": "Home Services",
+        "fy22": 781.08,
+        "fy26": 366.64,
+        "change_pct": -53.1,
+        "verdict": "CONTRACTED - lost half its inflows"
+      },
+      {
+        "bu": "Kmart Stores",
+        "fy22": 149.58,
+        "fy26": 83.06,
+        "change_pct": -44.5,
+        "verdict": "CONTRACTED - relatively resilient vs Sears"
+      },
+      {
+        "bu": "Sears Stores",
+        "fy22": 205.74,
+        "fy26": 15.29,
+        "change_pct": -92.6,
+        "verdict": "NEAR-ELIMINATED"
+      },
+      {
+        "bu": "Supply Chain",
+        "fy22": 59.28,
+        "fy26": 33.1,
+        "change_pct": -44.2,
+        "verdict": "CONTRACTED - nearly halved"
+      },
+      {
+        "bu": "CITI Reimbursement",
+        "fy22": 82.87,
+        "fy26": 4.81,
+        "change_pct": -94.2,
+        "verdict": "NEAR-ELIMINATED - Citi credit card partnership ended"
+      },
+      {
+        "bu": "Cross Country HS",
+        "fy22": 62.71,
+        "fy26": 6.4,
+        "change_pct": -89.8,
+        "verdict": "NEAR-ELIMINATED - exiting"
+      },
+      {
+        "bu": "HTS / Sears Home Improvement",
+        "fy22": 140.89,
+        "fy26": null,
+        "change_pct": null,
+        "verdict": "ELIMINATED - not present in 2026 files"
+      },
+      {
+        "bu": "Monark",
+        "fy22": 34.8,
+        "fy26": 0,
+        "change_pct": -100.0,
+        "verdict": "ELIMINATED"
+      },
+      {
+        "bu": "KCD",
+        "fy22": 23.86,
+        "fy26": 42.22,
+        "change_pct": 76.9,
+        "verdict": "GROWN - only major BU with positive trajectory; FY27 forecast $77.2M = 223% above FY22"
+      },
+      {
+        "bu": "Online",
+        "fy22": null,
+        "fy26": 14.73,
+        "change_pct": null,
+        "verdict": "NEW BU - emerged as standalone, small but stable"
+      }
+    ],
+    "total_operating_inflows": {
+      "fy22": 1601.45,
+      "fy26_forecast": 610.97,
+      "change_pct": -61.8,
+      "narrative": "Total operating inflows fell 62% from FY22 to FY26 forecast. The business is restructuring to a much smaller core centered on Home Services and Kmart. KCD is the lone growth story."
+    }
+  },
+  "analytical_observations": [
+    "BU STRUCTURE: The BU beta sheet is the exclusive vehicle for BU-level cash analysis. It runs the same row structure across all 6 files (Sears Stores, Kmart, Home Services, KCD, Supply Chain, CITI, Cross Country, etc.) with monthly time-series columns.",
+    "CASH FLOW SHEET: Entirely consolidated \u2014 no BU breakdown. ~40 columns track daily operating cash flows, available/unavailable cash buckets, debt tranches, and liquidity surplus/deficit metrics.",
+    "KCD TRANSFORMATION: KCD inflows collapsed FY22-FY25 (loss of Sears internal transactions) then projected to surge to $42M FY26 and $77M FY27 \u2014 likely reflecting a new external brand licensing/royalty strategy.",
+    "HOME SERVICES DOMINANCE: HS was 47-49% of total operating inflows in FY22 and remains ~60% of the much smaller FY26 base \u2014 still the core business.",
+    "PAYROLL REDUCTION: Direct payroll fell from -$391M FY22 to -$196M FY26 (50% reduction) \u2014 tracking the revenue decline roughly proportionally.",
+    "ASSURANT EXIT: Home Services Assurant payments fell from -$101M FY22 to -$0.5M FY27 \u2014 the Assurant warranty partnership is essentially wound down.",
+    "IMPROVING CASH TRAJECTORY: Net Operating CF after all costs went from -$158M FY24 to -$85M FY25 to -$31M FY26 to +$16M FY27 \u2014 the business is approaching operational cash flow breakeven.",
+    "BUPNL FINDING: The Nov 2023 file contains a 'BU HS Allocations' sheet that provides the only sub-BU P&L available across all 6 files, breaking Home Services into IHR (largest, 60%+ of HS inflows), SHIP, Supply Chain, and Parts Direct.",
+    "DATA CONSISTENCY: FY24 Home Services inflows show $624M in the Jul24 file vs $488M in the Apr26 file \u2014 a $136M discrepancy suggesting scope change or business dispositions between filings.",
+    "SEARS STORES COLLAPSE: Sears B&M retail inflows fell 93% from $206M FY22 to $15M FY26 \u2014 the physical retail stores are effectively gone."
+  ]
+}

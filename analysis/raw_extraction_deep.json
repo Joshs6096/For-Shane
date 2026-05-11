@@ -1,0 +1,2010 @@
+[
+  {
+    "filename": "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx",
+    "file_date": "2026-01-16",
+    "error": null,
+    "as_of": "2026-01-16",
+    "as_of_avail_cash_M": 2.48,
+    "as_of_total_cash_M": 90.156,
+    "as_of_unavail_cash_M": 82.434,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-01-21",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-01-21",
+        "to": "2026-04-16"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-01-20",
+        "avail_M": 0.846
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-01-21",
+    "fwd180d_zero_days": 126,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-01-21",
+        "to": "2026-07-15"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.995,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-01-20",
+        "avail_M": 0.846
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 02.17.26_BU view_deck version.xlsx",
+    "file_date": "2026-02-17",
+    "error": null,
+    "as_of": "2026-02-17",
+    "as_of_avail_cash_M": 3.74,
+    "as_of_total_cash_M": 91.356,
+    "as_of_unavail_cash_M": 82.374,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-02-23",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-02-23",
+        "to": "2026-05-18"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-02-19",
+        "avail_M": 1.472
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-02-23",
+    "fwd180d_zero_days": 125,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-02-23",
+        "to": "2026-08-14"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.08,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-02-19",
+        "avail_M": 1.472
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+    "file_date": "2026-03-03",
+    "error": null,
+    "as_of": "2026-03-03",
+    "as_of_avail_cash_M": 6.52,
+    "as_of_total_cash_M": 95.013,
+    "as_of_unavail_cash_M": 83.251,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-03-11",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-03-11",
+        "to": "2026-06-01"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-03-10",
+        "avail_M": 1.788
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-03-11",
+    "fwd180d_zero_days": 123,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-03-11",
+        "to": "2026-08-28"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.946,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-03-10",
+        "avail_M": 1.788
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 03.31.26_BU view_deck version.xlsx",
+    "file_date": "2026-03-31",
+    "error": null,
+    "as_of": "2026-03-31",
+    "as_of_avail_cash_M": 1.84,
+    "as_of_total_cash_M": 88.647,
+    "as_of_unavail_cash_M": 81.565,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-04-02",
+    "near90d_zero_days": 63,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-04-02",
+        "to": "2026-06-29"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-04-01",
+        "avail_M": 0.125
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-04-02",
+    "fwd180d_zero_days": 127,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-04-02",
+        "to": "2026-09-25"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.465,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-04-01",
+        "avail_M": 0.125
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 04.21.26_ BU version_deck version_AprBOD.xlsx",
+    "file_date": "2026-04-21",
+    "error": null,
+    "as_of": "2026-04-21",
+    "as_of_avail_cash_M": 4.26,
+    "as_of_total_cash_M": 91.701,
+    "as_of_unavail_cash_M": 82.199,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-04-24",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-04-24",
+        "to": "2026-07-20"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-04-22",
+        "avail_M": 0.798
+      },
+      {
+        "date": "2026-04-23",
+        "avail_M": 0.528
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-04-24",
+    "fwd180d_zero_days": 126,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-04-24",
+        "to": "2026-10-16"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.482,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-04-22",
+        "avail_M": 0.798
+      },
+      {
+        "date": "2026-04-23",
+        "avail_M": 0.528
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 05.05.26_BU view_deck version.xlsx",
+    "file_date": "2026-05-05",
+    "error": null,
+    "as_of": "2026-05-05",
+    "as_of_avail_cash_M": 3.25,
+    "as_of_total_cash_M": 92.727,
+    "as_of_unavail_cash_M": 84.236,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-05-11",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-05-11",
+        "to": "2026-08-03"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-05-06",
+        "avail_M": 0.833
+      },
+      {
+        "date": "2026-05-07",
+        "avail_M": 0.456
+      },
+      {
+        "date": "2026-05-08",
+        "avail_M": 0.933
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-05-11",
+    "fwd180d_zero_days": 125,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-05-11",
+        "to": "2026-10-30"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.962,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-05-06",
+        "avail_M": 0.833
+      },
+      {
+        "date": "2026-05-07",
+        "avail_M": 0.456
+      },
+      {
+        "date": "2026-05-08",
+        "avail_M": 0.933
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+    "file_date": "2026-05-08",
+    "error": null,
+    "as_of": "2026-05-08",
+    "as_of_avail_cash_M": 1.51,
+    "as_of_total_cash_M": 89.588,
+    "as_of_unavail_cash_M": 82.836,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-05-13",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-05-13",
+        "to": "2026-08-06"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2026-05-11",
+        "avail_M": 1.366
+      },
+      {
+        "date": "2026-05-12",
+        "avail_M": 0.749
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-05-13",
+    "fwd180d_zero_days": 126,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-05-13",
+        "to": "2026-11-04"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.443,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2026-05-11",
+        "avail_M": 1.366
+      },
+      {
+        "date": "2026-05-12",
+        "avail_M": 0.749
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 1.17.23_BU view_JanBOD.xlsx",
+    "file_date": "2023-01-17",
+    "error": null,
+    "as_of": "2023-01-17",
+    "as_of_avail_cash_M": 72.63,
+    "as_of_total_cash_M": 286.353,
+    "as_of_unavail_cash_M": 207.678,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-02-28",
+    "near90d_zero_days": 24,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-02-28",
+        "to": "2023-03-31"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-02-28",
+    "fwd180d_zero_days": 24,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-02-28",
+        "to": "2023-03-31"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -3.291,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+    "file_date": "2025-01-21",
+    "error": null,
+    "as_of": "2025-01-21",
+    "as_of_avail_cash_M": 4.43,
+    "as_of_total_cash_M": 135.336,
+    "as_of_unavail_cash_M": 125.664,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-01-29",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-01-29",
+        "to": "2025-04-21"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-01-24",
+        "avail_M": 0.982
+      },
+      {
+        "date": "2025-01-27",
+        "avail_M": 1.702
+      },
+      {
+        "date": "2025-01-28",
+        "avail_M": 1.673
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-01-29",
+    "fwd180d_zero_days": 68,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-01-29",
+        "to": "2025-05-02"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.551,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-01-24",
+        "avail_M": 0.982
+      },
+      {
+        "date": "2025-01-27",
+        "avail_M": 1.702
+      },
+      {
+        "date": "2025-01-28",
+        "avail_M": 1.673
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+    "file_date": "2024-01-23",
+    "error": null,
+    "as_of": "2024-01-23",
+    "as_of_avail_cash_M": 38.95,
+    "as_of_total_cash_M": 165.568,
+    "as_of_unavail_cash_M": 120.785,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-03-01",
+    "near90d_zero_days": 37,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-03-01",
+        "to": "2024-04-22"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2024-02-29",
+        "avail_M": 0.636
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-03-01",
+    "fwd180d_zero_days": 46,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-03-01",
+        "to": "2024-05-03"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.702,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2024-02-29",
+        "avail_M": 0.636
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 1.31.23_BU view_Bohemia Adj New Methodology_Use for FY23a.xlsx",
+    "file_date": "2023-01-31",
+    "error": null,
+    "as_of": "2023-01-31",
+    "as_of_avail_cash_M": 65.19,
+    "as_of_total_cash_M": 271.271,
+    "as_of_unavail_cash_M": 200.036,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-02-28",
+    "near90d_zero_days": 22,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-02-28",
+        "to": "2023-03-31"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2023-03-01",
+        "avail_M": 0.131
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-02-28",
+    "fwd180d_zero_days": 22,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-02-28",
+        "to": "2023-03-31"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.595,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2023-03-01",
+        "avail_M": 0.131
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 10.15.24_BU view_deck version_OctBOD.xlsx",
+    "file_date": "2024-10-15",
+    "error": null,
+    "as_of": "2024-10-15",
+    "as_of_avail_cash_M": 10.33,
+    "as_of_total_cash_M": 116.999,
+    "as_of_unavail_cash_M": 101.427,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-10-18",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-10-18",
+        "to": "2025-01-13"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2024-10-21",
+        "avail_M": 0.122
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-10-18",
+    "fwd180d_zero_days": 75,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-10-18",
+        "to": "2025-01-31"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.622,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2024-10-21",
+        "avail_M": 0.122
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 10.18.22_BU view_BOD.xlsx",
+    "file_date": "2022-10-18",
+    "error": null,
+    "as_of": "2022-10-18",
+    "as_of_avail_cash_M": 7.08,
+    "as_of_total_cash_M": 208.819,
+    "as_of_unavail_cash_M": 195.694,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2022-10-24",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2022-10-24",
+        "to": "2023-01-16"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2022-10-24",
+    "fwd180d_zero_days": 70,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2022-10-24",
+        "to": "2023-01-27"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -4.331,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 10.21.25_BU view_deck version_OctBOD.xlsx",
+    "file_date": "2025-10-21",
+    "error": null,
+    "as_of": "2025-10-21",
+    "as_of_avail_cash_M": 4.47,
+    "as_of_total_cash_M": 98.535,
+    "as_of_unavail_cash_M": 88.823,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-10-24",
+    "near90d_zero_days": 60,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-10-24",
+        "to": "2026-01-19"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-10-22",
+        "avail_M": 0.303
+      },
+      {
+        "date": "2025-10-23",
+        "avail_M": 0.242
+      },
+      {
+        "date": "2025-11-03",
+        "avail_M": 0.35
+      },
+      {
+        "date": "2025-11-04",
+        "avail_M": 0.733
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-10-24",
+    "fwd180d_zero_days": 124,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-10-24",
+        "to": "2026-04-17"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.472,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-10-22",
+        "avail_M": 0.303
+      },
+      {
+        "date": "2025-10-23",
+        "avail_M": 0.242
+      },
+      {
+        "date": "2025-11-03",
+        "avail_M": 0.35
+      },
+      {
+        "date": "2025-11-04",
+        "avail_M": 0.733
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 10.24.23_BU view_HS retail interco_OctBOD.xlsx",
+    "file_date": "2023-10-24",
+    "error": null,
+    "as_of": "2023-10-24",
+    "as_of_avail_cash_M": 55.44,
+    "as_of_total_cash_M": 188.867,
+    "as_of_unavail_cash_M": 127.594,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-10-30",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-10-30",
+        "to": "2024-01-22"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-10-30",
+    "fwd180d_zero_days": 70,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-10-30",
+        "to": "2024-02-02"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -19.788,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 11.12.24_BU view_deck version_NovBOD.xlsx",
+    "file_date": "2024-11-12",
+    "error": null,
+    "as_of": "2024-11-12",
+    "as_of_avail_cash_M": 12.33,
+    "as_of_total_cash_M": 123.147,
+    "as_of_unavail_cash_M": 105.575,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-11-14",
+    "near90d_zero_days": 57,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-11-14",
+        "to": "2025-01-31"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-11-14",
+    "fwd180d_zero_days": 57,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-11-14",
+        "to": "2025-01-31"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -4.803,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx",
+    "file_date": "2023-11-14",
+    "error": null,
+    "as_of": "2023-11-14",
+    "as_of_avail_cash_M": 33.33,
+    "as_of_total_cash_M": 174.31,
+    "as_of_unavail_cash_M": 135.148,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-11-30",
+    "near90d_zero_days": 53,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-11-30",
+        "to": "2024-02-12"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-11-30",
+    "fwd180d_zero_days": 67,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-11-30",
+        "to": "2024-03-01"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -5.481,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 11.16.22_BU view_NovBOD.xlsx",
+    "file_date": "2022-11-16",
+    "error": null,
+    "as_of": "2022-11-16",
+    "as_of_avail_cash_M": 29.92,
+    "as_of_total_cash_M": 225.082,
+    "as_of_unavail_cash_M": 189.117,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2022-12-30",
+    "near90d_zero_days": 21,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2022-12-30",
+        "to": "2023-01-27"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2022-12-30",
+    "fwd180d_zero_days": 21,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2022-12-30",
+        "to": "2023-01-27"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -8.299,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 11.18.25_BU view_deck version_NovBOD no meeting.xlsx",
+    "file_date": "2025-11-18",
+    "error": null,
+    "as_of": "2025-11-18",
+    "as_of_avail_cash_M": 8.54,
+    "as_of_total_cash_M": 99.914,
+    "as_of_unavail_cash_M": 86.133,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-11-20",
+    "near90d_zero_days": 63,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-11-20",
+        "to": "2026-02-16"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-11-19",
+        "avail_M": 0.375
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-11-20",
+    "fwd180d_zero_days": 127,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-11-20",
+        "to": "2026-05-15"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -3.46,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-11-19",
+        "avail_M": 0.375
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 12.10.24_BU view_deck version_BOD_SC wo 3 RE Interco IF_$9M.xlsx",
+    "file_date": "2024-12-10",
+    "error": null,
+    "as_of": "2024-12-10",
+    "as_of_avail_cash_M": 13.52,
+    "as_of_total_cash_M": 129.514,
+    "as_of_unavail_cash_M": 110.752,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-12-13",
+    "near90d_zero_days": 54,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-12-13",
+        "to": "2025-02-28"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-12-13",
+    "fwd180d_zero_days": 54,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-12-13",
+        "to": "2025-02-28"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.097,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 12.15.25_BU view_DecBOD.xlsx",
+    "file_date": "2025-12-15",
+    "error": null,
+    "as_of": "2025-12-15",
+    "as_of_avail_cash_M": 4.64,
+    "as_of_total_cash_M": 92.972,
+    "as_of_unavail_cash_M": 83.09,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-12-17",
+    "near90d_zero_days": 63,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-12-17",
+        "to": "2026-03-13"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-12-17",
+    "fwd180d_zero_days": 128,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-12-17",
+        "to": "2026-06-12"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.248,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 12.30.22_BU view.xlsx",
+    "file_date": "2022-12-30",
+    "error": null,
+    "as_of": "2022-12-30",
+    "as_of_avail_cash_M": 6.31,
+    "as_of_total_cash_M": 191.719,
+    "as_of_unavail_cash_M": 179.365,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-01-04",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-01-04",
+        "to": "2023-03-30"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-01-04",
+    "fwd180d_zero_days": 63,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-01-04",
+        "to": "2023-03-31"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.916,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 12.30.25_BU view_deck version final.xlsx",
+    "file_date": "2025-12-30",
+    "error": null,
+    "as_of": "2025-12-30",
+    "as_of_avail_cash_M": 1.21,
+    "as_of_total_cash_M": 88.668,
+    "as_of_unavail_cash_M": 82.216,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2026-01-02",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2026-01-02",
+        "to": "2026-03-30"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-12-31",
+        "avail_M": 1.124
+      },
+      {
+        "date": "2026-01-01",
+        "avail_M": 1.124
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2026-01-02",
+    "fwd180d_zero_days": 126,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2026-01-02",
+        "to": "2026-06-26"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.008,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-12-31",
+        "avail_M": 1.124
+      },
+      {
+        "date": "2026-01-01",
+        "avail_M": 1.124
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 12.31.24_BU view.xlsx",
+    "file_date": "2024-12-31",
+    "error": null,
+    "as_of": "2024-12-31",
+    "as_of_avail_cash_M": 6.76,
+    "as_of_total_cash_M": 135.304,
+    "as_of_unavail_cash_M": 123.302,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-01-03",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-01-03",
+        "to": "2025-03-31"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-01-03",
+    "fwd180d_zero_days": 66,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-01-03",
+        "to": "2025-04-04"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.273,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 12.7.22_BU view_DecBOD Treasury_liquidity update final.xlsx",
+    "file_date": "2022-12-07",
+    "error": null,
+    "as_of": "2022-12-07",
+    "as_of_avail_cash_M": 34.57,
+    "as_of_total_cash_M": 230.371,
+    "as_of_unavail_cash_M": 189.756,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2022-12-30",
+    "near90d_zero_days": 21,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2022-12-30",
+        "to": "2023-01-27"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2022-12-30",
+    "fwd180d_zero_days": 21,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2022-12-30",
+        "to": "2023-01-27"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -4.133,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 2.18.25_BU view_deck version_FebBOD.xlsx",
+    "file_date": "2025-02-18",
+    "error": null,
+    "as_of": "2025-02-18",
+    "as_of_avail_cash_M": 5.38,
+    "as_of_total_cash_M": 101.895,
+    "as_of_unavail_cash_M": 91.273,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-02-26",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-02-26",
+        "to": "2025-05-19"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-02-20",
+        "avail_M": 0.921
+      },
+      {
+        "date": "2025-02-21",
+        "avail_M": 0.481
+      },
+      {
+        "date": "2025-02-24",
+        "avail_M": 1.909
+      },
+      {
+        "date": "2025-02-25",
+        "avail_M": 1.687
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-02-26",
+    "fwd180d_zero_days": 68,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-02-26",
+        "to": "2025-05-30"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.739,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-02-20",
+        "avail_M": 0.921
+      },
+      {
+        "date": "2025-02-21",
+        "avail_M": 0.481
+      },
+      {
+        "date": "2025-02-24",
+        "avail_M": 1.909
+      },
+      {
+        "date": "2025-02-25",
+        "avail_M": 1.687
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 2.20.24_BU view_BOD.xlsx",
+    "file_date": "2024-02-20",
+    "error": null,
+    "as_of": "2024-02-20",
+    "as_of_avail_cash_M": 32.88,
+    "as_of_total_cash_M": 160.671,
+    "as_of_unavail_cash_M": 121.959,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-03-05",
+    "near90d_zero_days": 44,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-03-05",
+        "to": "2024-05-03"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2024-03-01",
+        "avail_M": 1.759
+      },
+      {
+        "date": "2024-03-04",
+        "avail_M": 0.343
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-03-05",
+    "fwd180d_zero_days": 44,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-03-05",
+        "to": "2024-05-03"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.958,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2024-03-01",
+        "avail_M": 1.759
+      },
+      {
+        "date": "2024-03-04",
+        "avail_M": 0.343
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 2.27.23_BU view_BOD_3.2.23_liquidity update.xlsx",
+    "file_date": "2023-02-27",
+    "error": null,
+    "as_of": "2023-02-27",
+    "as_of_avail_cash_M": 56.97,
+    "as_of_total_cash_M": 206.449,
+    "as_of_unavail_cash_M": 143.434,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-03-31",
+    "near90d_zero_days": 41,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-03-31",
+        "to": "2023-05-26"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-03-31",
+    "fwd180d_zero_days": 41,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-03-31",
+        "to": "2023-05-26"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -3.595,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 3.18.25_BU view_deck version_MarBOD.xlsx",
+    "file_date": "2025-03-18",
+    "error": null,
+    "as_of": "2025-03-18",
+    "as_of_avail_cash_M": 3.42,
+    "as_of_total_cash_M": 80.783,
+    "as_of_unavail_cash_M": 72.121,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-03-26",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-03-26",
+        "to": "2025-06-16"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-03-19",
+        "avail_M": 1.78
+      },
+      {
+        "date": "2025-03-25",
+        "avail_M": 1.272
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-03-26",
+    "fwd180d_zero_days": 73,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-03-26",
+        "to": "2025-07-04"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.43,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-03-19",
+        "avail_M": 1.78
+      },
+      {
+        "date": "2025-03-25",
+        "avail_M": 1.272
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 3.19.24_BU view_MarBOD.xlsx",
+    "file_date": "2024-03-19",
+    "error": null,
+    "as_of": "2024-03-19",
+    "as_of_avail_cash_M": 12.16,
+    "as_of_total_cash_M": 150.421,
+    "as_of_unavail_cash_M": 132.429,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-03-27",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-03-27",
+        "to": "2024-06-17"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-03-27",
+    "fwd180d_zero_days": 73,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-03-27",
+        "to": "2024-07-05"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.467,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 3.31.23_BU view.xlsx",
+    "file_date": "2023-03-31",
+    "error": null,
+    "as_of": "2023-03-31",
+    "as_of_avail_cash_M": 12.99,
+    "as_of_total_cash_M": 138.462,
+    "as_of_unavail_cash_M": 119.439,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-04-06",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-04-06",
+        "to": "2023-06-29"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2023-04-05",
+        "avail_M": 1.511
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-04-06",
+    "fwd180d_zero_days": 62,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-04-06",
+        "to": "2023-06-30"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.81,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2023-04-05",
+        "avail_M": 1.511
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 4.18.25_BU view_prelim AprBOD.xlsx",
+    "file_date": "2025-04-18",
+    "error": null,
+    "as_of": "2025-04-18",
+    "as_of_avail_cash_M": 5.43,
+    "as_of_total_cash_M": 95.12,
+    "as_of_unavail_cash_M": 84.448,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-04-23",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-04-23",
+        "to": "2025-07-17"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-04-23",
+    "fwd180d_zero_days": 126,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-04-23",
+        "to": "2025-10-15"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.611,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 4.25.23_BU view_April 27 BOD.xlsx",
+    "file_date": "2023-04-25",
+    "error": null,
+    "as_of": "2023-04-25",
+    "as_of_avail_cash_M": 21.26,
+    "as_of_total_cash_M": 163.722,
+    "as_of_unavail_cash_M": 136.429,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-05-01",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-05-01",
+        "to": "2023-07-24"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-05-01",
+    "fwd180d_zero_days": 63,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-05-01",
+        "to": "2023-07-28"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -3.378,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 4.30.24_BU view_final_online adj.xlsx",
+    "file_date": "2024-04-30",
+    "error": null,
+    "as_of": "2024-04-30",
+    "as_of_avail_cash_M": 10.7,
+    "as_of_total_cash_M": 122.221,
+    "as_of_unavail_cash_M": 105.689,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-05-07",
+    "near90d_zero_days": 60,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-05-07",
+        "to": "2024-07-29"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-05-07",
+    "fwd180d_zero_days": 64,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-05-07",
+        "to": "2024-08-02"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.207,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 5.20.25_BU view_deck version_MayBOD.xlsx",
+    "file_date": "2025-05-20",
+    "error": null,
+    "as_of": "2025-05-20",
+    "as_of_avail_cash_M": 7.43,
+    "as_of_total_cash_M": 104.155,
+    "as_of_unavail_cash_M": 91.483,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-05-28",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-05-28",
+        "to": "2025-08-18"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-05-23",
+        "avail_M": 1.054
+      },
+      {
+        "date": "2025-05-26",
+        "avail_M": 1.054
+      },
+      {
+        "date": "2025-05-27",
+        "avail_M": 0.726
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-05-28",
+    "fwd180d_zero_days": 123,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-05-28",
+        "to": "2025-11-14"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.341,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-05-23",
+        "avail_M": 1.054
+      },
+      {
+        "date": "2025-05-26",
+        "avail_M": 1.054
+      },
+      {
+        "date": "2025-05-27",
+        "avail_M": 0.726
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 5.26.23_BU view_24 adj_MayBOD_Liquidity & May actuals.xlsx",
+    "file_date": "2023-05-26",
+    "error": null,
+    "as_of": "2023-05-26",
+    "as_of_avail_cash_M": 23.1,
+    "as_of_total_cash_M": 153.669,
+    "as_of_unavail_cash_M": 124.737,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-05-31",
+    "near90d_zero_days": 58,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-05-31",
+        "to": "2023-08-24"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-05-31",
+    "fwd180d_zero_days": 59,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-05-31",
+        "to": "2023-08-25"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -3.489,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 5.7.24_BU view_MayBOD_5.9.24.xlsx",
+    "file_date": "2024-05-07",
+    "error": null,
+    "as_of": "2024-05-07",
+    "as_of_avail_cash_M": 13.21,
+    "as_of_total_cash_M": 119.799,
+    "as_of_unavail_cash_M": 100.756,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-05-10",
+    "near90d_zero_days": 61,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-05-10",
+        "to": "2024-08-02"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-05-10",
+    "fwd180d_zero_days": 61,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-05-10",
+        "to": "2024-08-02"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -4.425,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 6.17.25_BU view_deck version_JunBOD.xlsx",
+    "file_date": "2025-06-17",
+    "error": null,
+    "as_of": "2025-06-17",
+    "as_of_avail_cash_M": 3.73,
+    "as_of_total_cash_M": 99.8,
+    "as_of_unavail_cash_M": 90.828,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-06-30",
+    "near90d_zero_days": 56,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-06-30",
+        "to": "2025-09-15"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-06-27",
+        "avail_M": 1.934
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-06-30",
+    "fwd180d_zero_days": 120,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-06-30",
+        "to": "2025-12-12"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": 1.149,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-06-27",
+        "avail_M": 1.934
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 6.18.24_BU view_JunBOD.xlsx",
+    "file_date": "2024-06-18",
+    "error": null,
+    "as_of": "2024-06-18",
+    "as_of_avail_cash_M": 10.73,
+    "as_of_total_cash_M": 120.966,
+    "as_of_unavail_cash_M": 104.994,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-06-26",
+    "near90d_zero_days": 58,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-06-26",
+        "to": "2024-09-16"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2024-06-25",
+        "avail_M": 1.189
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-06-26",
+    "fwd180d_zero_days": 72,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-06-26",
+        "to": "2024-10-04"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.908,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2024-06-25",
+        "avail_M": 1.189
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 6.20.23_BU view_JunBOD.xlsx",
+    "file_date": "2023-06-20",
+    "error": null,
+    "as_of": "2023-06-20",
+    "as_of_avail_cash_M": 16.7,
+    "as_of_total_cash_M": 141.952,
+    "as_of_unavail_cash_M": 119.42,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-06-22",
+    "near90d_zero_days": 47,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-06-22",
+        "to": "2023-08-25"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-06-22",
+    "fwd180d_zero_days": 47,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-06-22",
+        "to": "2023-08-25"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -7.184,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 7.22.25_BU view_deck version_condensed_JulBOD.xlsx",
+    "file_date": "2025-07-22",
+    "error": null,
+    "as_of": "2025-07-22",
+    "as_of_avail_cash_M": 7.12,
+    "as_of_total_cash_M": 98.645,
+    "as_of_unavail_cash_M": 86.283,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-07-30",
+    "near90d_zero_days": 59,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-07-30",
+        "to": "2025-10-20"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-07-30",
+    "fwd180d_zero_days": 123,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-07-30",
+        "to": "2026-01-16"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.305,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 7.23.24_deck_JulBOD_FY25.xlsx",
+    "file_date": "2024-07-23",
+    "error": null,
+    "as_of": "2024-07-23",
+    "as_of_avail_cash_M": 5.96,
+    "as_of_total_cash_M": 100.427,
+    "as_of_unavail_cash_M": 89.225,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-07-25",
+    "near90d_zero_days": 63,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-07-25",
+        "to": "2024-10-21"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2024-07-24",
+        "avail_M": 0.789
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-07-25",
+    "fwd180d_zero_days": 72,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-07-25",
+        "to": "2024-11-01"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -2.671,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2024-07-24",
+        "avail_M": 0.789
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 7.25.23_BU view_JulBOD_7.27.23.xlsx",
+    "file_date": "2023-07-25",
+    "error": null,
+    "as_of": "2023-07-25",
+    "as_of_avail_cash_M": 4.66,
+    "as_of_total_cash_M": 131.595,
+    "as_of_unavail_cash_M": 121.103,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-07-27",
+    "near90d_zero_days": 63,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-07-27",
+        "to": "2023-10-23"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2023-07-26",
+        "avail_M": 0.812
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-07-27",
+    "fwd180d_zero_days": 68,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-07-27",
+        "to": "2023-10-30"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -7.398,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2023-07-26",
+        "avail_M": 0.812
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 8.19.24_BU view_AugBOD.xlsx",
+    "file_date": "2024-08-19",
+    "error": null,
+    "as_of": "2024-08-19",
+    "as_of_avail_cash_M": 10.9,
+    "as_of_total_cash_M": 149.412,
+    "as_of_unavail_cash_M": 133.27,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-08-28",
+    "near90d_zero_days": 58,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-08-28",
+        "to": "2024-11-15"
+      }
+    ],
+    "near90d_below_2M_dates": [],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-08-28",
+    "fwd180d_zero_days": 68,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-08-28",
+        "to": "2024-11-29"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.446,
+    "fwd180d_below_2M_dates": []
+  },
+  {
+    "filename": "Daily Cash Fcst - 8.22.23_BU view_AugBOD.xlsx",
+    "file_date": "2023-08-22",
+    "error": null,
+    "as_of": "2023-08-22",
+    "as_of_avail_cash_M": 7.43,
+    "as_of_total_cash_M": 128.136,
+    "as_of_unavail_cash_M": 114.874,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-08-25",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-08-25",
+        "to": "2023-11-20"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2023-08-24",
+        "avail_M": 0.862
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-08-25",
+    "fwd180d_zero_days": 66,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-08-25",
+        "to": "2023-11-24"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -1.916,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2023-08-24",
+        "avail_M": 0.862
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 8.26.25_BU view_final deck version.xlsx",
+    "file_date": "2025-08-26",
+    "error": null,
+    "as_of": "2025-08-26",
+    "as_of_avail_cash_M": 9.57,
+    "as_of_total_cash_M": 109.832,
+    "as_of_unavail_cash_M": 95.02,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-08-29",
+    "near90d_zero_days": 62,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-08-29",
+        "to": "2025-11-24"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-08-28",
+        "avail_M": 1.477
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-08-29",
+    "fwd180d_zero_days": 126,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-08-29",
+        "to": "2026-02-20"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -3.451,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-08-28",
+        "avail_M": 1.477
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+    "file_date": "2022-09-19",
+    "error": null,
+    "as_of": "2022-09-19",
+    "as_of_avail_cash_M": 9.91,
+    "as_of_total_cash_M": 234.5,
+    "as_of_unavail_cash_M": 218.546,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2022-09-28",
+    "near90d_zero_days": 58,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2022-09-28",
+        "to": "2022-12-16"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2022-09-21",
+        "avail_M": 1.559
+      },
+      {
+        "date": "2022-09-22",
+        "avail_M": 0.15
+      },
+      {
+        "date": "2022-09-23",
+        "avail_M": 0.345
+      },
+      {
+        "date": "2022-09-27",
+        "avail_M": 0.331
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2022-09-28",
+    "fwd180d_zero_days": 88,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2022-09-28",
+        "to": "2023-01-27"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -4.146,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2022-09-21",
+        "avail_M": 1.559
+      },
+      {
+        "date": "2022-09-22",
+        "avail_M": 0.15
+      },
+      {
+        "date": "2022-09-23",
+        "avail_M": 0.345
+      },
+      {
+        "date": "2022-09-27",
+        "avail_M": 0.331
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 9.19.23_BU view_SepBOD.xlsx",
+    "file_date": "2023-09-19",
+    "error": null,
+    "as_of": "2023-09-19",
+    "as_of_avail_cash_M": 21.95,
+    "as_of_total_cash_M": 149.252,
+    "as_of_unavail_cash_M": 121.469,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2023-09-27",
+    "near90d_zero_days": 43,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2023-09-27",
+        "to": "2023-11-24"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2023-09-26",
+        "avail_M": 0.866
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2023-09-27",
+    "fwd180d_zero_days": 43,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2023-09-27",
+        "to": "2023-11-24"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -4.217,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2023-09-26",
+        "avail_M": 0.866
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 9.24.24_BU view_deck version_BOD.xlsx",
+    "file_date": "2024-09-24",
+    "error": null,
+    "as_of": "2024-09-24",
+    "as_of_avail_cash_M": 11.33,
+    "as_of_total_cash_M": 137.223,
+    "as_of_unavail_cash_M": 120.651,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2024-09-26",
+    "near90d_zero_days": 63,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2024-09-26",
+        "to": "2024-12-23"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2024-09-25",
+        "avail_M": 1.946
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2024-09-26",
+    "fwd180d_zero_days": 72,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2024-09-26",
+        "to": "2025-01-03"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -10.733,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2024-09-25",
+        "avail_M": 1.946
+      }
+    ]
+  },
+  {
+    "filename": "Daily Cash Fcst - 9.30.25_BU view_deck version.xlsx",
+    "file_date": "2025-09-30",
+    "error": null,
+    "as_of": "2025-09-30",
+    "as_of_avail_cash_M": 3.9,
+    "as_of_total_cash_M": 100.88,
+    "as_of_unavail_cash_M": 91.738,
+    "near90d_min_avail_cash_M": 0.0,
+    "near90d_min_avail_date": "2025-10-08",
+    "near90d_zero_days": 58,
+    "near90d_zero_date_ranges": [
+      {
+        "from": "2025-10-08",
+        "to": "2025-12-29"
+      }
+    ],
+    "near90d_below_2M_dates": [
+      {
+        "date": "2025-10-01",
+        "avail_M": 1.814
+      },
+      {
+        "date": "2025-10-09",
+        "avail_M": 0.303
+      }
+    ],
+    "fwd180d_min_avail_cash_M": 0.0,
+    "fwd180d_min_avail_date": "2025-10-08",
+    "fwd180d_zero_days": 122,
+    "fwd180d_zero_date_ranges": [
+      {
+        "from": "2025-10-08",
+        "to": "2026-03-27"
+      }
+    ],
+    "as_of_hts_balance_M": 0.0,
+    "weekly_net_cf_7d_avg": -0.346,
+    "fwd180d_below_2M_dates": [
+      {
+        "date": "2025-10-01",
+        "avail_M": 1.814
+      },
+      {
+        "date": "2025-10-09",
+        "avail_M": 0.303
+      }
+    ]
+  }
+]

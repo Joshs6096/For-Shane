@@ -1,0 +1,481 @@
+{
+  "document_metadata": {
+    "prepared_date": "2026-05-11",
+    "subject_entity": "Transform SR Holding Management LLC",
+    "aka": ["Transform", "Midco", "SR Holding"],
+    "data_sources": [
+      "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+      "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+      "analysis_2022.json",
+      "cash file details.xlsx",
+      "sp_item_ids.json"
+    ],
+    "file_count_in_registry": 695,
+    "earliest_file_date": "2022-09-19",
+    "latest_file_date": "2026-05-08",
+    "data_discipline": "All figures sourced from spreadsheet data only. No estimates or guesses."
+  },
+
+  "corporate_structure": {
+    "description": "Post-Sears Holdings bankruptcy operating company. Credit-bid acquisition by ESL Investments (Edward Lampert) in February 2019.",
+    "tiers": [
+      {
+        "tier": 1,
+        "name": "TopCo / Holdco",
+        "entities": ["Transform Holdco LLC"],
+        "role": "Holds uncommitted equity commitments; source of equity infusions to Midco",
+        "equity_raises_noted": [
+          "April 2022 $110M PPM",
+          "June 2022 $140M offering",
+          "August 2022 $120M offering"
+        ]
+      },
+      {
+        "tier": 2,
+        "name": "Midco (Transform SR Holding Management LLC)",
+        "role": "Central cash management entity; operates Daily Cash Forecast; holds term loans and LC facilities"
+      },
+      {
+        "tier": 3,
+        "name": "Operating Subsidiaries",
+        "business_units_16_format": [
+          "Finance",
+          "Financial Services",
+          "HoldingsCo",
+          "Home Services",
+          "HR",
+          "KCD",
+          "Legal",
+          "Member Tech",
+          "Monark",
+          "MSO",
+          "Real Estate",
+          "Retail",
+          "Retail Online",
+          "Service Live",
+          "SYWR",
+          "Supply Chain"
+        ],
+        "property_entities": [
+          "PropCo / Lease OpCo",
+          "Bohemia (NY)",
+          "Lacey WA",
+          "UBS Properties",
+          "New Brunswick NJ",
+          "Hackensack NJ",
+          "Manteno IL / CITI Loan collateral"
+        ]
+      }
+    ],
+    "key_external_relationships": {
+      "ESL_Investments": "ESL Note holder; controlling equity holder",
+      "Cyrus_Capital": "Term loan lender (Cyrus Term Loan, $55M Term Loan)",
+      "UBS": "Loan Notes A and B against property collateral",
+      "Assurant": "Home warranty profit-sharing partner",
+      "Cinch_CCHS": "Cross Country Home Services — home warranty underwriter",
+      "PNC": "LC collateral banking ($4.8M+ restricted cash); P-Card",
+      "Citibank": "P-Card; Citi/Manteno Loan; SYW credit card partner"
+    }
+  },
+
+  "cash_position_history": {
+    "unit": "millions_USD",
+    "note": "Available cash excludes restricted, trapped, and unavailable cash",
+    "snapshots": [
+      {"date": "2022-09-19", "available_cash": 9.9, "unavailable_cash": 218.5, "total_cash": 234.5, "net_cash_flow_on_date": 0.36},
+      {"date": "2022-10-18", "available_cash": 7.1, "unavailable_cash": 195.7, "total_cash": 208.8, "net_cash_flow_on_date": -0.09},
+      {"date": "2022-11-16", "available_cash": 29.9, "unavailable_cash": 189.1, "total_cash": 225.1, "net_cash_flow_on_date": -2.06},
+      {"date": "2022-12-07", "available_cash": 34.6, "unavailable_cash": 189.8, "total_cash": 230.4, "net_cash_flow_on_date": -8.2},
+      {"date": "2022-12-30", "available_cash": 6.3, "unavailable_cash": 179.4, "total_cash": 191.7, "net_cash_flow_on_date": -13.74},
+      {"date": "2025-02-01", "available_cash": 10.4, "note": "FY25 opening position per Liquidity sheet"},
+      {"date": "2026-01-31", "available_cash": 11.9, "note": "FY25 ending position per Liquidity sheet"},
+      {"date": "2026-02-01", "available_cash": 11.1, "note": "FY26 opening position"},
+      {"date": "2026-05-08", "available_cash": 1.6, "note": "Estimated from Liquidity sheet, post-April BOD"}
+    ]
+  },
+
+  "annual_financials": {
+    "unit": "millions_USD",
+    "source": "Liquidity sheet in 05.08.26 file",
+    "fy2025": {
+      "period": "Feb 2025 - Jan 2026",
+      "total_operating_inflows": 649.2,
+      "total_operating_outflows": -802.5,
+      "net_operating_cash_flow": -153.2,
+      "equity_draws": 177.4,
+      "asset_sales": 39.8,
+      "debt_repayments": -33.9,
+      "interest_and_fees": -13.5,
+      "net_change_in_available_cash": 1.5
+    },
+    "fy2026_forecast": {
+      "period": "Feb 2026 - Jan 2027",
+      "total_operating_inflows": 611.1,
+      "total_operating_outflows": -694.8,
+      "net_operating_cash_flow": -83.7,
+      "equity_draws": 84.2,
+      "asset_sales": 37.7,
+      "debt_repayments": -50.8,
+      "interest_cash_pay_forecast": -55.3,
+      "note": "FY26 deficit reduction attributable to post-March 2026 cost reductions"
+    }
+  },
+
+  "business_units": [
+    {
+      "name": "Home Services",
+      "abbreviations": ["HS", "SHS", "IHR"],
+      "description": "In-Home Repair and warranty service business under Sears Home Services brand",
+      "sub_segments": ["IHR B2B Vendor Payments", "IHR D2C Deductibles", "Supply Chain", "Parts Direct (PD)", "SHIP"],
+      "status": "Active - primary cash generator",
+      "annual_inflows_millions": {
+        "FY22": 487.5,
+        "FY24": 370.3,
+        "FY25": 418.2,
+        "FY26_fcst": "Declining"
+      },
+      "key_partners": ["Assurant (profit share declining)", "Cross Country Home Services/Cinch ($5M/month)"],
+      "risks": ["SC payroll cuts may impair service quality", "Assurant profit share exhausted"],
+      "monthly_inflows_FY23": {"IHR_B2B_low": 20.6, "IHR_B2B_high": 31.6, "IHR_D2C_low": 9.0, "IHR_D2C_high": 13.0}
+    },
+    {
+      "name": "KCD",
+      "full_name": "Kenmore, Craftsman, DieHard Brands",
+      "description": "IP licensing and wholesale distribution of iconic American appliance and tool brands",
+      "status": "Active - highest growth business unit",
+      "annual_inflows_millions": {
+        "FY22": 5.7,
+        "FY24": 5.2,
+        "FY25": 77.2,
+        "FY26_fcst": 77.2
+      },
+      "wholesale_partners_FY25": {
+        "Costco": 34.1,
+        "Winia_laundry": 34.2,
+        "Amazon": 2.3,
+        "Lowes": 3.6,
+        "Whirlpool": 3.6
+      },
+      "key_risks": ["LG lawsuit - pending settlement - could threaten brand licensing", "Katten Muchin legal cost $2.35M FY26"],
+      "mexico_channel": "Sears Mexico KCD royalties (variable)"
+    },
+    {
+      "name": "Retail B&M",
+      "description": "Remaining Sears and Kmart brick-and-mortar stores",
+      "status": "Wind-down mode",
+      "annual_inflows_millions": {
+        "Sears_stores": {"FY22": 52.2, "FY25": 16.0},
+        "Kmart_stores": {"FY22": 113.2, "FY25": 83.6},
+        "Online": {"FY22": 19.1, "FY25": 15.7}
+      },
+      "trend": "Sears stores declined 70% since FY22; Kmart more stable"
+    },
+    {
+      "name": "HTS",
+      "full_name": "Home Tech Services (formerly Innovel Solutions)",
+      "description": "Last-mile logistics, delivery, and installation of large appliances",
+      "status": "IN BANKRUPTCY - Reed Smith managing proceedings",
+      "legal_status_note": "Unlikely to settle per legal sheet commentary",
+      "recent_prefund_inflows_per_month": "2.3M-4.0M (still operating under bankruptcy)",
+      "risk": "HTS bankruptcy threatens ongoing logistics capabilities and Costco relationship"
+    },
+    {
+      "name": "SYW",
+      "full_name": "Shop Your Way Rewards",
+      "description": "Loyalty program platform with Citi credit card partnership",
+      "status": "Strategic pivot - new credit card program launching",
+      "historical_CITI_reimbursements": {"FY22": 52.5, "FY25": 0.0},
+      "new_card_program": "Launched FY26; Wachtell legal fees $1.2M for launch",
+      "upside": "If new card program approaches historical CITI levels, could add $25M-$50M/year in inflows"
+    },
+    {
+      "name": "Supply Chain",
+      "description": "Distribution center network serving Retail and Home Services",
+      "key_DCs": ["Lawrence MA", "Morrisville NC", "Ocala FL"],
+      "status": "Active cost reduction target",
+      "annual_inflows_millions": {"FY25": 35.4, "FY26_fcst": 16.4},
+      "reductions": "SC payroll reduced $2.8M in 2H FY26"
+    },
+    {
+      "name": "Real Estate",
+      "description": "Legacy Sears/Kmart real estate portfolio — owned properties, subleases, lease terminations",
+      "status": "Active wind-down; heavy litigation",
+      "annual_tenant_income": 8.5,
+      "fy25_net_re_transactions_outflow": -8.3,
+      "key_litigations": ["MOAC case", "Benderson (Midland MI, Oakdale CA)", "Hemet CA (multiple LL cases)", "Hayward CA (purchase option arbitration)"],
+      "asset_sales_acceleration": "Jan 2026 BOD focused on asset monetization"
+    },
+    {
+      "name": "Monark",
+      "description": "Appliance brand/supplier entity",
+      "monthly_inflows": "3.8M-5.9M (recent actuals per BU beta)"
+    }
+  ],
+
+  "debt_structure": {
+    "note": "2022 structure from analysis_2022.json column labels; FY25-26 from Liquidity sheet",
+    "fy2022_active_instruments": [
+      "Tranche 2-11 Principal (multiple senior term loans)",
+      "Cyrus Term Loan",
+      "Cyrus $55M Term Loan (added Dec 2022)",
+      "Bohemia Loan (Mortgage)",
+      "Lease Opco Loan",
+      "Lacey WA Loan ($11.2M facility)",
+      "New Brunswick Loan (added Oct 2022)",
+      "Hackensack NJ Loan (added Nov 2022)",
+      "CITI/Manteno Loan (added Dec 2022)",
+      "UBS Loan Note A",
+      "UBS Loan Note B",
+      "ESL Note"
+    ],
+    "interest_expense_trend": {
+      "FY25_cash_pay": 12.82,
+      "FY26_forecast": 55.3,
+      "change": "331% increase — likely PIK converting to cash-pay or new debt added",
+      "unit": "millions_USD"
+    },
+    "debt_repayments": {
+      "FY25_actual": 33.87,
+      "FY26_forecast": 50.81,
+      "unit": "millions_USD"
+    }
+  },
+
+  "legal_matters": {
+    "fy25_actual_total": 18.8,
+    "fy26_budget_total": 20.863,
+    "unit": "millions_USD",
+    "matters": [
+      {
+        "matter": "Wachtell Monthly Retainer",
+        "firm": "Wachtell",
+        "bu": "Corporate",
+        "type": "Ongoing",
+        "monthly_est": 0.20,
+        "fy26_budget": 2.40
+      },
+      {
+        "matter": "Term Loan & Equity Advisory",
+        "firm": "Wachtell",
+        "bu": "Corporate",
+        "type": "Ongoing",
+        "monthly_est": "0-0.20",
+        "fy26_budget": 1.00
+      },
+      {
+        "matter": "HTS Bankruptcy",
+        "firm": "Reed Smith",
+        "bu": "Corporate",
+        "type": "Litigation",
+        "monthly_range": "0.10-0.30",
+        "fy26_budget": 2.10,
+        "commentary": "Ongoing legal work; unlikely to settle",
+        "strategic_significance": "HIGH - threatens HTS operations and Costco relationship"
+      },
+      {
+        "matter": "LG Lawsuit",
+        "firm": "Katten Muchin",
+        "bu": "KCD",
+        "type": "Litigation",
+        "monthly_range": "0.10-0.30",
+        "fy26_budget": 2.35,
+        "commentary": "LG litigation (pending settlement discussions)",
+        "strategic_significance": "CRITICAL - threatens KCD brand licensing, Transform's highest growth asset"
+      },
+      {
+        "matter": "IP Portfolio Maintenance",
+        "firm": "McAndrews",
+        "bu": "All",
+        "type": "Ongoing",
+        "monthly_est": 0.075,
+        "fy26_budget": 0.90,
+        "allocation": {"KCD": "40%", "SHS": "30%", "SYW": "15%", "Online": "15%"}
+      },
+      {
+        "matter": "SYW Credit Card Program Launch",
+        "firm": "Wachtell",
+        "bu": "SYW",
+        "type": "One-time",
+        "fy26_budget": 1.20,
+        "commentary": "Due mid-Feb (final payment)"
+      },
+      {
+        "matter": "MOAC Case",
+        "firm": "Dechert and Wachtell",
+        "bu": "Real Estate",
+        "type": "Litigation",
+        "monthly_est": 0.142,
+        "fy26_budget": 1.70,
+        "commentary": "Highest RE legal spend. Bloomington MN (Mall of America area). SRZ Liquidating Trust payment $2.05M in FY25.",
+        "strategic_significance": "HIGH - major property liability"
+      },
+      {
+        "matter": "Benderson Case (Midland MI and Oakdale CA)",
+        "firm": "Womble Bond Dickinson",
+        "bu": "Real Estate",
+        "type": "Litigation",
+        "monthly_est": 0.125,
+        "fy26_budget": 1.50,
+        "commentary": "Going to trial. Settlement if reached would be upwards of $1.2M. Estimate $1.5M for 2026.",
+        "strategic_significance": "MEDIUM-HIGH - trial risk; settlement exposure >$1.2M"
+      },
+      {
+        "matter": "Hemet CA (multiple LL cases)",
+        "firm": "Robbins Kaplan",
+        "bu": "Real Estate",
+        "type": "Litigation",
+        "monthly_est": 0.083,
+        "fy26_budget": 1.00,
+        "commentary": "Numerous cases filed by LL. FY25 spend $840K; estimate $1M FY26."
+      },
+      {
+        "matter": "Hayward CA (purchase option arbitration)",
+        "firm": "Farella Braun & Martel",
+        "bu": "Real Estate",
+        "type": "Litigation",
+        "monthly_est": 0.021,
+        "fy26_budget": 0.25,
+        "commentary": "FY25 spend $205K; estimate $250K FY26."
+      },
+      {
+        "matter": "General Real Estate Matters",
+        "firm": "Wachtell",
+        "bu": "Real Estate",
+        "type": "Litigation",
+        "monthly_est": 0.25,
+        "fy26_budget": 3.00
+      },
+      {
+        "matter": "Other Smaller Matters",
+        "firm": "Various",
+        "bu": "Corporate",
+        "type": "Placeholder",
+        "monthly_est": 0.25,
+        "fy26_budget": 3.00
+      }
+    ]
+  },
+
+  "strategic_inflection_points": [
+    {
+      "date": "2022-09-19",
+      "event": "Starting point of tracked data",
+      "available_cash_MM": 9.9,
+      "total_cash_MM": 234.5,
+      "key_facts": [
+        "Available cash just $9.9M vs $218.5M unavailable/trapped",
+        "Active equity PPM offerings ($140M June, $120M August 2022)",
+        "11 tranches of term loan principal active simultaneously",
+        "Asset Sales proceeds earmarked at $250M balance",
+        "43 worksheet model; full operational breadth including Monark, DAEWOO, Innovel"
+      ]
+    },
+    {
+      "date": "2022-12-07",
+      "event": "First explicit liquidity crisis: DecBOD labeled 'liquidity update final'",
+      "available_cash_MM": 34.6,
+      "weekly_net_cf_MM": -8.2,
+      "key_facts": [
+        "Cyrus $55M Term Loan drawn for first time",
+        "RE & Debt initiatives sheet tab added",
+        "Available cash deceptively elevated (holiday drawdown)",
+        "Two weeks later cash fell to $6.3M with -$13.74M weekly NCF"
+      ]
+    },
+    {
+      "date": "2023-01-31",
+      "event": "New Methodology: Bohemia Adj reclassification",
+      "key_facts": [
+        "File explicitly labeled 'Use for FY23a'; companion file 'Do Not Use for FY23'",
+        "Bohemia property cash flows reclassified",
+        "Likely improved operating vs financing presentation"
+      ]
+    },
+    {
+      "date": "2023-02-27",
+      "event": "Second liquidity update: '3.2.23_liquidity update'",
+      "key_facts": [
+        "Pattern of recurring BOD liquidity interventions in 1H FY23",
+        "May 2023 also includes 'Liquidity & May actuals' label"
+      ]
+    },
+    {
+      "date": "2024-07-23",
+      "event": "FY25 planning begins: 'JulBOD_FY25'",
+      "key_facts": [
+        "First file explicitly tagged with next fiscal year",
+        "Model has evolved to 'deck version' format for BOD presentation",
+        "July 2025 file is 'condensed' — model streamlined over time"
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "event": "Asset monetization focus: 'asset sales_JanBOD' and 'new format'",
+      "key_facts": [
+        "First BOD file explicitly tagged 'asset sales'",
+        "New presentation format introduced",
+        "Signals Board-level focus on accelerating property and asset monetization"
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "event": "Post-reductions restructuring: MarBOD 'post-reductions'",
+      "key_facts": [
+        "Three file versions: working, deck version, MarBOD — iterative restructuring process",
+        "FY26 operating deficit target: ~$83.7M vs FY25 actual $153.2M (-$70M improvement)",
+        "Supply Chain inflows cut nearly in half YOY",
+        "SC payroll reduced $2.8M in 2H FY26",
+        "FY27 working version already being built concurrently (02.27.26 file)"
+      ]
+    }
+  ],
+
+  "misc_cash_items_summary": {
+    "source": "cash file details.xlsx Sheet1",
+    "unit": "millions_USD",
+    "key_items": [
+      {"item": "Propco/Bohemia/Lacey inflows (monthly recon)", "FY25": 4.61, "FY26_fcst": 4.3},
+      {"item": "Propco outflows (add-back)", "FY25": -4.61, "FY26_fcst": -4.3},
+      {"item": "Other Misc inflows", "FY25": 4.1},
+      {"item": "SHI Dividend (round-tripping legacy payment)", "FY25": 3.56, "FY26_fcst": 0.0},
+      {"item": "HW Reserves (outflow based on premiums)", "FY25": -2.66, "FY26_fcst": -2.7},
+      {"item": "Miscellaneous (customs/duties + debt exchange taxes)", "FY25": -7.65, "FY26_fcst": -9.6},
+      {"item": "Propco outflow (mgmt fees etc)", "FY25": -7.05, "FY26_fcst": -12.0},
+      {"item": "Interest expense (pre-PIK)", "FY25": -12.82, "FY26_fcst": -55.3},
+      {"item": "Real Estate Transactions (net)", "FY25": -8.27},
+      {"item": "Customs/duties", "FY25": -4.85},
+      {"item": "Debt exchange state taxes", "FY25": -2.80},
+      {"item": "Sunny Isle Developers LLC legal settlement", "FY25": 0.52},
+      {"item": "Manteno/Gotion proceeds (3 of 3)", "FY25": 0.63},
+      {"item": "Citi P-Card rebate", "FY25": 0.352},
+      {"item": "Express Scripts Rx rebate (x2)", "FY25": 1.35},
+      {"item": "Collateral net (LOC reductions, AIG loss sensitive)", "FY25": 1.41}
+    ]
+  },
+
+  "file_name_patterns": {
+    "total_files_in_registry": 695,
+    "naming_convention": "Daily Cash Fcst - MM.DD.YY_BU view[_tags].xlsx",
+    "special_tags_observed": [
+      "BOD / JanBOD / MarBOD etc — Board of Directors presentations",
+      "deck version — clean BOD presentation format",
+      "BU view — internal business unit detail",
+      "post-reductions — post-restructuring version (Mar 2026)",
+      "liquidity update — distress/crisis indicator (Dec 2022, Feb 2023, May 2023)",
+      "asset sales — asset monetization focus (Jan 2026)",
+      "FY25 / FY27 working — fiscal year planning files",
+      "adUPDATE — mid-cycle update",
+      "condensed — simplified/streamlined version",
+      "working — in-progress version",
+      "new format — presentation redesign",
+      "AD_ prefix — Aaron Drewes version"
+    ],
+    "non_standard_files": [
+      "Inventory essbase pull_Dino_kk.xlsx — Essbase inventory data pull",
+      "Real estate & accounting meeting.docx — RE accounting meeting notes",
+      "Recon file — reconciliation file",
+      "cash file details.xlsx — legal and misc item detail",
+      "analyze_retail.py, extract_cash_metrics.py — Python analysis scripts"
+    ]
+  }
+}

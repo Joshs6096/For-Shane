@@ -1,0 +1,23 @@
+# Large source files (too big for GitHub)
+*.xlsx
+*.xlsb
+*.xlsm
+*.pdf
+*.pptx
+*.docx
+
+# Raw extractions that are too large
+raw_extraction.json
+analysis_HS_KCD.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

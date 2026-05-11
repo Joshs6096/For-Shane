@@ -1,0 +1,452 @@
+[
+  {
+    "file_date": "2022-09-19",
+    "as_of_avail": 9.91,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 16,
+    "near30d_first_zero_date": "2022-09-28",
+    "near30d_below_2M_days": 4,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2022-10-18",
+    "as_of_avail": 7.08,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 19,
+    "near30d_first_zero_date": "2022-10-24",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2022-11-16",
+    "as_of_avail": 29.92,
+    "near30d_min_avail": 21.613,
+    "near30d_zero_days": 0,
+    "near30d_first_zero_date": "none",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2022-12-07",
+    "as_of_avail": 34.57,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 6,
+    "near30d_first_zero_date": "2022-12-30",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2022-12-30",
+    "as_of_avail": 6.31,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2023-01-04",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-01-17",
+    "as_of_avail": 72.63,
+    "near30d_min_avail": 22.202,
+    "near30d_zero_days": 0,
+    "near30d_first_zero_date": "none",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-01-31",
+    "as_of_avail": 65.19,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 1,
+    "near30d_first_zero_date": "2023-02-28",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-02-27",
+    "as_of_avail": 56.97,
+    "near30d_min_avail": 9.636,
+    "near30d_zero_days": 0,
+    "near30d_first_zero_date": "none",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-03-31",
+    "as_of_avail": 12.99,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2023-04-06",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-04-25",
+    "as_of_avail": 21.26,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2023-05-01",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-05-26",
+    "as_of_avail": 23.1,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 14,
+    "near30d_first_zero_date": "2023-05-31",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-06-20",
+    "as_of_avail": 16.7,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2023-06-22",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-07-25",
+    "as_of_avail": 4.66,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2023-07-27",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-08-22",
+    "as_of_avail": 7.43,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 20,
+    "near30d_first_zero_date": "2023-08-25",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-09-19",
+    "as_of_avail": 21.95,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2023-09-27",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-10-24",
+    "as_of_avail": 55.44,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 19,
+    "near30d_first_zero_date": "2023-10-30",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2023-11-14",
+    "as_of_avail": 33.33,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 11,
+    "near30d_first_zero_date": "2023-11-30",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-01-23",
+    "as_of_avail": 38.95,
+    "near30d_min_avail": 10.247,
+    "near30d_zero_days": 0,
+    "near30d_first_zero_date": "none",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-02-20",
+    "as_of_avail": 32.88,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 13,
+    "near30d_first_zero_date": "2024-03-05",
+    "near30d_below_2M_days": 2,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-03-19",
+    "as_of_avail": 12.16,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2024-03-27",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-04-30",
+    "as_of_avail": 10.7,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2024-05-07",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-05-07",
+    "as_of_avail": 13.21,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 20,
+    "near30d_first_zero_date": "2024-05-10",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-06-18",
+    "as_of_avail": 10.73,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 16,
+    "near30d_first_zero_date": "2024-06-26",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-07-23",
+    "as_of_avail": 5.96,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2024-07-25",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-08-19",
+    "as_of_avail": 10.9,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 16,
+    "near30d_first_zero_date": "2024-08-28",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-09-24",
+    "as_of_avail": 11.33,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2024-09-26",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-10-15",
+    "as_of_avail": 10.33,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 19,
+    "near30d_first_zero_date": "2024-10-18",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-11-12",
+    "as_of_avail": 12.33,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2024-11-14",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-12-10",
+    "as_of_avail": 13.52,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2024-12-13",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2024-12-31",
+    "as_of_avail": 6.76,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 20,
+    "near30d_first_zero_date": "2025-01-03",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-01-21",
+    "as_of_avail": 4.43,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2025-01-29",
+    "near30d_below_2M_days": 3,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-02-18",
+    "as_of_avail": 5.38,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2025-02-26",
+    "near30d_below_2M_days": 4,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-03-18",
+    "as_of_avail": 3.42,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2025-03-26",
+    "near30d_below_2M_days": 2,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-04-18",
+    "as_of_avail": 5.43,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2025-04-23",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-05-20",
+    "as_of_avail": 7.43,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2025-05-28",
+    "near30d_below_2M_days": 3,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-06-17",
+    "as_of_avail": 3.73,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 14,
+    "near30d_first_zero_date": "2025-06-30",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-07-22",
+    "as_of_avail": 7.12,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2025-07-30",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-08-26",
+    "as_of_avail": 9.57,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 20,
+    "near30d_first_zero_date": "2025-08-29",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-09-30",
+    "as_of_avail": 3.9,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 16,
+    "near30d_first_zero_date": "2025-10-08",
+    "near30d_below_2M_days": 2,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-10-21",
+    "as_of_avail": 4.47,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2025-10-24",
+    "near30d_below_2M_days": 4,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-11-18",
+    "as_of_avail": 8.54,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2025-11-20",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-12-15",
+    "as_of_avail": 4.64,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2025-12-17",
+    "near30d_below_2M_days": 0,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2025-12-30",
+    "as_of_avail": 1.21,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 20,
+    "near30d_first_zero_date": "2026-01-02",
+    "near30d_below_2M_days": 2,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-01-16",
+    "as_of_avail": 2.48,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2026-01-21",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-02-17",
+    "as_of_avail": 3.74,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 19,
+    "near30d_first_zero_date": "2026-02-23",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-03-03",
+    "as_of_avail": 6.52,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 17,
+    "near30d_first_zero_date": "2026-03-11",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-03-31",
+    "as_of_avail": 1.84,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 21,
+    "near30d_first_zero_date": "2026-04-02",
+    "near30d_below_2M_days": 1,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-04-21",
+    "as_of_avail": 4.26,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 20,
+    "near30d_first_zero_date": "2026-04-24",
+    "near30d_below_2M_days": 2,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-05-05",
+    "as_of_avail": 3.25,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 19,
+    "near30d_first_zero_date": "2026-05-11",
+    "near30d_below_2M_days": 3,
+    "near60d_min_avail": 0.0
+  },
+  {
+    "file_date": "2026-05-08",
+    "as_of_avail": 1.51,
+    "near30d_min_avail": 0.0,
+    "near30d_zero_days": 18,
+    "near30d_first_zero_date": "2026-05-13",
+    "near30d_below_2M_days": 2,
+    "near60d_min_avail": 0.0
+  }
+]

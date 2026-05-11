@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "prepared_date": "2026-05-11",
+    "data_sources": [
+      "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+      "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+      "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx",
+      "cash file details.xlsx"
+    ],
+    "sheets_analyzed": [
+      "Inflows Actuals",
+      "Inflows Detail",
+      "Inflows Forecasting",
+      "KCD backup_5.5.26BR",
+      "SHS Cash Changes 5.1.26",
+      "SC IF 2.27.26",
+      "RE Fcst Summary 3.20.26",
+      "Liquidity",
+      "B&M Anita 4.14.26",
+      "Logistics 4.14.26 FY27",
+      "KES & KCD Cash Flow",
+      "BU beta",
+      "Treasury SUMMARY 5.8",
+      "Legal (cash file details.xlsx)"
+    ]
+  },
+  "overall_liquidity": {
+    "fy2026_operating_net_cash": -83.71,
+    "fy2026_total_inflows": 611.12,
+    "fy2026_total_outflows": -694.83,
+    "fy2026_financing_draws": 84.16,
+    "fy2026_planned_asset_sales": 37.66,
+    "available_cash_minimum_month": "August 2026",
+    "available_cash_minimum_value": -52.24,
+    "interest_expense_fy2026": 55.3,
+    "legal_spend_fy2026_budget": 20.86,
+    "legal_spend_fy2025_actual": 18.8,
+    "currency": "USD_millions"
+  },
+  "business_units": {
+    "home_services": {
+      "annual_inflows_by_year": {
+        "FY2022": 725.0,
+        "FY2023": 628.0,
+        "FY2024": 488.0,
+        "FY2025": 370.0,
+        "FY2026_annualized": 324.0
+      },
+      "fy2026_monthly_actuals": {
+        "January": 25.52,
+        "February": 25.27,
+        "March": 32.94,
+        "April": 25.27
+      },
+      "fy2026_monthly_forecast": {
+        "May": 18.53,
+        "June": 35.17,
+        "July": 30.02
+      },
+      "trend": "DECLINING_55pct_from_FY2022",
+      "sub_segments": {
+        "IHR_in_home_repair": {
+          "monthly_range_fy2025": [16.7, 24.6],
+          "trend": "declining",
+          "status": "core_revenue_driver"
+        },
+        "sears_protect": {
+          "monthly_range_fy2025": [6.2, 8.2],
+          "trend": "GROWING",
+          "status": "most_defensible_segment"
+        },
+        "cinch_home_warranty": {
+          "monthly_range_fy2025": [1.8, 2.4],
+          "trend": "stable_declining",
+          "status": "assurant_passthrough"
+        },
+        "ship_inhome_parts": {
+          "status": "WOUND_DOWN",
+          "note": "Near-zero since Oct 2024"
+        },
+        "parts_direct": {
+          "monthly_fy2025_avg": 3.7,
+          "trend": "declining"
+        }
+      },
+      "assurant_profit_share_fy2026": {
+        "January": 2.9,
+        "April": 1.5,
+        "frequency": "quarterly",
+        "fy2025_total": 6.38
+      },
+      "direct_payroll_monthly_fy2025": [12.2, 13.4],
+      "merch_disbursements_monthly_fy2025": [5.7, 9.0],
+      "ups_logistics_monthly_fy2025": [0.9, 2.4],
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Accelerate Sears Protect contract origination",
+          "rationale": "Only HS sub-segment showing growth",
+          "cash_impact": "Each $1M new annual premium = $83K/month recurring"
+        },
+        {
+          "priority": 2,
+          "action": "Renegotiate Assurant profit share to monthly payments",
+          "rationale": "Improves cash predictability",
+          "timeline": "60 days"
+        },
+        {
+          "priority": 3,
+          "action": "Sell IHR contract book to HomeServe/Frontdoor/AHS",
+          "rationale": "Convert declining annuity to lump sum",
+          "estimated_value_range": [50, 90],
+          "currency": "USD_millions",
+          "timeline": "6-12 months"
+        },
+        {
+          "priority": 4,
+          "action": "Sell ServiceLive platform IP",
+          "rationale": "Technology asset with standalone value to marketplace operators",
+          "estimated_value_range": [15, 40],
+          "currency": "USD_millions"
+        },
+        {
+          "priority": 5,
+          "action": "Reduce SHS Direct Payroll by 10%+",
+          "rationale": "Payroll must track revenue decline",
+          "cash_impact": 13.0,
+          "currency": "USD_millions_per_year"
+        }
+      ],
+      "key_risks": [
+        "Accelerating contract attrition",
+        "Assurant termination right on performance failure",
+        "Technician availability/cost inflation"
+      ]
+    },
+    "kcd_brands": {
+      "description": "Kenmore, Craftsman, DieHard IP licensing and wholesale",
+      "annual_inflows_by_year": {
+        "FY2022": 25.3,
+        "FY2023": 8.0,
+        "FY2024": 5.7,
+        "FY2025": 5.2,
+        "FY2026_YTD_4mo": 5.19,
+        "FY2026_annualized_trend": 18.0
+      },
+      "fy2026_monthly_actuals": {
+        "January": 0.54,
+        "February": 1.74,
+        "March": 1.68,
+        "April": 1.66
+      },
+      "fy2026_monthly_forecast": {
+        "May": 1.57,
+        "June": 4.30,
+        "July": 1.77
+      },
+      "revenue_components": {
+        "costco_wholesale": "Dominant channel, $0-5.8M/month (highly episodic)",
+        "external_royalties": "$0.06-1.4M/month (Cleva, Galanz, ESM/DieHard, Dorcy)",
+        "internal_royalties_sears_hometown": "$0.3-1.1M/month",
+        "sears_mexico_license": "~$2M in July 2026 forecast"
+      },
+      "net_cash_flow_fy2026": "Positive ~$0.9-1.1M/month after operating costs",
+      "lg_lawsuit": {
+        "outside_counsel": "Katten Muchin",
+        "fy2026_legal_budget": 2.35,
+        "status": "Pending settlement discussions",
+        "risk_rating": "HIGH",
+        "currency": "USD_millions"
+      },
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Settle LG lawsuit immediately",
+          "rationale": "$200K/month in legal burn; avoid potential adverse judgment",
+          "timeline": "Q3 2026"
+        },
+        {
+          "priority": 2,
+          "action": "Sell Kenmore brand IP at royalty income multiple",
+          "estimated_value_range": [90, 160],
+          "rationale": "$18-20M annualized royalty at 5-8x multiple",
+          "currency": "USD_millions",
+          "timeline": "12-18 months"
+        },
+        {
+          "priority": 3,
+          "action": "Secure 12-month Costco forward purchase commitment",
+          "rationale": "Smooth episodic cash flows, increase volumes"
+        },
+        {
+          "priority": 4,
+          "action": "Sign 3-5 new Kenmore licensees in adjacent categories",
+          "cash_impact_per_licensee": [0.15, 0.4],
+          "currency": "USD_millions_annual"
+        }
+      ],
+      "key_risks": [
+        "LG lawsuit adverse judgment",
+        "Costco de-listing",
+        "Kenmore brand erosion in wind-down context"
+      ]
+    },
+    "sears_retail": {
+      "annual_inflows_by_year": {
+        "FY2022": 203.0,
+        "FY2023": 125.0,
+        "FY2024": 53.0,
+        "FY2025": 26.0,
+        "FY2026_annualized": 13.0
+      },
+      "fy2026_monthly_actuals": {
+        "January": 0.96,
+        "February": 0.67,
+        "March": 1.79,
+        "April": 1.03
+      },
+      "trend": "TERMINAL_DECLINE_93pct_from_FY2022",
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Close all remaining Sears stores immediately",
+          "rationale": "At $1M/month total inflows, stores cannot cover fully-loaded costs",
+          "timeline": "Immediate"
+        },
+        {
+          "priority": 2,
+          "action": "Zero capital investment in remaining stores",
+          "rationale": "No return on any further investment"
+        }
+      ]
+    },
+    "kmart": {
+      "annual_inflows_by_year": {
+        "FY2022": 143.0,
+        "FY2023": 135.0,
+        "FY2024": 113.0,
+        "FY2025": 90.0,
+        "FY2026_annualized": 76.0
+      },
+      "fy2026_monthly_actuals": {
+        "January": 5.84,
+        "February": 5.90,
+        "March": 7.40,
+        "April": 6.00
+      },
+      "kmart_vs_sears_ratio_fy2026": "8-10x",
+      "trend": "DECLINING_but_SIGNIFICANTLY_OUTPERFORMING_SEARS",
+      "notes": "St. Thomas VI store appears in legal/RE files; Caribbean presence may be significant",
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Perform store-by-store P&L before any Kmart closures",
+          "rationale": "At $5.9-7.4M/month, stores may be margin-positive"
+        },
+        {
+          "priority": 2,
+          "action": "Explore international Kmart licensing",
+          "rationale": "Brand still viable in operating territories; potential licensing fee income"
+        },
+        {
+          "priority": 3,
+          "action": "Sublease excess Kmart space to co-tenants",
+          "rationale": "Incremental cash without closure cost"
+        }
+      ]
+    },
+    "supply_chain_3pl": {
+      "fy2026_monthly_revenue_by_facility": {
+        "Fairless_Hills_PA": {
+          "February": 0.906,
+          "March": 1.015,
+          "April": 1.052,
+          "May": 1.048,
+          "June": 1.076,
+          "July": 1.069,
+          "October": 1.130,
+          "November": 1.226,
+          "December": 1.227
+        },
+        "Ocala_FL": {
+          "February": 0.591,
+          "March": 0.760,
+          "April": 0.871,
+          "May": 0.891,
+          "June": 0.952,
+          "July": 1.025,
+          "October": 1.179,
+          "description": "Strongest growth trajectory"
+        },
+        "Lawrence_KS": {
+          "monthly_range": [0.44, 0.52],
+          "key_clients": ["Post Consumer Brands", "Tractor Supply (Flexe)", "Ware2Go", "Pokemon"]
+        },
+        "Arvin_CA": {
+          "monthly_revenue": 0.14,
+          "status": "MARGINAL - evaluate exit"
+        }
+      },
+      "grand_total_monthly_revenue": {
+        "February": 2.104,
+        "March": 2.360,
+        "April": 2.498,
+        "May": 2.529,
+        "June": 2.642,
+        "July": 2.672,
+        "October": 2.939,
+        "FY2026_annualized": 29.0
+      },
+      "currency": "USD_millions",
+      "top_clients": [
+        "Post Consumer Brands",
+        "Tractor Supply Co (via Flexe)",
+        "Ware2Go",
+        "Pokemon (seasonal)",
+        "Berry Plastics",
+        "Smuckers",
+        "Austin Bazaar (Stord)",
+        "ECR4Kids"
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Lock in multi-year contract with Post Consumer Brands",
+          "rationale": "Largest SC client; predictable, credit-worthy"
+        },
+        {
+          "priority": 2,
+          "action": "Invest in Ocala growth - target 2x revenue by FY2027",
+          "rationale": "Strongest growth trajectory; SE US distribution advantage"
+        },
+        {
+          "priority": 3,
+          "action": "Exit or sublease Arvin CA facility",
+          "rationale": "$1.7M annualized revenue is marginal; California RE may have standalone value"
+        },
+        {
+          "priority": 4,
+          "action": "Pursue Amazon Flex/FBA prep partnerships",
+          "rationale": "Increase DC utilization using existing capacity"
+        }
+      ]
+    },
+    "real_estate_asset_sales": {
+      "annual_asset_sale_proceeds": {
+        "FY2022": 72.75,
+        "FY2023": 55.95,
+        "FY2024": 77.92,
+        "FY2025": 39.76,
+        "FY2026_YTD_4mo": 7.66
+      },
+      "fy2026_planned_h2_sales": {
+        "September": 5.0,
+        "October": 10.0,
+        "December": 5.0,
+        "total": 20.0
+      },
+      "re_legal_spend_fy2026": 7.45,
+      "re_legal_to_asset_sale_ratio": "97% of YTD proceeds consumed by legal spend",
+      "active_litigation": {
+        "MOAC_case": {
+          "counsel": "Dechert and Wachtell",
+          "annual_spend": 1.7,
+          "status": "Ongoing - highest RE legal spend"
+        },
+        "Benderson_case": {
+          "counsel": "Womble Bond Dickinson",
+          "locations": ["Midland MI", "Oakdale CA"],
+          "annual_spend": 1.5,
+          "status": "Going to trial; settlement upward of $1.2M possible"
+        },
+        "Hemet_CA": {
+          "counsel": "Robbins Kaplan",
+          "annual_spend": 1.0,
+          "status": "Multiple LL cases"
+        },
+        "Hayward_CA_arbitration": {
+          "counsel": "Farella Braun & Martel",
+          "annual_spend": 0.25
+        }
+      },
+      "currency": "USD_millions",
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Settle MOAC and Benderson immediately",
+          "rationale": "Remove liability overhang; enable faster property monetization"
+        },
+        {
+          "priority": 2,
+          "action": "Accelerate October 2026 $10M asset sale closing",
+          "rationale": "Critical to liquidity plan"
+        },
+        {
+          "priority": 3,
+          "action": "Cap RE legal spend at $4M/year",
+          "rationale": "Current $7.45M is unsustainable vs. asset sale pace",
+          "savings": 3.45
+        },
+        {
+          "priority": 4,
+          "action": "Explore PropCo-level mortgage financing",
+          "rationale": "Unencumbered properties could support $20-40M credit facility"
+        }
+      ]
+    },
+    "home_warranty_cinch": {
+      "assurant_profit_share": {
+        "FY2025_total": 6.38,
+        "FY2026_Q1": 2.9,
+        "FY2026_Q2": 1.5,
+        "payment_frequency": "quarterly"
+      },
+      "cinch_monthly_remittances": {
+        "range": [1.8, 2.4],
+        "trend": "declining"
+      },
+      "hw_reserve_outflow_fy2026": 2.7,
+      "currency": "USD_millions",
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Convert Assurant profit share to monthly payments",
+          "rationale": "Improves cash predictability at no cost to total value"
+        },
+        {
+          "priority": 2,
+          "action": "Approach Assurant for portfolio acquisition/run-off",
+          "rationale": "Assurant is most logical buyer; lump sum + operational simplification"
+        },
+        {
+          "priority": 3,
+          "action": "Discontinue Hello Super rebranding if no incremental origination",
+          "rationale": "Eliminate duplicate marketing infrastructure"
+        },
+        {
+          "priority": 4,
+          "action": "Release HW reserves state-by-state as contracts run off",
+          "potential_release": 0.5,
+          "currency": "USD_millions_per_year"
+        }
+      ]
+    },
+    "syw_card_digital": {
+      "citi_reimbursement_annual": {
+        "FY2022": 86.16,
+        "FY2023": 82.93,
+        "FY2024": 52.45,
+        "FY2025": 47.58,
+        "FY2026_YTD_4mo": 3.51,
+        "FY2026_annualized": 10.5,
+        "decline_rate_yoy": "67% decline YTD 2026 vs YTD 2025"
+      },
+      "wachtell_credit_card_legal_fy2026": 1.2,
+      "status": "Final payment made Feb 2026; credit card program launch completed",
+      "currency": "USD_millions",
+      "recommendations": [
+        {
+          "priority": 1,
+          "action": "Review Citi co-branded card agreement terms and minimums",
+          "rationale": "CITI reimbursement declining 67% YoY; understand root cause"
+        },
+        {
+          "priority": 2,
+          "action": "Evaluate SYW loyalty platform/database sale",
+          "estimated_value_range": [5, 20],
+          "currency": "USD_millions"
+        },
+        {
+          "priority": 3,
+          "action": "Run SYW points expiration campaign",
+          "rationale": "Reduce long-dated points liability"
+        },
+        {
+          "priority": 4,
+          "action": "No further SYW digital infrastructure investment",
+          "rationale": "Wind-down stage; no return horizon"
+        }
+      ]
+    }
+  },
+  "cross_cutting_recommendations": {
+    "liquidity_management": [
+      {
+        "action": "Establish weekly 13-week rolling cash forecast",
+        "urgency": "IMMEDIATE"
+      },
+      {
+        "action": "Negotiate PIK extension on 2020 term loans",
+        "cash_impact": 40.0,
+        "currency": "USD_millions",
+        "note": "Single largest near-term liquidity lever"
+      },
+      {
+        "action": "Establish $15M minimum available cash floor policy",
+        "rationale": "Current forecast allows ($52M) available — operationally impractical"
+      }
+    ],
+    "debt_restructuring": [
+      {
+        "action": "PIK extension on term loans through FY2026",
+        "cash_savings": [40, 50],
+        "currency": "USD_millions"
+      },
+      {
+        "action": "Explore debt-to-asset swap with lenders (RE properties or KCD IP)",
+        "rationale": "Simultaneous debt reduction and asset monetization"
+      }
+    ],
+    "cost_reduction": {
+      "legal_spend_reduction": {
+        "current_fy2026_budget": 20.86,
+        "target": 10.0,
+        "savings": 10.86,
+        "currency": "USD_millions"
+      },
+      "actions": [
+        "Eliminate or settle Reed Smith HTS bankruptcy matter ($2.1M/year)",
+        "Consolidate RE litigation to fewer firms",
+        "Review KCD headcount (0.7-0.9M/month payroll vs 1.7M/month inflows)",
+        "Reduce AIG Loss Sensitive payments via negotiated deferral"
+      ]
+    }
+  },
+  "prioritized_action_list": [
+    {"rank": 1, "action": "Negotiate PIK extension on term loans", "cash_impact_mm": 45, "timeline": "Immediate"},
+    {"rank": 2, "action": "Sell IHR contract book", "cash_impact_mm": 70, "timeline": "6-12 months"},
+    {"rank": 3, "action": "Sell Kenmore brand IP", "cash_impact_mm": 125, "timeline": "12-18 months"},
+    {"rank": 4, "action": "Close all Sears stores", "cash_impact_mm": 7, "timeline": "Immediate"},
+    {"rank": 5, "action": "Settle MOAC + Benderson RE litigation", "cash_impact_mm": 10, "timeline": "3-6 months"},
+    {"rank": 6, "action": "Reduce legal spend to $10M/year", "cash_impact_mm": 10, "timeline": "6 months"},
+    {"rank": 7, "action": "Accelerate H2 2026 RE asset sales", "cash_impact_mm": 20, "timeline": "3-6 months"},
+    {"rank": 8, "action": "Renegotiate Assurant to monthly payments", "cash_impact_mm": 0, "timeline": "60 days", "note": "Timing improvement, not new cash"},
+    {"rank": 9, "action": "Grow Ocala DC 3PL", "cash_impact_mm": 4.5, "timeline": "6-12 months"},
+    {"rank": 10, "action": "Expand Costco KCD wholesale", "cash_impact_mm": 7.5, "timeline": "3-6 months"},
+    {"rank": 11, "action": "Sell ServiceLive platform IP", "cash_impact_mm": 27, "timeline": "12-18 months"},
+    {"rank": 12, "action": "Reduce HW reserves by state run-off", "cash_impact_mm": 0.75, "timeline": "12 months"}
+  ]
+}

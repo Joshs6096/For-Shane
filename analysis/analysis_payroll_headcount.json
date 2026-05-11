@@ -1,0 +1,523 @@
+{
+  "analysis_date": "2026-05-11",
+  "title": "Payroll Cost Trajectory 2022-2026",
+  "description": "Monthly payroll actuals (salary + benefits disbursements) extracted from SP_Analysis daily cash forecast files. All amounts in dollars, negative = outflow. For each month, actuals are sourced from the earliest file where the month is fully closed (act/forecast ratio >= 0.85). Files typically carry 5-8 months of history.",
+  "methodology": {
+    "format_A_files": "Sep 2022, Dec 2022 \u2014 monthly totals in blank-date rows preceding next month label",
+    "format_B_files": "Apr 2023 onwards \u2014 monthly totals in abbreviated month-name rows (e.g., 'Feb', 'Oct')",
+    "full_month_criterion": "Actuals considered full-month when act/forecast ratio >= 0.85",
+    "partial_months_flagged": "Current-month actuals (file date mid-month) are flagged as partial",
+    "supplementary_files": "Aug 19, Sep 24, Oct 15, Nov 12, Dec 10 2024 files used to fill 2024 gaps"
+  },
+  "canonical_monthly_series": [
+    {
+      "month": "2022-08",
+      "actuals": -28589625,
+      "forecast": -28558373,
+      "source_file": "Dec22_BOD_confirmed_full",
+      "status": "full_actual"
+    },
+    {
+      "month": "2022-09",
+      "actuals": -48384404,
+      "forecast": -48547127,
+      "source_file": "Dec22_BOD_and_Apr23_BOD",
+      "status": "full_actual",
+      "note": "Sep 22 BOD only has partial Sep actuals through Sep 19 ($31.97M); full Sep from Dec 22 BOD = $48.38M"
+    },
+    {
+      "month": "2022-10",
+      "actuals": -30975041,
+      "forecast": -31118660,
+      "source_file": "Dec22_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2022-11",
+      "actuals": -27474926,
+      "forecast": -27753239,
+      "source_file": "Dec22_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2022-12",
+      "actuals": -39503910,
+      "forecast": -39295194,
+      "source_file": "Apr23_BOD",
+      "status": "full_actual",
+      "note": "Dec 22 BOD file only has Dec actuals through Dec 7 ($13.68M); full Dec from Apr 23 BOD = $39.50M"
+    },
+    {
+      "month": "2023-01",
+      "actuals": -30691506,
+      "forecast": -31075632,
+      "source_file": "Apr23_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-02",
+      "actuals": -30478241,
+      "forecast": -30645585,
+      "source_file": "Apr23_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-03",
+      "actuals": -42060043,
+      "forecast": -42583677,
+      "source_file": "Apr23_BOD",
+      "status": "full_actual",
+      "note": "March 2023 includes biweekly cycle; large run on Mar 31"
+    },
+    {
+      "month": "2023-04",
+      "actuals": -32836533,
+      "forecast": -32768261,
+      "source_file": "Aug23_BOD",
+      "status": "full_actual",
+      "note": "Apr 23 BOD has partial Apr actuals $18.16M through Apr 25; full Apr from Aug 23 BOD = $32.84M"
+    },
+    {
+      "month": "2023-05",
+      "actuals": -30002109,
+      "forecast": -30282413,
+      "source_file": "Aug23_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-06",
+      "actuals": -35080391,
+      "forecast": -35254252,
+      "source_file": "Aug23_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-07",
+      "actuals": -28314490,
+      "forecast": -28722293,
+      "source_file": "Aug23_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-08",
+      "actuals": -27078455,
+      "forecast": -27226350,
+      "source_file": "Jan24_BOD",
+      "status": "full_actual",
+      "note": "Aug 23 BOD has partial Aug actuals $25.72M through Aug 22; full Aug from Jan 24 BOD = $27.08M"
+    },
+    {
+      "month": "2023-09",
+      "actuals": -43150334,
+      "forecast": -43536803,
+      "source_file": "Jan24_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-10",
+      "actuals": -27684277,
+      "forecast": -28020532,
+      "source_file": "Jan24_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-11",
+      "actuals": -26623327,
+      "forecast": -26520367,
+      "source_file": "Jan24_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2023-12",
+      "actuals": -36033438,
+      "forecast": -36553048,
+      "source_file": "Jan24_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-01",
+      "actuals": null,
+      "forecast": -37190380,
+      "source_file": "Jan24_BOD",
+      "status": "no_full_actual_available",
+      "note": "Jan 24 BOD has partial Jan actuals $22.18M through Jan 23; no later file in set covers full Jan 2024"
+    },
+    {
+      "month": "2024-02",
+      "actuals": -28420000,
+      "forecast": -28650000,
+      "source_file": "Aug19_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-03",
+      "actuals": -29070000,
+      "forecast": -29530000,
+      "source_file": "Aug19_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-04",
+      "actuals": -29480000,
+      "forecast": -29440000,
+      "source_file": "Aug19_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-05",
+      "actuals": -30010000,
+      "forecast": -30090000,
+      "source_file": "Aug19_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-06",
+      "actuals": -35620000,
+      "forecast": -35920000,
+      "source_file": "Aug19_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-07",
+      "actuals": -29440000,
+      "forecast": -29520000,
+      "source_file": "Aug19_2024",
+      "status": "full_actual",
+      "note": "Jul 24 BOD file has partial Jul actuals $15.64M through Jul 23; full Jul from Aug 19 2024 file = $29.44M"
+    },
+    {
+      "month": "2024-08",
+      "actuals": -27720000,
+      "forecast": -27890000,
+      "source_file": "Sep24_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-09",
+      "actuals": -28710000,
+      "forecast": -28790000,
+      "source_file": "Oct15_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-10",
+      "actuals": -27330000,
+      "forecast": -27200000,
+      "source_file": "Nov12_2024",
+      "status": "full_actual"
+    },
+    {
+      "month": "2024-11",
+      "actuals": null,
+      "forecast": -26240000,
+      "source_file": "Nov12_2024",
+      "status": "no_full_actual_available",
+      "note": "Nov 12 BOD has partial Nov actuals $7.23M through Nov 12; no later file in target set covers full Nov 2024"
+    },
+    {
+      "month": "2024-12",
+      "actuals": -30230000,
+      "forecast": -32230000,
+      "source_file": "Dec31_2024",
+      "status": "full_actual",
+      "note": "Forecast-actual gap likely includes year-end severance or bonus accruals outside this sheet"
+    },
+    {
+      "month": "2025-01",
+      "actuals": -24150000,
+      "forecast": -24350000,
+      "source_file": "May25_BOD",
+      "status": "full_actual",
+      "note": "Jan 25 BOD has partial Jan actuals $12.21M through Jan 21; full Jan from May 25 BOD = $24.15M"
+    },
+    {
+      "month": "2025-02",
+      "actuals": -22300000,
+      "forecast": -22710000,
+      "source_file": "May25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-03",
+      "actuals": -22910000,
+      "forecast": -23210000,
+      "source_file": "May25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-04",
+      "actuals": -22790000,
+      "forecast": -23040000,
+      "source_file": "May25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-05",
+      "actuals": -20940000,
+      "forecast": -21220000,
+      "source_file": "Oct25_BOD",
+      "status": "full_actual",
+      "note": "May 25 BOD has partial May actuals $10.66M through May 20; full May from Oct 25 BOD = $20.94M"
+    },
+    {
+      "month": "2025-06",
+      "actuals": -25780000,
+      "forecast": -25970000,
+      "source_file": "Oct25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-07",
+      "actuals": -21480000,
+      "forecast": -21850000,
+      "source_file": "Oct25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-08",
+      "actuals": -20820000,
+      "forecast": -20880000,
+      "source_file": "Oct25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-09",
+      "actuals": -21020000,
+      "forecast": -21060000,
+      "source_file": "Oct25_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-10",
+      "actuals": -19950000,
+      "forecast": -20310000,
+      "source_file": "Dec30_2025",
+      "status": "full_actual",
+      "note": "Oct 25 BOD has partial Oct actuals $10.58M through Oct 21; full Oct from Dec 30 2025 file = $19.95M"
+    },
+    {
+      "month": "2025-11",
+      "actuals": -18850000,
+      "forecast": -19100000,
+      "source_file": "Dec30_2025",
+      "status": "full_actual"
+    },
+    {
+      "month": "2025-12",
+      "actuals": -17880000,
+      "forecast": -24890000,
+      "source_file": "Dec30_2025",
+      "status": "full_actual",
+      "note": "Dec 30 file has 30 of 31 days; large fcst-actual gap ($7M) suggests severance/bonuses not loaded or paid in different month"
+    },
+    {
+      "month": "2026-01",
+      "actuals": -19010000,
+      "forecast": -19590000,
+      "source_file": "Apr26_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2026-02",
+      "actuals": -18510000,
+      "forecast": -19030000,
+      "source_file": "Apr26_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2026-03",
+      "actuals": -19390000,
+      "forecast": -19800000,
+      "source_file": "Apr26_BOD",
+      "status": "full_actual"
+    },
+    {
+      "month": "2026-04",
+      "actuals": -19540000,
+      "forecast": -19910000,
+      "source_file": "May08_2026",
+      "status": "full_actual",
+      "note": "Apr 26 BOD has partial Apr actuals $9.50M through Apr 21; full Apr from May 8 2026 file = $19.54M"
+    },
+    {
+      "month": "2026-05",
+      "actuals": null,
+      "forecast": -19230000,
+      "source_file": "May08_2026",
+      "status": "partial_through_May08",
+      "partial_amount": -5170000,
+      "note": "May 8 file has actuals only through May 8 = $5.17M; full month forecast = $19.23M"
+    }
+  ],
+  "yearly_averages": {
+    "H2_FY2022_monthly_avg": 34985581.0,
+    "FY2023_monthly_avg": 32502762.0,
+    "FY2024_monthly_avg": 29603000.0,
+    "FY2025_monthly_avg": 21572500.0,
+    "FY2026_jan_apr_monthly_avg": 19112500.0,
+    "note": "2024 and 2025 averages exclude months where no full-month actual is available (Jan 2024, Nov 2024, Jan 2025)"
+  },
+  "key_question_1_sep2022_vs_may2026": {
+    "question": "Total monthly payroll Sep 2022 vs May 2026",
+    "sep_2022": {
+      "month": "September 2022",
+      "monthly_actuals": -48384404,
+      "monthly_actuals_millions": 48.38,
+      "source": "December 2022 BOD file (full month closed)",
+      "bu_breakdown": {
+        "Home Services": -31385000,
+        "Retail": -4861000,
+        "Supply Chain": -2932000,
+        "Finance": -1471000,
+        "Real Estate": -1184000,
+        "HoldingsCo": -986000,
+        "MSO": -976000,
+        "Member Tech": -900000,
+        "SYWR": -813000,
+        "KCD": -753000,
+        "HR": -565000,
+        "Monark": -516000,
+        "Legal": -427000,
+        "FinancialSvcs": -373000,
+        "Service Live": -242000
+      },
+      "note": "Sep 22 BOD file (dated Sep 19) shows only partial Sep actuals of $31.97M through Sep 19. Full Sep 2022 = $48.38M from Dec 22 BOD."
+    },
+    "apr_2026_last_full_month": {
+      "month": "April 2026",
+      "monthly_actuals": -19540000,
+      "monthly_actuals_millions": 19.54,
+      "source": "May 8, 2026 file (full April closed)",
+      "bu_breakdown": {
+        "Home Services": -11779000,
+        "Supply Chain": -1453000,
+        "Retail": -1447000,
+        "Finance": -875000,
+        "Real Estate": -813000,
+        "SYWR": -660000,
+        "KCD": -642000,
+        "Member Tech": -396000,
+        "Legal": -388000,
+        "MSO": -275000,
+        "HR": -267000,
+        "HoldingsCo": -231000,
+        "BYOV Reimburse (HS)": -212000,
+        "Retail Online": -102000
+      },
+      "note": "Apr 21 BOD file has partial Apr actuals of $9.50M through Apr 21. Full Apr 2026 = $19.54M from May 8 file. May 2026 is only partial ($5.17M through May 8)."
+    },
+    "comparison": {
+      "baseline_month_comparison": "Sep 2022 ($48.38M) vs Apr 2026 ($19.54M)",
+      "absolute_reduction_monthly": 28844404,
+      "absolute_reduction_monthly_millions": 28.84,
+      "pct_reduction": 59.6,
+      "annualized_reduction": 346132848,
+      "annualized_reduction_millions": 346.1
+    },
+    "implied_headcount_at_key_salary_assumptions": {
+      "assumption_note": "Monthly cost per employee = annual total compensation / 12. Total comp = salary + ~25-30% benefits.",
+      "at_85k_annual_total_comp": {
+        "sep_2022_implied_headcount": 6831,
+        "apr_2026_implied_headcount": 2759,
+        "implied_reduction": 4072
+      },
+      "at_70k_annual_total_comp": {
+        "sep_2022_implied_headcount": 8294,
+        "apr_2026_implied_headcount": 3350,
+        "implied_reduction": 4945
+      },
+      "at_100k_annual_total_comp": {
+        "sep_2022_implied_headcount": 5806,
+        "apr_2026_implied_headcount": 2345,
+        "implied_reduction": 3461
+      }
+    }
+  },
+  "key_question_2_pre_post_payroll_change": {
+    "question": "Quantify payroll change: Apr 21, 2026 (pre) vs May 8, 2026 (post)",
+    "context": "Apr 21, 2026 BOD file is labeled 'pre payroll change'. May 8, 2026 file reflects post-change.",
+    "monthly_comparison": {
+      "apr_26_BOD_last_full_month_actual": {
+        "month": "April 2026",
+        "source": "Apr 21 BOD file shows partial Apr actuals $9.50M through Apr 21",
+        "full_apr_from_may8": -19540000,
+        "full_apr_millions": 19.54
+      },
+      "may_08_forward_forecast": {
+        "may_2026_forecast": -19230000,
+        "may_2026_forecast_millions": 19.23,
+        "note": "May 2026 actuals only through May 8 = $5.17M; forecast for full May = $19.23M"
+      },
+      "apr_21_may_26_forward_forecast": {
+        "may_2026_forecast_in_apr21_file": -19350000,
+        "may_2026_forecast_in_apr21_file_millions": 19.35
+      },
+      "assessed_change": {
+        "finding": "Payroll schedule (FY26 detail tab) reduced by $3.48M annual (-0.7%) between Apr 21 and May 8 files. Cash flow forward forecast shows $120-150K/month reduction. The headcount change is small in percentage terms but real.",
+        "payroll_schedule_annual_reduction": 3480000,
+        "payroll_schedule_monthly_equivalent": 290000,
+        "cash_flow_forward_monthly_reduction": 120000,
+        "weekly_actuals_apr15_21": -2026000,
+        "weekly_actuals_may02_08": -5172000,
+        "weekly_note": "May 2-8 week ($5.17M) is higher than Apr 15-21 week ($2.03M) due to normal biweekly payroll cycle timing: the May 2-8 week captured a major Home Services biweekly run ($4.09M vs $0.78M the prior measured week)."
+      }
+    },
+    "payroll_tab_comparison_note": "The Apr 21 BOD file has tabs: 'FY27 payroll 4.17', 'FY26 payroll 4.17'. The May 8 BOD file has tabs: 'FY27 payroll 5.8', 'FY26 payroll 5.8'. A direct comparison of these dedicated payroll schedule tabs would give the precise headcount change. The Payroll main tab aggregate data shows only a $120K/month difference in forward forecast.",
+    "payroll_schedule_comparison": {
+      "data_source": "FY26 payroll detail tabs: 'FY26 payroll 4.17' (Apr 21 BOD) vs 'FY26 payroll 5.8' (May 8 file)",
+      "apr21_fy26_annual_schedule_total": -476700000,
+      "may08_fy26_annual_schedule_total": -473220000,
+      "annual_reduction_from_payroll_change": 3480000,
+      "monthly_equivalent_reduction": 290000.0,
+      "pct_reduction": -0.7,
+      "largest_single_period_delta": {
+        "fiscal_month": "2026-03 (April 2026)",
+        "apr21_amount": -40314000,
+        "may08_amount": -39079000,
+        "reduction": 1235000
+      },
+      "interpretation": "The 'payroll change' represents a headcount reduction effective April 2026 that reduced the annualized FY26 payroll run-rate by $3.48M (-0.7%). Monthly equivalent reduction: ~$290K/month. April 2026 fiscal period shows the largest single-period change ($1.23M). Note: The payroll schedule tabs appear to use a different basis than the cash flow actuals (possibly gross payroll vs net disbursements, or may include employers' share of benefits differently). Cash flow forward forecast shows only ~$120K/month difference."
+    }
+  },
+  "workforce_reduction_trajectory": {
+    "narrative": "Payroll costs show a clear but non-linear decline with several structural step-downs:\n1. Sep 2022 peak (~$48M/mo): Pre-restructuring baseline\n2. H2 2022 restructuring: Declined from $48M (Sep) to $28M (Aug) \u2014 ~$20M reduction in one quarter\n3. 2023 volatility: Monthly costs ranged $26M-$43M, with large biweekly payroll spike months\n4. 2024 stability: Costs stabilized around $27-$36M/mo through most of 2024\n5. Late 2024 / early 2025 reduction: Dropped sharply to $22-24M/mo range by early 2025\n6. Mid-2025 step-down: Further reduction to $19-22M/mo through H2 2025\n7. Q4 2025: Stabilized at $18-20M/mo\n8. 2026: Jan-Apr holding ~$19M/mo \u2014 appears stable post prior reductions",
+    "major_step_downs": [
+      {
+        "period": "H2 2022",
+        "from_monthly": 48384404,
+        "to_monthly": 27474926,
+        "reduction_pct": 43.2,
+        "driver": "Large 2022 workforce reduction"
+      },
+      {
+        "period": "2023-2024",
+        "from_monthly": 27474926,
+        "to_monthly": 27680000,
+        "reduction_pct": -0.7,
+        "driver": "Relatively stable through mid-2024"
+      },
+      {
+        "period": "Late 2024 to Early 2025",
+        "from_monthly": 30230000,
+        "to_monthly": 22300000,
+        "reduction_pct": 26.2,
+        "driver": "Further workforce reduction"
+      },
+      {
+        "period": "H2 2025",
+        "from_monthly": 22300000,
+        "to_monthly": 19950000,
+        "reduction_pct": 10.5,
+        "driver": "Continued headcount reduction"
+      }
+    ],
+    "large_biweekly_spike_months": [
+      "Sep 2022 ($48.4M)",
+      "Mar 2023 ($42.1M)",
+      "Sep 2023 ($43.2M)",
+      "Jun 2024 ($35.6M)",
+      "Jun 2025 ($25.8M)"
+    ],
+    "spike_pattern_note": "Biweekly payroll creates a 3-payroll month pattern (~every 6 months). Months like Sep, Mar, Jun frequently show 20-30% higher payroll vs adjacent months. The Sep 2022 spike ($48.4M) also appears to include severance payments."
+  }
+}

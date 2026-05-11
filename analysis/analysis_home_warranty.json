@@ -1,0 +1,503 @@
+{
+  "metadata": {
+    "analysis_date": "2026-05-11",
+    "analyst_note": "All figures sourced from SP_Analysis BOD files. No estimates or guesses.",
+    "data_sources": [
+      "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+      "Daily Cash Fcst - 4.25.23_BU view_April 27 BOD.xlsx",
+      "Daily Cash Fcst - 8.22.23_BU view_AugBOD.xlsx",
+      "Daily Cash Fcst - 11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx",
+      "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+      "Daily Cash Fcst - 5.7.24_BU view_MayBOD_5.9.24.xlsx",
+      "Daily Cash Fcst - 8.19.24_BU view_AugBOD.xlsx",
+      "Daily Cash Fcst - 11.12.24_BU view_deck version_NovBOD.xlsx",
+      "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+      "Daily Cash Fcst - 5.20.25_BU view_deck version_MayBOD.xlsx",
+      "Daily Cash Fcst - 9.30.25_BU view_deck version.xlsx",
+      "Daily Cash Fcst - 12.15.25_BU view_DecBOD.xlsx",
+      "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+      "cash file details.xlsx"
+    ],
+    "tabs_used": [
+      "BU beta",
+      "Assurant OF fcst",
+      "Inflows Detail",
+      "Trapped Cash",
+      "RC"
+    ]
+  },
+  "business_structure": {
+    "summary": "Three distinct home warranty/protection streams: (1) Assurant-underwritten HW distribution through SHS, (2) Cinch B2B service fulfillment where Sears handles Cinch customers' service calls, (3) Hello Super - Sears' own branded HW product launched mid-2023.",
+    "assurant_partnership": {
+      "description": "Sears Home Services (SHS) distributed Assurant-underwritten home warranty products. SHS collected gross premiums from customers, remitted ~75% to Assurant as the insurer/underwriter, kept ~25% as revenue. Contract sales peaked Apr-Jun 2023 (~56-60K contracts/month) then STOPPED in Jul 2023 as new contract sales ceased. Residual payments continue on legacy in-force contracts. Assurant also pays SHS a quarterly profit-sharing payment based on combined portfolio performance.",
+      "gross_premium_per_contract_USD": {
+        "Apr_2023": 145.03,
+        "May_2023": 148.3,
+        "Jun_2023": 149.75,
+        "Jul_2023": 166.93
+      },
+      "pct_to_assurant": {
+        "Apr_Jun_2023": "75.8-75.9%",
+        "Jul_2023_onward": "68.9-74.9% (declining as tail-off)",
+        "note": "Assurant's share of gross premiums. SHS retained ~24-31%."
+      }
+    },
+    "cinch_b2b": {
+      "description": "Cross Country Home Services (CCHS, rebranded Cinch) is a separate entity that PAYS Sears to handle service calls for Cinch's own home warranty customers. This is a B2B service fulfillment contract. Payments were ~$4.7-5.6M/month in FY22, declining to ~$0.6-1.4M/month by 2026.",
+      "note": "CCHS/Cinch B2B inflows are separate from the Cinch HW outflows in the disbursements section. The disbursements labeled 'Cinch HW' appear to be reserves/claims-related costs associated with SHS acting as servicer."
+    },
+    "hello_super": {
+      "description": "SHS launched its own branded home warranty product 'Hello Super' starting Jul 2023, replacing the Assurant-distributed product. SHS retains the full economics but also bears the claim risk. Monthly costs ~$0.15-0.58M growing to ~$0.53-0.58M by 2025-2026."
+    }
+  },
+  "assurant_of_fcst_key_data": {
+    "note": "From 'Assurant OF fcst' tab in Aug 2023 and Nov 2023 files. Shows the ramp-down of new contract sales.",
+    "contract_history": {
+      "Apr_2023": {
+        "gross_premium_M": 8.199,
+        "contracts_sold": 60014,
+        "contracts_cancelled": -3484,
+        "net_contracts": 56530,
+        "assurant_invoice_M": 6.217,
+        "pct_to_assurant": 0.7583
+      },
+      "May_2023": {
+        "gross_premium_M": 8.386,
+        "contracts_sold": 59787,
+        "contracts_cancelled": -3243,
+        "net_contracts": 56544,
+        "assurant_invoice_M": 6.36,
+        "pct_to_assurant": 0.7585
+      },
+      "Jun_2023": {
+        "gross_premium_M": 8.304,
+        "contracts_sold": 58364,
+        "contracts_cancelled": -2910,
+        "net_contracts": 55454,
+        "assurant_invoice_M": 6.218,
+        "pct_to_assurant": 0.7488
+      },
+      "Jul_2023": {
+        "gross_premium_M": 5.082,
+        "contracts_sold": 32962,
+        "contracts_cancelled": -2520,
+        "net_contracts": 30442,
+        "assurant_invoice_M": 3.502,
+        "pct_to_assurant": 0.6892,
+        "note": "Last month with new contract sales. After Jul 2023: new sales = 0"
+      },
+      "Aug_2023_onward": {
+        "gross_premium_M": "Declining tail of in-force contracts only",
+        "contracts_sold": 0,
+        "note": "New contract sales ceased. Wind-down of existing portfolio only."
+      }
+    },
+    "implied_active_contracts_peak": {
+      "note": "Peak active contracts estimated from premium data",
+      "Jun_2023_active_contracts": "~55,000-57,000 contracts based on 56,530-56,544 net",
+      "avg_monthly_premium_per_contract_USD": 148.3,
+      "implied_annualized_premium_M": 99.6,
+      "implied_shs_revenue_share_M_annual": 24.9
+    }
+  },
+  "nov_2023_bupnl_hw_assurant_gross": {
+    "file": "11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx",
+    "key_finding": "November 2023 shows a $7.583-7.585M Assurant payment. The 'Nov gross' in the file name indicates this is the GROSS Assurant premium payment for November - a catch-up from the Sep/Oct zero payment months.",
+    "context": {
+      "Sep_2023_payment": 0.0,
+      "Oct_2023_payment": 0.0,
+      "Nov_2023_payment": -7.585,
+      "Dec_2023_payment": 0.0,
+      "interpretation": "The Sep-Oct-Dec zero months with a large Nov payment reflects timing of Assurant invoice processing. The 'gross' label confirms this is before any netting with profit-share or claims adjustments.",
+      "assurant_OF_fcst_context": "The 'Assurant OF fcst' tab confirms outflows timing: 60-day lag on invoice remittance. The Nov 2023 payment likely covers Aug-Sep 2023 invoice period based on 60-day lag."
+    },
+    "gross_vs_net": {
+      "gross_premium_collected_by_shs_M": "~$8.2-8.4M/month at peak (Apr-Jun 2023)",
+      "assurant_invoice_remitted_M": "~$6.2-6.4M/month at peak",
+      "shs_retained_revenue_M": "~$2.0M/month at peak (25% of gross)",
+      "assurant_profit_share_back_to_shs_quarterly": "See profit_sharing_inflows below"
+    }
+  },
+  "jan_2025_assurant_fudge": {
+    "file": "1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+    "finding": "The term 'Assurant fudge' appears in the file name but not as a labeled tab or cell within the spreadsheet. Investigation shows the 'fudge' most likely refers to the October 2024 catch-up payment.",
+    "evidence": {
+      "Oct_2024_assurant_payment_M": -3.806,
+      "surrounding_months_typical_range_M": "$(0.5-1.0)M",
+      "interpretation": "The $3.806M October 2024 payment is ~3-7x the typical run-rate, suggesting an accumulated true-up or reconciliation of Assurant invoices not paid in prior months (May, Aug, Sep 2024 all showed $0 payments).",
+      "missed_months_2024": [
+        "May 2024 ($0)",
+        "Aug 2024 ($0)",
+        "Sep 2024 ($0)"
+      ],
+      "catch_up_math": "May + Aug + Sep implied ~$0.8-1.0M each = ~$2.4-3.0M accumulated unpaid, plus a possible contractual true-up = $3.806M",
+      "profit_share_context": "First Assurant Profit Sharing inflow appeared Apr 2024 ($5.1M), suggesting a formal reconciliation of the entire Assurant relationship was done around that time. The 'fudge' may refer to the manual adjustment needed to true-up the Assurant balance after the profit-share agreement was settled."
+    },
+    "assurant_profit_sharing_inflows_quarterly_M": {
+      "Apr_2024": 5.1,
+      "Jul_2024": 4.1,
+      "Oct_2024": 3.33,
+      "Jan_2025": 2.23,
+      "Apr_2025": 1.5,
+      "Jul_2025": 0.812,
+      "Oct_2025": 1.244,
+      "Jan_2026": 0.874,
+      "Apr_2026": 0.701,
+      "note": "These are INFLOWS from Assurant to SHS, representing profit sharing on the legacy portfolio. Declining as the portfolio runs off."
+    }
+  },
+  "monthly_cash_flows_M": {
+    "home_services_assurant_outflows": {
+      "note": "Net cash disbursements from SHS to Assurant for home warranty premiums. Negative = outflow from SHS. Source: BU beta 'Home Services Assurant' row, Mar 2026 file.",
+      "FY22": {
+        "Feb_2022": -7.388,
+        "Mar_2022": -7.848,
+        "Apr_2022": -7.432,
+        "May_2022": -11.257,
+        "Jun_2022": -8.62,
+        "Jul_2022": -8.62,
+        "Aug_2022": -8.62,
+        "Sep_2022": -8.79,
+        "Oct_2022": -9.5,
+        "Nov_2022": -8.6,
+        "Dec_2022": -7.8,
+        "FY22_total": -94.475
+      },
+      "FY23": {
+        "Jan_2023": -6.1,
+        "Feb_2023": -5.511,
+        "Mar_2023": -6.071,
+        "Apr_2023": -6.003,
+        "May_2023": -6.859,
+        "Jun_2023": -6.217,
+        "Jul_2023": -6.36,
+        "Aug_2023": -6.218,
+        "Sep_2023": 0.0,
+        "Oct_2023": 0.0,
+        "Nov_2023": -7.585,
+        "Dec_2023": 0.0,
+        "Jan_2024": -1.14,
+        "FY23_total": -51.964
+      },
+      "FY24": {
+        "Feb_2024": -0.989,
+        "Mar_2024": -1.118,
+        "Apr_2024": -0.838,
+        "May_2024": 0.0,
+        "Jun_2024": -1.256,
+        "Jul_2024": -1.701,
+        "Aug_2024": 0.0,
+        "Sep_2024": 0.0,
+        "Oct_2024": -3.806,
+        "Nov_2024": -0.548,
+        "Dec_2024": 0.0,
+        "Jan_2025": -0.624,
+        "FY24_total": -10.88
+      },
+      "FY25": {
+        "Feb_2025": -0.501,
+        "Mar_2025": 0.0,
+        "Apr_2025": -0.473,
+        "May_2025": -0.452,
+        "Jun_2025": -0.48,
+        "Jul_2025": -0.478,
+        "Aug_2025": -0.488,
+        "Sep_2025": -0.553,
+        "Oct_2025": -0.508,
+        "Nov_2025": -0.413,
+        "Dec_2025": -0.319,
+        "Jan_2026": -0.29,
+        "FY25_total": -4.955
+      },
+      "FY26_partial": {
+        "Feb_2026": -0.229,
+        "Mar_2026": -0.614,
+        "Apr_2026": -0.32,
+        "May_2026": -0.298,
+        "FY26_partial_total": -1.461
+      }
+    },
+    "cinch_hw_outflows": {
+      "note": "Cash disbursements labeled 'Cinch (Home Warranty)' in BU beta. Represents SHS costs related to Cinch HW service fulfillment. Negative = outflow. Source: Mar 2026 BU beta.",
+      "FY23_partial": {
+        "Aug_2023": -0.266,
+        "Sep_2023": -0.45,
+        "Oct_2023": -0.477,
+        "Nov_2023": -0.627,
+        "Dec_2023": -0.598,
+        "Jan_2024": -0.615,
+        "FY23_partial_total": -3.033
+      },
+      "FY24": {
+        "Feb_2024": -0.733,
+        "Mar_2024": -0.75,
+        "Apr_2024": -0.785,
+        "May_2024": -0.874,
+        "Jun_2024": -0.895,
+        "Jul_2024": -0.958,
+        "Aug_2024": -1.1,
+        "Sep_2024": -1.089,
+        "Oct_2024": -1.102,
+        "Nov_2024": -1.181,
+        "Dec_2024": -1.133,
+        "Jan_2025": -1.127,
+        "FY24_total": -11.727
+      },
+      "FY25": {
+        "Feb_2025": -1.186,
+        "Mar_2025": -1.186,
+        "Apr_2025": -1.197,
+        "May_2025": -1.189,
+        "Jun_2025": -1.2,
+        "Jul_2025": -1.258,
+        "Aug_2025": -1.286,
+        "Sep_2025": -1.254,
+        "Oct_2025": -1.211,
+        "Nov_2025": -1.264,
+        "Dec_2025": -1.195,
+        "Jan_2026": -1.197,
+        "FY25_total": -14.623
+      },
+      "FY26_partial": {
+        "Feb_2026": -1.168,
+        "Mar_2026": -1.169,
+        "Apr_2026": -1.105,
+        "May_2026": -1.085,
+        "FY26_partial_total": -4.527
+      }
+    },
+    "hello_super_hw_outflows": {
+      "note": "Cash disbursements labeled 'HelloSuper (Home Warranty)' in BU beta. SHS's own HW product costs. Source: Mar 2026 BU beta.",
+      "FY23_partial": {
+        "Jul_2023": -0.168,
+        "Aug_2023": -0.14,
+        "Sep_2023": -0.172,
+        "Oct_2023": -0.199,
+        "Nov_2023": -0.238,
+        "Dec_2023": -0.24,
+        "Jan_2024": -0.22,
+        "FY23_partial_total": -1.377
+      },
+      "FY24": {
+        "Feb_2024": -0.275,
+        "Mar_2024": -0.156,
+        "Apr_2024": -0.315,
+        "May_2024": -0.325,
+        "Jun_2024": -0.335,
+        "Jul_2024": -0.391,
+        "Aug_2024": -0.548,
+        "Sep_2024": -0.433,
+        "Oct_2024": -0.453,
+        "Nov_2024": -0.47,
+        "Dec_2024": -0.457,
+        "Jan_2025": -0.461,
+        "FY24_total": -4.619
+      },
+      "FY25": {
+        "Feb_2025": -0.471,
+        "Mar_2025": -0.347,
+        "Apr_2025": -0.489,
+        "May_2025": -0.493,
+        "Jun_2025": -0.5,
+        "Jul_2025": -0.525,
+        "Aug_2025": -0.579,
+        "Sep_2025": -0.557,
+        "Oct_2025": -0.555,
+        "Nov_2025": -0.561,
+        "Dec_2025": -0.526,
+        "Jan_2026": -0.536,
+        "FY25_total": -6.139
+      },
+      "FY26_partial": {
+        "Feb_2026": -0.553,
+        "Mar_2026": -0.583,
+        "Apr_2026": -0.467,
+        "May_2026": -0.494,
+        "FY26_partial_total": -2.097
+      }
+    },
+    "assurant_profit_sharing_inflows": {
+      "note": "INFLOWS from Assurant to SHS. Quarterly payments, declining as legacy portfolio runs off. Source: BU beta 'SHS Assurant Profit Sharing' row.",
+      "Apr_2024": 5.1,
+      "Jul_2024": 4.1,
+      "Oct_2024": 3.33,
+      "Jan_2025": 2.23,
+      "Apr_2025": 1.5,
+      "Jul_2025": 0.812,
+      "Oct_2025": 1.244,
+      "Jan_2026": 0.874,
+      "Apr_2026": 0.701,
+      "FY24_total": 14.76,
+      "FY25_total": 4.43,
+      "note_FY25": "FY25 total lower because profit share schedule shifted to smaller quarterly amounts as portfolio winds down"
+    },
+    "cchs_cinch_b2b_inflows": {
+      "note": "Cross Country Home Services (Cinch) pays SHS for service call handling. These are INFLOWS to SHS. Source: BU beta 'Cross Country Home Services' inflow row and Inflows Detail tab.",
+      "FY22_total_M": 62.18,
+      "monthly_sample": {
+        "Feb_2022": 4.84,
+        "Sep_2022": 5.16,
+        "Jan_2023": 5.57,
+        "Jun_2023": 4.89,
+        "Nov_2023": 3.8,
+        "Mar_2024": 3.14,
+        "Aug_2024": 2.87,
+        "Oct_2025": 1.4,
+        "Jan_2026": 0.93,
+        "Apr_2026": 0.68,
+        "May_2026_onward": 0.0
+      },
+      "trend": "Declining from ~$5.5M/month FY22 to ~$0.7M/month by Apr 2026, then zero. Cinch winding down its service agreement with SHS."
+    },
+    "hw_reserves_and_deposits": {
+      "note": "Cash flows to/from restricted HW reserve accounts. Source: BU beta 'HW Reserves & Deposits' row.",
+      "FY24": {
+        "Feb_2024": -0.73,
+        "Mar_2024": -0.37,
+        "Apr_2024": 0.11,
+        "May_2024": -0.64,
+        "Jun_2024": 0.75,
+        "Jul_2024": -0.13,
+        "Aug_2024": 0.1,
+        "Sep_2024": -0.58,
+        "Oct_2024": -0.55,
+        "Nov_2024": -0.11,
+        "Dec_2024": -0.13,
+        "Jan_2025": -0.19,
+        "FY24_net": -2.47
+      },
+      "FY25": {
+        "Feb_2025": -1.76,
+        "Mar_2025": -0.96,
+        "May_2025": 1.06,
+        "Jun_2025": -0.25,
+        "Jul_2025": -0.23,
+        "Aug_2025": 0.04,
+        "Sep_2025": 0.24,
+        "Oct_2025": -0.01,
+        "Nov_2025": 0.21,
+        "Dec_2025": -0.08,
+        "Jan_2026": -0.12,
+        "FY25_net": -1.86
+      }
+    }
+  },
+  "hw_reserves_balance_M": {
+    "note": "Balance of Home Warranty reserves and deposits in Trapped Cash tabs. Includes Protect Co restricted cash and service contract reserves.",
+    "Jan_2024": 1.271,
+    "May_2024": 3.337,
+    "Aug_2024": 3.982,
+    "Nov_2024": 4.654,
+    "Jan_2025": 4.857,
+    "May_2025": 6.574,
+    "Sep_2025": 7.094,
+    "Dec_2025": 6.655,
+    "Mar_2026": 6.84,
+    "cash_file_details_note": "Cash file details.xlsx confirms: HW Reserves outflow '$-1.66M in YTD actuals based on premiums received (%) from service contracts'. FY25 total: $-2.66M. FY26 forecast: $-2.7M/year."
+  },
+  "annual_net_hw_cash_position_M": {
+    "note": "Net cash impact of all HW-related flows. Negative = net cash drain on SHS/Company.",
+    "FY22": {
+      "assurant_outflows": -94.475,
+      "cchs_inflows": 62.18,
+      "net_total": -32.295,
+      "note": "Large net negative because Assurant outflows include the full premium remittance (SHS retained ~25% as revenue but it came through gross inflows separately)"
+    },
+    "FY23": {
+      "assurant_outflows": -51.964,
+      "cinch_hw_outflows": -3.033,
+      "hello_super_outflows": -1.377,
+      "cchs_inflows": 61.8,
+      "net_total": 5.426,
+      "note": "FY23 was near-breakeven due to still-large CCHS inflows offsetting Assurant outflows"
+    },
+    "FY24": {
+      "assurant_outflows": -10.88,
+      "cinch_hw_outflows": -11.727,
+      "hello_super_outflows": -4.619,
+      "assurant_profit_share_inflows": 14.76,
+      "hw_reserves_outflows": -2.47,
+      "cchs_inflows": 36.65,
+      "net_total": 21.814,
+      "note": "FY24 turned positive due to large Assurant profit sharing inflows ($14.76M) offsetting declining CCHS inflows and growing Cinch/HelloSuper costs"
+    },
+    "FY25": {
+      "assurant_outflows": -4.955,
+      "cinch_hw_outflows": -14.623,
+      "hello_super_outflows": -6.139,
+      "assurant_profit_share_inflows": 4.43,
+      "hw_reserves_outflows": -1.86,
+      "cchs_inflows_estimate": 20.0,
+      "net_total_estimate": -3.147,
+      "note": "FY25 turned negative as profit sharing declined sharply and Cinch/HelloSuper costs grew. CCHS inflows are estimated."
+    }
+  },
+  "key_questions_answered": {
+    "is_assurant_net_revenue_or_cost": {
+      "answer": "MIXED - Assurant was a net COST when viewed as premium outflows alone, but becomes net positive when Assurant profit sharing is included.",
+      "detail": {
+        "Assurant_outflows_FY22_M": -94.475,
+        "Assurant_outflows_FY23_M": -51.964,
+        "Assurant_outflows_FY24_M": -10.88,
+        "Assurant_profit_share_FY24_M": 14.76,
+        "FY24_net_Assurant_only_M": 3.88,
+        "conclusion": "The gross premium outflows represent SHS remitting the insurer's share (~75%) of premiums collected. The SHS revenue retention (~25%) appears in HS inflows, not shown here. When the quarterly profit-share back from Assurant is included, the NET impact of the Assurant partnership is POSITIVE in FY24 ($+3.88M) as the legacy portfolio runs off and Assurant distributes accumulated profits. However, the original business model had SHS retaining only ~25% gross margin with Assurant taking 75%."
+      }
+    },
+    "active_contracts_implied_by_cash_flows": {
+      "peak_contracts_Jun_2023": "~55,000-57,000 net active contracts",
+      "avg_annual_premium_USD": "$1,780 (based on ~$149/month x 12)",
+      "portfolio_wind_down_start": "July 2023 (new contract sales ceased)",
+      "implied_remaining_contracts_early_2024": "~5,000-15,000 (based on declining invoice amounts)",
+      "rationale": "By Jan 2024, Assurant invoices were ~$1.14M/month vs. ~$6.2M at peak. At same unit economics (~$110/month average invoice per contract), this implies ~10,000 remaining active contracts."
+    },
+    "what_happened_after_post_reductions_Mar_2026": {
+      "answer": "The March 2026 'post-reductions' event did NOT end the Cinch or HelloSuper programs. Both continue but at scaled-back levels.",
+      "assurant_post_reductions": {
+        "status": "Wind-down continuing at ~$0.3-0.6M/month (tail of legacy portfolio)",
+        "Mar_2026_payment_M": -0.614,
+        "Apr_2026_payment_M": -0.32,
+        "outlook": "Approaching zero as legacy contracts expire"
+      },
+      "cinch_post_reductions": {
+        "status": "Continuing at ~$1.1-1.2M/month",
+        "Mar_2026_payment_M": -1.169,
+        "trend": "Relatively stable, suggesting ongoing B2B service fulfillment commitment"
+      },
+      "hello_super_post_reductions": {
+        "status": "Continuing at ~$0.46-0.58M/month",
+        "Mar_2026_payment_M": -0.583,
+        "trend": "Growing slowly, suggesting HelloSuper portfolio still accumulating"
+      },
+      "cchs_b2b_post_reductions": {
+        "status": "Winding down - near zero",
+        "Mar_2026_M": 0.83,
+        "Apr_2026_M": 0.68,
+        "May_2026_onward": "Forecasted to reach zero - Cinch ending service agreement"
+      },
+      "hw_reserves_post_reductions": {
+        "balance_Mar_2026_M": 6.84,
+        "monthly_flows": "Small irregular outflows of $0.3-0.5M/month",
+        "note": "Reserves remain held for claims on in-force HelloSuper/HW contracts"
+      },
+      "summary": "Post-reductions did not terminate HW programs. It appears to have been a headcount/cost reduction that affected other areas of the business, not the HW partnerships specifically. The trajectory shows: Assurant nearly done, CCHS/Cinch B2B ending, HelloSuper and Cinch service costs continuing at ~$1.7M/month combined."
+    }
+  },
+  "risk_management_insurance_context": {
+    "note": "RiskMgt/Ins in the disbursements section is SEPARATE from Assurant home warranty. It covers D&O, Property, Workers Comp, GL, Auto insurance.",
+    "FY22_riskmgt_M": -48.42,
+    "monthly_range_M": "$(1.0-6.4)M per month (variable due to premium payment timing)",
+    "note2": "Do not confuse with Assurant HW - these are Sears' own insurance programs"
+  },
+  "restricted_cash_hw": {
+    "account_10218_note": "Account 10218 referenced in context is for 'Penske Funded Controlled Disbursement' (found in Balance Sheet Cash tab). NOT the HW restricted cash.",
+    "hw_restricted_cash": "Tracked as 'Home Warranty reserves and deposits' in Trapped Cash tab, not via specific account 10218.",
+    "service_contract_restricted_cash": {
+      "Apr_2023": 325000,
+      "note": "Service contract restricted cash (Transform) - separate from HW reserves"
+    },
+    "access_protection_florida": 0,
+    "lkl_protection_texas": 0,
+    "lkl_protection_utah": 0
+  }
+}

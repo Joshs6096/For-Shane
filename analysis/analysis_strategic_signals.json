@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "total_files": 695,
+    "files_by_year": {
+      "2022": 85,
+      "2023": 243,
+      "2024": 177,
+      "2025": 140,
+      "2026": 44
+    },
+    "analysis_date": "2026-05-11"
+  },
+  "liquidity_files": {
+    "count": 3,
+    "files": [
+      "Daily Cash Fcst - 12.7.22_BU view_DecBOD Treasury_liquidity update final.xlsx",
+      "Daily Cash Fcst - 2.27.23_BU view_BOD_3.2.23_liquidity update.xlsx",
+      "Daily Cash Fcst - 5.26.23_BU view_24 adj_MayBOD_Liquidity & May actuals.xlsx"
+    ],
+    "insight": "Only 3 files in 3.5 years have 'liquidity' in the name \u2014 all in late 2022 (Dec) and 2023 (Feb, May). The explicit liquidity framing disappears after May 2023, suggesting either stabilization or that 'liquidity' became the constant state and stopped needing to be named."
+  },
+  "bod_files": {
+    "total_count": 47,
+    "coverage_by_year": {
+      "2022": {
+        "months_covered": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "missing": [],
+        "files": [
+          "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+          "Daily Cash Fcst - 10.18.22_BU view_BOD.xlsx",
+          "Daily Cash Fcst - 10.19.22_BU view_BL_OctBOD.xlsx",
+          "Daily Cash Fcst - 11.16.22_BU view_NovBOD.xlsx",
+          "Daily Cash Fcst - 12.7.22_BU view_DecBOD Treasury_liquidity update final.xlsx"
+        ]
+      },
+      "2023": {
+        "months_covered": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "missing": [
+          12
+        ],
+        "files": [
+          "Daily Cash Fcst - 1.17.23_BU view_JanBOD.xlsx",
+          "Daily Cash Fcst - 1.20.23_BU view_JanBOD_FY23.xlsx",
+          "Daily Cash Fcst - 2.27.23_BU view_BOD_3.2.23.xlsx",
+          "Daily Cash Fcst - 2.27.23_BU view_BOD_3.2.23_liquidity update.xlsx",
+          "Daily Cash Fcst - 3.21.23_BU view_3.23.23 BOD_not happening.xlsx",
+          "Daily Cash Fcst - 4.25.23_BU view_April 27 BOD.xlsx",
+          "Daily Cash Fcst - 5.23.23_BU view_May BOD.xlsx",
+          "Daily Cash Fcst - 5.26.23_BU view_24 adj_MayBOD_Liquidity & May actuals.xlsx",
+          "Daily Cash Fcst - 6.20.23_BU view_JunBOD.xlsx",
+          "Daily Cash Fcst - 6.20.23_BU view_JunBOD_kes fix.xlsx",
+          "Daily Cash Fcst - 7.25.23_BU view_JulBOD_7.27.23.xlsx",
+          "Daily Cash Fcst - 8.22.23_BU view_AugBOD.xlsx",
+          "Daily Cash Fcst - 9.19.23_BU view_SepBOD.xlsx",
+          "Daily Cash Fcst - 10.17.23_BU view_online_BOD.xlsx",
+          "Daily Cash Fcst - 10.24.23_BU view_HS retail interco_OctBOD.xlsx",
+          "Daily Cash Fcst - 11.14.23_BU view_adUPDATE_11.14.23_BUPNL_HW_Assurant Nov gross_NovBOD.xlsx"
+        ]
+      },
+      "2024": {
+        "months_covered": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "missing": [
+          4
+        ],
+        "files": [
+          "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+          "Daily Cash Fcst - 2.20.24_BU view_BOD.xlsx",
+          "Daily Cash Fcst - 3.19.24_BU view_MarBOD.xlsx",
+          "Daily Cash Fcst - 5.7.24_BU view_MayBOD_5.9.24.xlsx",
+          "Daily Cash Fcst - 6.18.24_BU view_JunBOD.xlsx",
+          "Daily Cash Fcst - 7.23.24_deck_JulBOD_FY25.xlsx",
+          "Daily Cash Fcst - 8.19.24_BU view_AugBOD.xlsx",
+          "Daily Cash Fcst - 9.24.24_BU view_deck version_BOD.xlsx",
+          "Daily Cash Fcst - 10.15.24_BU view_deck version_OctBOD.xlsx",
+          "Daily Cash Fcst - 11.12.24_BU view_deck version_NovBOD.xlsx",
+          "Daily Cash Fcst - 12.10.24_BU view_deck version_BOD_SC wo 3 RE Interco IF_$9M.xlsx"
+        ]
+      },
+      "2025": {
+        "months_covered": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          10,
+          11,
+          12
+        ],
+        "missing": [
+          8,
+          9
+        ],
+        "files": [
+          "Daily Cash Fcst - 1.17.25_BU view_mid-jan vendor update_Assurant fudge_UBS BOD update.xlsx",
+          "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+          "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_no Guam_JanBOD.xlsx",
+          "Daily Cash Fcst - 2.18.25_BU view_deck version_FebBOD.xlsx",
+          "Daily Cash Fcst - 3.18.25_BU view_deck version_MarBOD.xlsx",
+          "Daily Cash Fcst - 4.18.25_BU view_prelim AprBOD.xlsx",
+          "Daily Cash Fcst - 5.20.25_BU view_deck version_MayBOD.xlsx",
+          "Daily Cash Fcst - 6.17.25_BU view_deck version_JunBOD.xlsx",
+          "Daily Cash Fcst - 7.22.25_BU view_deck version_condensed_JulBOD.xlsx",
+          "Daily Cash Fcst - 10.21.25_BU view_deck version_OctBOD.xlsx",
+          "Daily Cash Fcst - 11.18.25_BU view_deck version_NovBOD no meeting.xlsx",
+          "Daily Cash Fcst - 12.15.25_BU view_DecBOD.xlsx"
+        ]
+      },
+      "2026": {
+        "months_covered": [
+          1,
+          3,
+          4
+        ],
+        "missing": [
+          2,
+          5
+        ],
+        "files": [
+          "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx",
+          "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+          "Daily Cash Fcst - 04.21.26_ BU version_deck version_AprBOD.xlsx"
+        ]
+      }
+    },
+    "notable_gaps_and_anomalies": [
+      "2023 Dec: NO BOD \u2014 and March 2023 BOD was explicitly 'not happening' (file named so)",
+      "2024 April: Missing \u2014 no BOD file found",
+      "2025 Aug-Sep: Missing \u2014 two consecutive months without a BOD file",
+      "2026 Feb: Missing \u2014 no BOD in Feb 2026 (between Jan and Mar BODs)",
+      "Nov 2025 BOD labeled 'NovBOD no meeting' \u2014 BOD meeting cancelled outright",
+      "Jan 2025: 3 versions of JanBOD created \u2014 working, no-Guam variant, and final; suggests Guam operations were in/out of scope"
+    ]
+  },
+  "deck_version_files": {
+    "first_appearance": "2024-06-25 (Daily Cash Fcst - 6.25.24_BU view_deck version.xlsx)",
+    "count_by_year": {
+      "2024": 25,
+      "2025": 62,
+      "2026": 22
+    },
+    "cadence_insight": "Deck versions appear June 2024 and become weekly (or more) in H2 2024 through 2026. In 2025 there are 62 deck files versus 25 in 2024 \u2014 a 2.5x increase. This shift suggests the cash forecast is no longer just an internal treasury tool; it is being regularly exported into management/board presentations. The data-consumer base escalated materially in mid-2024.",
+    "bi_weekly_cadence_start": "Late 2024, ~weekly by January 2025 (Jan 3, Jan 7, Jan 14, Jan 21...)"
+  },
+  "hs_specific_files": {
+    "files": [
+      "Daily Cash Fcst - 01.02.26_BU view_HS deck version.xlsx",
+      "Daily Cash Fcst - 03.20.26_BU view_HS version.xlsx",
+      "Daily Cash Fcst - 03.20.26_BU view_HS version_AD_SYW prelim.xlsx",
+      "Daily Cash Fcst - 05.01.26_BU view_HS deck version.xlsx",
+      "Daily Cash Fcst - 1.5.24_BU view_HS $8M.xlsx",
+      "Daily Cash Fcst - 1.8.24_BU view_HS FY24 update.xlsx",
+      "Daily Cash Fcst - 10.24.23_BU view_HS retail interco_OctBOD.xlsx",
+      "Daily Cash Fcst - 10.3.25_BU view_HS deck version.xlsx",
+      "Daily Cash Fcst - 11.1.24_BU view_working_HS FY25_MT update_Log 10.30.24 update.xlsx",
+      "Daily Cash Fcst - 2.16.24_BU view_MT_SHI_SDLC allocation update_working_HS gets SC cost_SC gets HS inflow.xlsx",
+      "Daily Cash Fcst - 2.16.24_BU view_MT_SHI_SDLC allocation update_working_HS gets SC cost_SC gets HS inflowTBD.xlsx",
+      "Daily Cash Fcst - 3.10.25_BU view_HS checks to eliminations_HS other customer checks.xlsx",
+      "Daily Cash Fcst - 4.9.24_BU view_KCD_HS updates.xlsx",
+      "Daily Cash Fcst - 5.29.25_BU view_RE recast_Aug link_SC update_HS update_Guam_PH 3PL.xlsx",
+      "Daily Cash Fcst - 5.30.25_BU view_HS deck version.xlsx",
+      "Daily Cash Fcst - 7.14.23_BU view_SYSTEMS IN PROGRESS_HS Online for MSO vendors.xlsx",
+      "Daily Cash Fcst - 7.18.25_BU view_HS deck version.xlsx",
+      "Daily Cash Fcst - 7.25.25_BU view_HS deck version.xlsx",
+      "Daily Cash Fcst - 7.25.25_BU view_HS deck version_Oct fix.xlsx",
+      "Daily Cash Fcst - 8.28.24_BU view_logistics reallocation of freight sep-fy24_HS 8.28 changes.xlsx",
+      "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26_HS checks adj Sep-Jan.xlsx",
+      "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26_HS checks adj Sep-Jan_refunds refixed.xlsx",
+      "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26_HS checks adj Sep-Jan_refunds refixed_B&M Update.xlsx",
+      "Daily Cash Fcst - 9.1.23_BU view_HS & RE swap.xlsx"
+    ],
+    "first_hs_specific": "2023-10-24 (Daily Cash Fcst - 10.24.23_BU view_HS retail interco_OctBOD.xlsx)",
+    "dedicated_hs_deck_first": "2025-05-30 (Daily Cash Fcst - 5.30.25_BU view_HS deck version.xlsx)",
+    "insight": "Home Services gets its first dedicated file tag in Oct 2023 (interco context). By May 2025, HS gets its own dedicated 'deck version' \u2014 meaning HS is being presented separately to leadership or external parties. The HS-specific cadence accelerates in late 2025 and continues into 2026, suggesting HS is either a strategic growth priority or a disposal/transaction candidate requiring separate tracking."
+  },
+  "ad_prefix_files": {
+    "files": [
+      "AD_Daily Cash Fcst - 6.17.25_BU view_deck version.xlsx",
+      "AD_Daily Cash Fcst - 7.9.24_BU view.xlsx",
+      "Daily Cash Fcst - 03.20.26_BU view_HS version_AD_SYW prelim.xlsx",
+      "Daily Cash Fcst - 4.23.24_BU view_AD_risk update.xlsx",
+      "Daily Cash Fcst - 5.28.24_BU view_Aug formulas broken_5.28 deck backup_AD.xlsx"
+    ],
+    "interpretation": "AD_ prefix appears on only 2 standalone files plus referenced in others (e.g., '_AD_' in HS version, 'adUPDATE' in Nov 2023 BOD, '5.28 deck backup_AD'). Likely 'AD' refers to a specific analyst or manager (possibly 'AD' initials). The AD_7.9.24 file and AD_6.17.25 file being standalone suggests this person creates their own branch versions \u2014 possibly an external advisor or senior stakeholder getting private copies."
+  },
+  "event_signal_files": {
+    "post_reductions_march_2026": {
+      "files": [
+        "Daily Cash Fcst - 03.03.26_post-reductions_deck version.xlsx",
+        "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+        "Daily Cash Fcst - 03.03.26_post-reductions_deck version_working.xlsx"
+      ],
+      "insight": "Three versions of the March 3, 2026 file are all labeled 'post-reductions' \u2014 working, standard, and MarBOD. This is the single clearest event marker: a major cost reduction event occurred on or just before March 3, 2026. Three simultaneous versions (working, deck, BOD) means it was a board-level event requiring urgent scenario modeling."
+    },
+    "payroll_events": {
+      "files": [
+        "Daily Cash Fcst - 04.24.26_pre payroll change.xlsx",
+        "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26.xlsx",
+        "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26_HS checks adj Sep-Jan.xlsx",
+        "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26_HS checks adj Sep-Jan_refunds refixed.xlsx",
+        "Daily Cash Fcst - 8.29.25_BU view_SC corrections_SC payroll reduction $2.8M 2H26_HS checks adj Sep-Jan_refunds refixed_B&M Update.xlsx",
+        "Daily Cash Fcst - 9.6.24_BU view_SC payroll reduction FY25_addl $2.6M sc payroll reduction_$5M SC inflows.xlsx",
+        "Daily Cash Fcst - 04.24.26_pre payroll change.xlsx"
+      ],
+      "insight": "Supply chain payroll reduction of $2.8M flagged Aug 2025 for 2H26. Then 'pre payroll change' snapshot taken April 24, 2026 \u2014 day before another payroll change. The company is actively reducing headcount in multiple waves."
+    },
+    "formula_instability": {
+      "files": [
+        "Daily Cash Fcst - 01.03.25_BU view_Mon deck_Jan formula change.xlsx",
+        "Daily Cash Fcst - 2.11.25_BU view_deck version BR KCD Update_Logistics formula fix_feb-apr merch manual adj.xlsx",
+        "Daily Cash Fcst - 5.28.24_BU view_Aug formulas broken_5.28 deck backup_AD.xlsx",
+        "Daily Cash Fcst - 8.25.23_BU view_Aug actuals_Sep reformula.xlsx"
+      ],
+      "insight": "Formula issues appear at key moments: Jan 2025 ('formula change'), May 2024 ('Aug formulas broken'), Aug 2023 ('Sep reformula'), Feb 2025 ('Logistics formula fix'). A working financial model breaking under operational complexity suggests the underlying business structure is changing faster than the model can accommodate."
+    },
+    "new_format_jan2026": {
+      "files": [
+        "Daily Cash Fcst - 01.16.26_BU view new format.xlsx",
+        "Daily Cash Fcst - 01.16.26_BU view new format_asset sales_JanBOD.xlsx"
+      ],
+      "insight": "January 2026 marks a 'new format' \u2014 coincides with the first 'asset sales' JanBOD file. The model was restructured at year-start 2026, likely to incorporate asset disposal proceeds as a line item, signaling a strategic shift toward asset monetization."
+    },
+    "online_reduction_may2024": {
+      "files": [
+        "Daily Cash Fcst - 5.22.24_BU view_post online reduction.xlsx"
+      ],
+      "insight": "May 2024: post-online reduction file \u2014 the online/e-commerce BU was reduced (headcount, scope, or closed). This is consistent with Online disappearing as an inflows category between 2022 and 2026."
+    }
+  },
+  "inflows_forecasting_comparison": {
+    "categories_in_2022_gone_by_2026": [
+      "Auto Centers \u2014 eliminated (Sears Auto was wound down)",
+      "Monark \u2014 eliminated (Monark brand/subsidiary wound down)",
+      "Sears Financial Services \u2014 eliminated (financial services arm closed)"
+    ],
+    "new_categories_in_2026_not_in_2022": [
+      "Online \u2014 added as explicit line item by 2026 (though then reduced in May 2024 event)",
+      "Note: 'Online' appears in 2026 headers but NOT in 2022 \u2014 reflects shift to e-commerce tracking"
+    ],
+    "categories_persisting_both_years": [
+      "Sears Stores",
+      "Kmart Stores",
+      "Home Services",
+      "KCD Wholesale",
+      "KCD (Royalty)",
+      "Service Live Summary",
+      "Tenant Income",
+      "Other Non-Formats",
+      "Builder Distributors"
+    ],
+    "insight": "From 2022 to 2026, the revenue mix simplified dramatically. Three entire BUs vanished (Auto Centers, Monark, Sears Financial Services). Online was added explicitly. The surviving core is: retail stores (Sears/Kmart), Home Services, KCD brand licensing, and tenant/real estate income \u2014 a leaner, more asset-light profile."
+  },
+  "legal_spend_analysis": {
+    "fy26_total_budget": 20.863,
+    "fy25_actual": 18.8,
+    "fy26_budget_note": "$16.3M budget vs $20.863M forecast \u2014 already $4.5M over budget at forecast level",
+    "monthly_run_rate": 1.739,
+    "firms_and_matters": [
+      {
+        "firm": "Wachtell",
+        "matter": "Monthly retainer",
+        "fy26": 2.4,
+        "type": "Ongoing",
+        "bu": "Corporate"
+      },
+      {
+        "firm": "Wachtell",
+        "matter": "Term Loan & Equity",
+        "fy26": 1.0,
+        "type": "Ongoing",
+        "bu": "Corporate"
+      },
+      {
+        "firm": "Reed Smith",
+        "matter": "HTS bankruptcy",
+        "fy26": 2.1,
+        "type": "Litigation",
+        "bu": "Corporate",
+        "note": "Ongoing, unlikely to settle"
+      },
+      {
+        "firm": "Katten Muchin",
+        "matter": "LG lawsuit",
+        "fy26": 2.35,
+        "type": "Litigation",
+        "bu": "KCD",
+        "note": "Pending settlement discussions"
+      },
+      {
+        "firm": "McAndrews",
+        "matter": "IP portfolio",
+        "fy26": 0.9,
+        "type": "Ongoing",
+        "bu": "All",
+        "note": "KCD 40%, SHS 30%, SYW 15%, Online 15%"
+      },
+      {
+        "firm": "Wachtell",
+        "matter": "SYW credit card prog launch",
+        "fy26": 1.2,
+        "type": "Legal work",
+        "bu": "SYW",
+        "note": "Due mid-Feb, final payment"
+      },
+      {
+        "firm": "Others placeholder",
+        "matter": "Other smaller matters",
+        "fy26": 3.0,
+        "type": "Legal work",
+        "bu": "Corporate"
+      },
+      {
+        "firm": "Dechert and Wachtell",
+        "matter": "MOAC case",
+        "fy26": 1.7,
+        "type": "Litigation",
+        "bu": "Real Estate",
+        "note": "Highest single matter spend; ~$1.7M also in 2025"
+      },
+      {
+        "firm": "Womble Bond Dickinson",
+        "matter": "Benderson case (Midland MI, Oakdale CA)",
+        "fy26": 1.5,
+        "type": "Litigation",
+        "bu": "Real Estate",
+        "note": "Going to trial; settlement upwards of $1.2M"
+      },
+      {
+        "firm": "Robbins Kaplan",
+        "matter": "Hemet CA landlord cases",
+        "fy26": 1.0,
+        "type": "Litigation",
+        "bu": "Real Estate"
+      },
+      {
+        "firm": "Farella Braun & Martel",
+        "matter": "Hayward CA arbitration",
+        "fy26": 0.25,
+        "type": "Litigation",
+        "bu": "Real Estate"
+      },
+      {
+        "firm": "Wachtell",
+        "matter": "General Real Estate matters",
+        "fy26": 3.0,
+        "type": "Litigation",
+        "bu": "Real Estate"
+      },
+      {
+        "firm": "Employment",
+        "matter": "Employment settlement (HS)",
+        "fy26": 0.463,
+        "type": "Litigation",
+        "bu": "HS",
+        "note": "3rd of 3 payments"
+      }
+    ],
+    "legal_risk_profile_insight": "The legal spend portfolio reveals a company fighting on four simultaneous fronts: (1) HTS bankruptcy via Reed Smith \u2014 a subsidiary in formal insolvency proceeding; (2) LG lawsuit via Katten Muchin \u2014 likely a Korean-market IP or contract dispute around KCD/Kenmore appliances; (3) MOAC via Dechert+Wachtell \u2014 the Mall of America case is a major Real Estate dispute at the company's highest legal spend rate; (4) Landlord litigation wave across CA, MI across multiple firms \u2014 former Sears/Kmart locations generating sustained landlord disputes. Wachtell appearing across Corporate, SYW, and Real Estate simultaneously suggests they are the primary strategic counsel firm for the entire enterprise."
+  }
+}

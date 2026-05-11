@@ -1,0 +1,1282 @@
+{
+  "analysis_title": "Transform SR Holding Management LLC - Debt Trajectory Sep 2022 to May 2026",
+  "generated_date": "2026-05-11",
+  "units": "USD Millions",
+  "methodology": "Data extracted from Cash Flow sheet using header-based column detection. Balance captured on the exact BOD date row (or nearest available date within 1 day). RE loans use directly-verified column values \u2014 the 'Lease Opco Loan' column was found to show the 2020 TL formula total from Aug 2023 onwards (not an actual Lease Opco balance) and is corrected to $0 from Apr 2023 onwards per April 2023 file which shows $0. The 'grand total tracked debt' excludes FILO, LCs, and other off-balance-sheet items. Interest column reflects cash disbursements (negative = outflow). PIK interest accretes into principal balances daily; cash interest paid monthly to quarterly. 2020 Term Loans sheet provides independent verification of tranche-level balances.",
+  "data_notes": {
+    "lease_opco_loan": "Actual balance: $75M Sep-Jan 2023, $0 Apr 2023+. Column repurposed to show TL total from Aug 2023; that formula value is excluded from RE loan totals.",
+    "esl_note": "$35M Sep 2022 through Apr 2023, reduced to $30M by Aug 2023, fully paid off by Jan 2024",
+    "citi_manteno_ubs_manteno": "CITI/Manteno Loan $67M appears Jan 2023. Renamed to UBS/Manteno by Jan 2024 at $54.5M (partial paydown). Further reduced to $46.5M by Sep 2024, $20.5M by Jan 2025, fully paid off by May 2025.",
+    "new_brunswick": "Paid down from $13.5M (Sep-Apr 2023) to $8.5M (Aug 2023) to $4.25M (Jan-May 2024) to $0 (Sep 2024)",
+    "lacey_wa": "Paid off between Jan 2023 ($7.33M) and Apr 2023. Briefly reappears Dec 2024 YE at $15M, then $5M in Jan 2025, $0 by May 2025",
+    "hackensack": "$7.585M stable from Dec 2022 through Mar 2026. Split to Hackensack_2022 ($0, paid) and Hackensack_2026 ($7.975M) in May 2026",
+    "durham_nc": "New loan appearing Oct 2025 at $11.645M, paid off by Dec 2025",
+    "guam": "New loan $34M appearing Oct 2025, outstanding through May 2026",
+    "tl_total_growth": "2020 TL + incrementals grew from $660.97M (Sep 2022) to peak $827.43M (Jan 2025) driven by PIK accrual and new incremental tranches, then reduced to $498.46M (May 2025) through paydowns and restructuring",
+    "new_tranches_first_appearance": {
+      "T12_Cyrus_55M": "Dec 2022 BOD",
+      "T13_ESL_15M": "Apr 2023 BOD",
+      "T14_ESL_16.5M_T15_Cyrus_16.5M_T16_ESL_27M": "Aug 2023 BOD",
+      "T17_ESL_50M_T18_Cyrus_25M": "Jan 2024 BOD (T17 was $75M in Aug 2023, $50M label by Jan 2024)",
+      "T19_ESL_70M_T20_Cyrus_8M": "May 2024 BOD",
+      "T22_ESL_175M": "Dec 2024 BOD (upsized from $75M label in Sep 2024 to $175M)",
+      "T_Cyrus_7th_T_ESL_15th": "May 2025 BOD",
+      "T_Sept2025": "Oct 2025 BOD",
+      "T_Cyrus_8th_Incremental": "May 2026 BOD"
+    },
+    "ubs_note_trajectory": "UBS Note A: $289.5M (Sep 2022) \u2192 declining via asset sale paydowns \u2192 $222.2M (Jan 2025) \u2192 brief spike to $311.2M (Dec 2025 YE) \u2192 $299.4M (May 2026). UBS Note B declining: $85M \u2192 $65M \u2192 $9.4M (Dec 2025) \u2192 $25.4M (May 2026)",
+    "interest_payment_patterns": "Monthly cash interest payments of ~$2-4M observed, plus large quarterly/semi-annual cash sweeps of $6-30M. Most term loan interest is PIK (accretes to principal). Sep 2024 shows $27.6M single interest payment on 9/30/24."
+  },
+  "snapshots": [
+    {
+      "label": "Sep 2022 BOD",
+      "as_of": "2022-09-19",
+      "actual_row_date": "2022-09-19",
+      "file": "Daily Cash Fcst - 9.19.22_BU view_Sep BOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 660.97,
+        "re_loans_total_M": 142.36,
+        "ubs_loans_total_M": 374.48,
+        "grand_total_tracked_debt_M": 1177.81
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.0,
+        "T2": 176.4039,
+        "T3": 107.7512,
+        "T4": 23.6377,
+        "T5_Cyrus_Initial": 17.0906,
+        "T6": 29.2987,
+        "T7": 76.0753,
+        "T8": 76.0753,
+        "T9": 72.959,
+        "T10": 31.1191,
+        "T11": 50.5568
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 27.5,
+        "RE_LeaseOpco": 75.0,
+        "RE_LaceyWA": 4.8608,
+        "RE_ESL_Note": 35.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 289.4771,
+        "UBS_Note_B": 85.0
+      },
+      "liquidity_M": {
+        "available_cash": 9.91,
+        "available_cash_no_hts": 9.91,
+        "hts_reimbursement": 0.0
+      },
+      "interest_payments_near_date_M": {
+        "2022-08-01": -1.93,
+        "2022-08-10": -0.06,
+        "2022-08-29": -0.4,
+        "2022-08-30": -0.15,
+        "2022-09-06": -2.3,
+        "2022-09-20": -0.04,
+        "2022-09-21": -0.3,
+        "2022-09-27": -0.08,
+        "2022-09-30": -9.96,
+        "2022-10-03": -2.46,
+        "2022-10-12": -0.01,
+        "2022-10-27": -0.37,
+        "2022-11-01": -2.23
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": 0.0
+      }
+    },
+    {
+      "label": "Dec 2022 BOD",
+      "as_of": "2022-12-07",
+      "actual_row_date": "2022-12-07",
+      "file": "Daily Cash Fcst - 12.7.22_BU view_DecBOD Treasury_liquidity update final.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 702.0,
+        "re_loans_total_M": 163.95,
+        "ubs_loans_total_M": 352.59,
+        "grand_total_tracked_debt_M": 1218.54
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.0,
+        "T2": 175.1204,
+        "T3": 107.1409,
+        "T4": 23.3423,
+        "T5_Cyrus_Initial": 10.3069,
+        "T6": 28.9653,
+        "T7": 74.812,
+        "T8": 74.812,
+        "T9": 72.3825,
+        "T10": 30.907,
+        "T11": 49.2085,
+        "T12_Cyrus_55M": 55.0
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 27.5,
+        "RE_LeaseOpco": 75.0,
+        "RE_LaceyWA": 5.3609,
+        "RE_NewBrunswick": 13.5,
+        "RE_Hackensack": 7.585,
+        "RE_ESL_Note": 35.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 272.5565,
+        "UBS_Note_B": 80.0311
+      },
+      "liquidity_M": {
+        "available_cash": 34.57,
+        "available_cash_no_hts": 34.57,
+        "hts_reimbursement": 0.0
+      },
+      "interest_payments_near_date_M": {
+        "2022-10-18": -0.01,
+        "2022-10-19": -0.01,
+        "2022-10-27": -0.37,
+        "2022-10-31": -0.08,
+        "2022-11-04": -2.5,
+        "2022-11-09": -0.02,
+        "2022-11-22": -0.33,
+        "2022-12-08": -2.47,
+        "2022-12-30": -11.51,
+        "2023-01-03": -2.7
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": 0.0
+      }
+    },
+    {
+      "label": "Jan 2023 BOD",
+      "as_of": "2023-01-17",
+      "actual_row_date": "2023-01-17",
+      "file": "Daily Cash Fcst - 1.17.23_BU view_JanBOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 722.06,
+        "re_loans_total_M": 232.92,
+        "ubs_loans_total_M": 363.27,
+        "grand_total_tracked_debt_M": 1318.25
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.0,
+        "T2": 180.8303,
+        "T3": 110.6343,
+        "T4": 24.1034,
+        "T5_Cyrus_Initial": 10.643,
+        "T6": 29.9097,
+        "T7": 77.2513,
+        "T8": 77.2513,
+        "T9": 74.7426,
+        "T10": 31.9177,
+        "T11": 49.2057,
+        "T12_Cyrus_55M": 55.5744
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 27.5,
+        "RE_LeaseOpco": 75.0,
+        "RE_LaceyWA": 7.3324,
+        "RE_NewBrunswick": 13.5,
+        "RE_Hackensack": 7.585,
+        "RE_CitiManteno": 67.0,
+        "RE_ESL_Note": 35.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 280.8152,
+        "UBS_Note_B": 82.4563
+      },
+      "liquidity_M": {
+        "available_cash": 72.63,
+        "available_cash_no_hts": 72.63,
+        "hts_reimbursement": 0.0
+      },
+      "interest_payments_near_date_M": {
+        "2022-11-22": -0.33,
+        "2022-12-12": -2.43,
+        "2022-12-30": -11.64,
+        "2023-01-13": -2.88,
+        "2023-02-01": -2.61,
+        "2023-02-06": -0.44,
+        "2023-02-28": -0.38,
+        "2023-03-01": -2.66
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": 0.0
+      }
+    },
+    {
+      "label": "Apr 2023 BOD",
+      "as_of": "2023-04-25",
+      "actual_row_date": "2023-04-25",
+      "file": "Daily Cash Fcst - 4.25.23_BU view_April 27 BOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 386.23,
+        "re_loans_total_M": 150.59,
+        "ubs_loans_total_M": 363.27,
+        "grand_total_tracked_debt_M": 900.09
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.0,
+        "T2": 85.3334,
+        "T3": 52.2368,
+        "T4": 11.3539,
+        "T5_Cyrus_Initial": 9.7173,
+        "T6": 14.0945,
+        "T7": 36.8828,
+        "T8": 36.8828,
+        "T9": 35.2633,
+        "T10": 15.065,
+        "T11": 22.6893,
+        "T12_Cyrus_55M": 51.7113,
+        "T13_ESL_15M": 15.0
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 27.5,
+        "RE_NewBrunswick": 13.5,
+        "RE_Hackensack": 7.585,
+        "RE_CitiManteno": 67.0,
+        "RE_ESL_Note": 35.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 280.8152,
+        "UBS_Note_B": 82.4563
+      },
+      "liquidity_M": {
+        "available_cash": 21.26,
+        "available_cash_no_hts": 21.26,
+        "hts_reimbursement": 0.0
+      },
+      "interest_payments_near_date_M": {
+        "2023-02-28": -0.39,
+        "2023-03-02": -0.11,
+        "2023-03-07": -2.82,
+        "2023-03-29": -0.88,
+        "2023-03-31": -6.22,
+        "2023-04-03": -3.36,
+        "2023-05-01": -2.92,
+        "2023-05-04": -0.04,
+        "2023-05-31": -0.58,
+        "2023-06-01": -3.13
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": 0.0
+      }
+    },
+    {
+      "label": "Aug 2023 BOD",
+      "as_of": "2023-08-22",
+      "actual_row_date": "2023-08-22",
+      "file": "Daily Cash Fcst - 8.22.23_BU view_AugBOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 498.39,
+        "re_loans_total_M": 141.09,
+        "ubs_loans_total_M": 352.08,
+        "grand_total_tracked_debt_M": 991.56
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.0,
+        "T2": 87.5394,
+        "T3": 53.6059,
+        "T4": 11.6341,
+        "T5_Cyrus_Initial": 8.1067,
+        "T6": 14.4458,
+        "T7": 37.6468,
+        "T8": 37.6468,
+        "T9": 36.1699,
+        "T10": 15.6071,
+        "T11": 22.7242,
+        "T12_Cyrus_55M": 45.1001,
+        "T13_ESL_15M": 15.1952,
+        "T14_ESL_16.5M": 16.6546,
+        "T15_Cyrus_16.5M": 14.606,
+        "T16_ESL_27M": 26.8996,
+        "T17_ESL_75M": 54.8049
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_NewBrunswick": 8.5,
+        "RE_Hackensack": 7.585,
+        "RE_CitiManteno": 67.0,
+        "RE_ESL_Note": 30.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 272.1631,
+        "UBS_Note_B": 79.9155
+      },
+      "liquidity_M": {
+        "available_cash": 7.43,
+        "available_cash_no_hts": 7.43,
+        "hts_reimbursement": 0.0
+      },
+      "interest_payments_near_date_M": {
+        "2023-06-30": -7.25,
+        "2023-07-03": -3.39,
+        "2023-07-31": -0.15,
+        "2023-08-01": -0.07,
+        "2023-08-10": -3.06,
+        "2023-08-31": -0.08,
+        "2023-09-01": -3.29,
+        "2023-09-07": -0.4,
+        "2023-09-29": -9.6848,
+        "2023-10-02": -3.29,
+        "2023-10-05": -0.46
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "Tranche 1 Principal": 0.0,
+        "Tranche 2 Principal": 87.5394,
+        "Tranche 3 Principal": 53.6059,
+        "Tranche 4 Principal": 11.6341,
+        "Tranche 5 Principal": 8.1067,
+        "Tranche 6 Principal": 14.4458,
+        "Tranche 7 Principal": 37.6468,
+        "Tranche 8 Principal": 37.6468,
+        "Tranche 9 Principal": 36.1699,
+        "Tranche 10 Principal": 15.6071,
+        "Tranche 11 Principal": 22.7242,
+        "Tranche 12 Principal": 45.1001,
+        "Tranche 13 Principal": 15.1952,
+        "Tranche 14 Principal": 16.6546,
+        "Tranche 15 Principal": 14.606,
+        "Tranche 16 Principal": 26.8996,
+        "Tranche 17 Principal": 54.8049,
+        "__Total_Principal__": 498.3871
+      }
+    },
+    {
+      "label": "Jan 2024 BOD",
+      "as_of": "2024-01-23",
+      "actual_row_date": "2024-01-23",
+      "file": "Daily Cash Fcst - 1.23.24_BU view_BOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 529.97,
+        "re_loans_total_M": 94.33,
+        "ubs_loans_total_M": 342.29,
+        "grand_total_tracked_debt_M": 966.59
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1213,
+        "T2": 97.6411,
+        "T3": 57.4752,
+        "T4": 14.6234,
+        "T5_Cyrus_Initial": 5.2544,
+        "T6": 17.7162,
+        "T7": 42.6469,
+        "T8": 41.797,
+        "T9": 40.9536,
+        "T10": 17.1101,
+        "T11": 24.2715,
+        "T12_Cyrus_55M": 29.7337,
+        "T13_ESL_15M": 15.6264,
+        "T14_ESL_16.5M": 17.1283,
+        "T15_Cyrus_16.5M": 11.2492,
+        "T16_ESL_27M": 27.6743,
+        "T17_ESL_50M": 44.6306,
+        "T18_Cyrus_25M": 24.3164
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_NewBrunswick": 4.25,
+        "RE_Hackensack": 7.585,
+        "RE_UBS_Manteno": 54.5
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 264.601,
+        "UBS_Note_B": 77.6914
+      },
+      "liquidity_M": {
+        "available_cash": 38.95,
+        "available_cash_no_hts": 38.95,
+        "hts_reimbursement": 0.0
+      },
+      "interest_payments_near_date_M": {
+        "2023-12-22": -0.19,
+        "2023-12-28": -2.41,
+        "2023-12-29": -8.05,
+        "2024-01-17": -0.11,
+        "2024-01-19": -0.06,
+        "2024-01-24": -3.5,
+        "2024-01-26": -0.71,
+        "2024-02-01": -3.1,
+        "2024-03-01": -3.0
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "Tranche 1 Principal": 0.1213,
+        "Tranche 2 Principal": 97.6411,
+        "Tranche 3 Principal": 57.4752,
+        "Tranche 4 Principal": 14.6234,
+        "Tranche 5 Principal": 5.2544,
+        "Tranche 6 Principal": 17.7162,
+        "Tranche 7 Principal": 42.6469,
+        "Tranche 8 Principal": 41.797,
+        "Tranche 9 Principal": 40.9536,
+        "Tranche 10 Principal": 17.1101,
+        "Tranche 11 Principal": 24.2715,
+        "Tranche 12 Principal": 29.7337,
+        "Tranche 13 Principal": 15.6264,
+        "Tranche 14 Principal": 17.1283,
+        "Tranche 15 Principal": 11.2492,
+        "Tranche 16 Principal": 27.6743,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 24.3164,
+        "__Total_Principal__": 529.9697
+      }
+    },
+    {
+      "label": "May 2024 BOD",
+      "as_of": "2024-05-07",
+      "actual_row_date": "2024-05-07",
+      "file": "Daily Cash Fcst - 5.7.24_BU view_MayBOD_5.9.24.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 545.64,
+        "re_loans_total_M": 94.33,
+        "ubs_loans_total_M": 322.27,
+        "grand_total_tracked_debt_M": 962.24
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1149,
+        "T2": 92.5188,
+        "T3": 54.4604,
+        "T4": 13.8563,
+        "T5_Cyrus_Initial": 4.2993,
+        "T6": 16.7868,
+        "T7": 40.2999,
+        "T8": 39.6047,
+        "T9": 38.8055,
+        "T10": 16.2126,
+        "T11": 22.9985,
+        "T12_Cyrus_55M": 24.3297,
+        "T13_ESL_15M": 14.8068,
+        "T14_ESL_16.5M": 16.23,
+        "T15_Cyrus_16.5M": 9.2048,
+        "T16_ESL_27M": 26.2226,
+        "T17_ESL_50M": 42.2423,
+        "T18_Cyrus_25M": 19.8969,
+        "T19_ESL_70M": 45.0,
+        "T20_Cyrus_8M": 7.75
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_NewBrunswick": 4.25,
+        "RE_Hackensack": 7.585,
+        "RE_UBS_Manteno": 54.5
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 249.1255,
+        "UBS_Note_B": 73.1478
+      },
+      "liquidity_M": {
+        "available_cash": 13.21,
+        "available_cash_no_hts": 13.21
+      },
+      "interest_payments_near_date_M": {
+        "2024-03-13": -0.83,
+        "2024-03-27": -0.12,
+        "2024-03-28": -4.23,
+        "2024-03-29": -18.32,
+        "2024-04-16": -2.85,
+        "2024-05-08": -3.22,
+        "2024-05-10": -0.71,
+        "2024-05-29": -0.08,
+        "2024-06-03": -3.39,
+        "2024-06-14": -1.49
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "Tranche 1 Principal": 0.1149,
+        "Tranche 2 Principal": 92.5188,
+        "Tranche 3 Principal": 54.4604,
+        "Tranche 4 Principal": 13.8563,
+        "Tranche 5 Principal": 4.2993,
+        "Tranche 6 Principal": 16.7868,
+        "Tranche 7 Principal": 40.2999,
+        "Tranche 8 Principal": 39.6047,
+        "Tranche 9 Principal": 38.8055,
+        "Tranche 10 Principal": 16.2126,
+        "Tranche 11 Principal": 22.9985,
+        "Tranche 12 Principal": 24.3297,
+        "Tranche 13 Principal": 14.8068,
+        "Tranche 14 Principal": 16.23,
+        "Tranche 15 Principal": 9.2048,
+        "Tranche 16 Principal": 26.2226,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 19.8969,
+        "Tranche 20 Principal": 45.0,
+        "Tranche 21 Principal": 7.75,
+        "__Total_Principal__": 545.6407
+      }
+    },
+    {
+      "label": "Sep 2024 BOD",
+      "as_of": "2024-09-24",
+      "actual_row_date": "2024-09-24",
+      "file": "Daily Cash Fcst - 9.24.24_BU view_deck version_BOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 672.72,
+        "re_loans_total_M": 82.08,
+        "ubs_loans_total_M": 310.93,
+        "grand_total_tracked_debt_M": 1065.73
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1142,
+        "T2": 94.9373,
+        "T3": 55.9332,
+        "T4": 14.0588,
+        "T5_Cyrus_Initial": 4.0012,
+        "T6": 17.1915,
+        "T7": 41.2966,
+        "T8": 40.5788,
+        "T9": 39.7615,
+        "T10": 16.6333,
+        "T11": 23.6205,
+        "T12_Cyrus_55M": 22.6421,
+        "T13_ESL_15M": 15.2073,
+        "T14_ESL_16.5M": 16.6689,
+        "T15_Cyrus_16.5M": 8.5662,
+        "T16_ESL_27M": 26.9321,
+        "T17_ESL_50M": 43.3701,
+        "T18_Cyrus_25M": 18.5169,
+        "T19_ESL_70M": 70.5038,
+        "T20_Cyrus_8M": 7.089,
+        "T22_ESL_75M": 95.0917
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack": 7.585,
+        "RE_UBS_Manteno": 46.5
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 240.3609,
+        "UBS_Note_B": 70.5739
+      },
+      "liquidity_M": {
+        "available_cash": 11.33,
+        "available_cash_no_hts": 11.33
+      },
+      "interest_payments_near_date_M": {
+        "2024-08-16": -2.36,
+        "2024-09-17": -0.24,
+        "2024-09-30": -27.64,
+        "2024-10-01": -1.38,
+        "2024-10-18": -0.02,
+        "2024-11-01": -3.02
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1142,
+        "Tranche 2 Principal": 94.9373,
+        "Tranche 3 Principal": 55.9332,
+        "Tranche 4 Principal": 14.0588,
+        "Tranche 5 Principal": 4.0012,
+        "Tranche 6 Principal": 17.1915,
+        "Tranche 7 Principal": 41.2966,
+        "Tranche 8 Principal": 40.5788,
+        "Tranche 9 Principal": 39.7615,
+        "Tranche 10 Principal": 16.6333,
+        "Tranche 11 Principal": 23.6205,
+        "Tranche 12 Principal": 22.6421,
+        "Tranche 13 Principal": 15.2073,
+        "Tranche 14 Principal": 16.6689,
+        "Tranche 15 Principal": 8.5662,
+        "Tranche 16 Principal": 26.9321,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 18.5169,
+        "Tranche 20 Principal": 70.5038,
+        "Tranche 21 Principal": 7.089,
+        "Tranche 22 Principal": 95.0917,
+        "__Total_Principal__": 672.7152
+      }
+    },
+    {
+      "label": "Dec 2024 BOD",
+      "as_of": "2024-12-10",
+      "actual_row_date": "2024-12-10",
+      "file": "Daily Cash Fcst - 12.10.24_BU view_deck version_BOD_SC wo 3 RE Interco IF_$9M.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 768.55,
+        "re_loans_total_M": 82.08,
+        "ubs_loans_total_M": 288.53,
+        "grand_total_tracked_debt_M": 1139.16
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1132,
+        "T2": 97.3827,
+        "T3": 57.426,
+        "T4": 14.2585,
+        "T5_Cyrus_Initial": 3.6563,
+        "T6": 17.6,
+        "T7": 42.2989,
+        "T8": 41.5632,
+        "T9": 40.7276,
+        "T10": 17.0564,
+        "T11": 24.2511,
+        "T12_Cyrus_55M": 20.6905,
+        "T13_ESL_15M": 15.6132,
+        "T14_ESL_16.5M": 17.1139,
+        "T15_Cyrus_16.5M": 7.8279,
+        "T16_ESL_27M": 27.651,
+        "T17_ESL_50M": 44.5809,
+        "T18_Cyrus_25M": 16.9864,
+        "T19_ESL_70M": 72.3382,
+        "T20_Cyrus_8M": 6.4183,
+        "T22_ESL_175M": 182.9993
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack": 7.585,
+        "RE_UBS_Manteno": 46.5
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 223.0417,
+        "UBS_Note_B": 65.4883
+      },
+      "liquidity_M": {
+        "available_cash": 13.52,
+        "available_cash_no_hts": 13.52
+      },
+      "interest_payments_near_date_M": {
+        "2024-10-16": -0.96,
+        "2024-10-21": -0.02,
+        "2024-10-31": -0.11,
+        "2024-11-20": -0.03,
+        "2024-12-11": -0.44,
+        "2024-12-31": -29.75,
+        "2025-01-02": -2.57
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1132,
+        "Tranche 2 Principal": 97.3827,
+        "Tranche 3 Principal": 57.426,
+        "Tranche 4 Principal": 14.2585,
+        "Tranche 5 Principal": 3.6563,
+        "Tranche 6 Principal": 17.6,
+        "Tranche 7 Principal": 42.2989,
+        "Tranche 8 Principal": 41.5632,
+        "Tranche 9 Principal": 40.7276,
+        "Tranche 10 Principal": 17.0564,
+        "Tranche 11 Principal": 24.2511,
+        "Tranche 12 Principal": 20.6905,
+        "Tranche 13 Principal": 15.6132,
+        "Tranche 14 Principal": 17.1139,
+        "Tranche 15 Principal": 7.8279,
+        "Tranche 16 Principal": 27.651,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 16.9864,
+        "Tranche 20 Principal": 72.3382,
+        "Tranche 21 Principal": 6.4183,
+        "Tranche 22 Principal": 182.9993,
+        "__Total_Principal__": 768.5536
+      }
+    },
+    {
+      "label": "Dec 2024 Year-End",
+      "as_of": "2024-12-31",
+      "actual_row_date": "2024-12-31",
+      "file": "Daily Cash Fcst - 12.31.24_BU view.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 788.54,
+        "re_loans_total_M": 97.08,
+        "ubs_loans_total_M": 287.41,
+        "grand_total_tracked_debt_M": 1173.03
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1132,
+        "T2": 97.3795,
+        "T3": 57.4239,
+        "T4": 14.2585,
+        "T5_Cyrus_Initial": 3.6563,
+        "T6": 17.5995,
+        "T7": 42.2975,
+        "T8": 41.562,
+        "T9": 40.7264,
+        "T10": 17.0559,
+        "T11": 24.2502,
+        "T12_Cyrus_55M": 20.6907,
+        "T13_ESL_15M": 15.6127,
+        "T14_ESL_16.5M": 17.1133,
+        "T15_Cyrus_16.5M": 7.828,
+        "T16_ESL_27M": 27.65,
+        "T17_ESL_50M": 44.51,
+        "T18_Cyrus_25M": 16.9211,
+        "T19_ESL_70M": 72.358,
+        "T20_Cyrus_8M": 6.4811,
+        "T22_ESL_175M": 203.0508
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_LaceyWA": 15.0,
+        "RE_Hackensack": 7.585,
+        "RE_UBS_Manteno": 46.5
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 222.1741,
+        "UBS_Note_B": 65.2335
+      },
+      "liquidity_M": {
+        "available_cash": 6.76,
+        "available_cash_no_hts": 6.76
+      },
+      "interest_payments_near_date_M": {
+        "2024-11-20": -0.03,
+        "2024-12-31": -2.75,
+        "2025-01-02": -2.35,
+        "2025-02-03": -2.48
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1132,
+        "Tranche 2 Principal": 97.3795,
+        "Tranche 3 Principal": 57.4239,
+        "Tranche 4 Principal": 14.2585,
+        "Tranche 5 Principal": 3.6563,
+        "Tranche 6 Principal": 17.5995,
+        "Tranche 7 Principal": 42.2975,
+        "Tranche 8 Principal": 41.562,
+        "Tranche 9 Principal": 40.7264,
+        "Tranche 10 Principal": 17.0559,
+        "Tranche 11 Principal": 24.2502,
+        "Tranche 12 Principal": 20.6907,
+        "Tranche 13 Principal": 15.6127,
+        "Tranche 14 Principal": 17.1133,
+        "Tranche 15 Principal": 7.828,
+        "Tranche 16 Principal": 27.65,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 16.9211,
+        "Tranche 20 Principal": 72.358,
+        "Tranche 21 Principal": 6.4811,
+        "Tranche 22 Principal": 203.0508,
+        "__Total_Principal__": 788.5387
+      }
+    },
+    {
+      "label": "Jan 2025 BOD",
+      "as_of": "2025-01-21",
+      "actual_row_date": "2025-01-21",
+      "file": "Daily Cash Fcst - 1.21.25_BU view_deck version_working_Apr append_deck2_JanBOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 827.43,
+        "re_loans_total_M": 61.09,
+        "ubs_loans_total_M": 287.43,
+        "grand_total_tracked_debt_M": 1175.95
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1144,
+        "T2": 101.4606,
+        "T3": 59.8807,
+        "T4": 14.7045,
+        "T5_Cyrus_Initial": 3.6563,
+        "T6": 18.3055,
+        "T7": 44.0568,
+        "T8": 43.248,
+        "T9": 42.3799,
+        "T10": 17.7674,
+        "T11": 25.2878,
+        "T12_Cyrus_55M": 20.6907,
+        "T13_ESL_15M": 16.2807,
+        "T14_ESL_16.5M": 17.8455,
+        "T15_Cyrus_16.5M": 7.828,
+        "T16_ESL_27M": 28.8332,
+        "T17_ESL_50M": 46.4145,
+        "T18_Cyrus_25M": 16.9211,
+        "T19_ESL_70M": 75.4541,
+        "T20_Cyrus_8M": 6.4811,
+        "T22_ESL_175M": 219.8205
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_LaceyWA": 5.0,
+        "RE_Hackensack": 7.585,
+        "RE_UBS_Manteno": 20.5
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 222.1874,
+        "UBS_Note_B": 65.2378
+      },
+      "liquidity_M": {
+        "available_cash": 4.43,
+        "available_cash_no_hts": 4.43
+      },
+      "interest_payments_near_date_M": {
+        "2024-12-31": -2.75,
+        "2025-01-13": -1.84,
+        "2025-01-31": -2.37,
+        "2025-02-03": -2.11,
+        "2025-03-03": -1.62
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1144,
+        "Tranche 2 Principal": 101.4606,
+        "Tranche 3 Principal": 59.8807,
+        "Tranche 4 Principal": 14.7045,
+        "Tranche 5 Principal": 3.6563,
+        "Tranche 6 Principal": 18.3055,
+        "Tranche 7 Principal": 44.0568,
+        "Tranche 8 Principal": 43.248,
+        "Tranche 9 Principal": 42.3799,
+        "Tranche 10 Principal": 17.7674,
+        "Tranche 11 Principal": 25.2878,
+        "Tranche 12 Principal": 20.6907,
+        "Tranche 13 Principal": 16.2807,
+        "Tranche 14 Principal": 17.8455,
+        "Tranche 15 Principal": 7.828,
+        "Tranche 16 Principal": 28.8332,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 16.9211,
+        "Tranche 20 Principal": 75.4541,
+        "Tranche 21 Principal": 6.4811,
+        "Tranche 22 Principal": 219.8205,
+        "__Total_Principal__": 827.4311
+      }
+    },
+    {
+      "label": "May 2025 BOD",
+      "as_of": "2025-05-20",
+      "actual_row_date": "2025-05-20",
+      "file": "Daily Cash Fcst - 5.20.25_BU view_deck version_MayBOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 498.46,
+        "re_loans_total_M": 35.59,
+        "ubs_loans_total_M": 287.5,
+        "grand_total_tracked_debt_M": 821.55
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1145,
+        "T2": 49.5917,
+        "T3": 29.2772,
+        "T4": 7.054,
+        "T5_Cyrus_Initial": 0.0,
+        "T6": 8.9062,
+        "T7": 21.2516,
+        "T8": 21.0588,
+        "T9": 20.6383,
+        "T10": 4.6468,
+        "T11": 0.0,
+        "T12_Cyrus_55M": 3.8052,
+        "T13_ESL_15M": 0.0,
+        "T14_ESL_16.5M": 0.0,
+        "T15_Cyrus_16.5M": 7.9471,
+        "T16_ESL_27M": 0.0,
+        "T17_ESL_50M": 0.0,
+        "T18_Cyrus_25M": 17.1787,
+        "T19_ESL_70M": 0.0,
+        "T20_Cyrus_8M": 6.5438,
+        "T22_ESL_175M": 210.339,
+        "T_Cyrus_7th": 40.2028,
+        "T_ESL_15th": 49.9085
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack": 7.585
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 222.2434,
+        "UBS_Note_B": 65.2542
+      },
+      "liquidity_M": {
+        "available_cash": 7.43,
+        "available_cash_no_hts": 7.43
+      },
+      "interest_payments_near_date_M": {
+        "2025-03-31": -2.33,
+        "2025-05-09": -0.04,
+        "2025-05-22": -0.12,
+        "2025-06-02": -0.12,
+        "2025-06-30": -19.2,
+        "2025-07-01": -0.11
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1145,
+        "Tranche 2 Principal": 49.5917,
+        "Tranche 3 Principal": 29.2772,
+        "Tranche 4 Principal": 7.054,
+        "Tranche 5 Principal": 0.0,
+        "Tranche 6 Principal": 8.9062,
+        "Tranche 7 Principal": 21.2516,
+        "Tranche 8 Principal": 21.0588,
+        "Tranche 9 Principal": 20.6383,
+        "Tranche 10 Principal": 4.6468,
+        "Tranche 11 Principal": 0.0,
+        "Tranche 12 Principal": 3.8052,
+        "Tranche 13 Principal": 0.0,
+        "Tranche 14 Principal": 0.0,
+        "Tranche 15 Principal": 7.9471,
+        "Tranche 16 Principal": 0.0,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 17.1787,
+        "Tranche 20 Principal": 0.0,
+        "Tranche 21 Principal": 6.5438,
+        "Tranche 22 Principal": 210.339,
+        "Tranche 23 Principal": 40.2028,
+        "Tranche 24 Principal": 49.9085,
+        "__Total_Principal__": 498.4642
+      }
+    },
+    {
+      "label": "Oct 2025 BOD",
+      "as_of": "2025-10-21",
+      "actual_row_date": "2025-10-21",
+      "file": "Daily Cash Fcst - 10.21.25_BU view_deck version_OctBOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 530.01,
+        "re_loans_total_M": 81.23,
+        "ubs_loans_total_M": 297.27,
+        "grand_total_tracked_debt_M": 908.51
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1083,
+        "T2": 49.9296,
+        "T3": 29.4712,
+        "T4": 6.1601,
+        "T5_Cyrus_Initial": 0.0,
+        "T6": 5.8857,
+        "T7": 2.0647,
+        "T8": 15.0485,
+        "T9": 20.6323,
+        "T10": 4.554,
+        "T11": 0.0,
+        "T12_Cyrus_55M": 3.3114,
+        "T13_ESL_15M": 0.0,
+        "T14_ESL_16.5M": 0.0,
+        "T15_Cyrus_16.5M": 6.9159,
+        "T16_ESL_27M": 0.0,
+        "T17_ESL_50M": 0.0,
+        "T18_Cyrus_25M": 14.9495,
+        "T19_ESL_70M": 0.0,
+        "T20_Cyrus_8M": 5.6946,
+        "T22_ESL_175M": 250.0365,
+        "T_Cyrus_7th": 34.986,
+        "T_ESL_15th": 50.0935,
+        "T_Sept2025": 30.1672
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack": 7.585,
+        "RE_Durham_NC": 11.645,
+        "RE_Guam": 34.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 229.7955,
+        "UBS_Note_B": 67.4719
+      },
+      "liquidity_M": {
+        "available_cash": 4.47,
+        "available_cash_no_hts": 4.47
+      },
+      "interest_payments_near_date_M": {
+        "2025-08-22": -0.01,
+        "2025-09-30": -3.24,
+        "2025-10-20": -0.12,
+        "2025-11-03": -0.13,
+        "2025-11-06": -0.07,
+        "2025-12-01": -0.11
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1083,
+        "Tranche 2 Principal": 49.9296,
+        "Tranche 3 Principal": 29.4712,
+        "Tranche 4 Principal": 6.1601,
+        "Tranche 5 Principal": 0.0,
+        "Tranche 6 Principal": 5.8857,
+        "Tranche 7 Principal": 2.0647,
+        "Tranche 8 Principal": 15.0485,
+        "Tranche 9 Principal": 20.6323,
+        "Tranche 10 Principal": 4.554,
+        "Tranche 11 Principal": 0.0,
+        "Tranche 12 Principal": 3.3114,
+        "Tranche 13 Principal": 0.0,
+        "Tranche 14 Principal": 0.0,
+        "Tranche 15 Principal": 6.9159,
+        "Tranche 16 Principal": 0.0,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 14.9495,
+        "Tranche 20 Principal": 0.0,
+        "Tranche 21 Principal": 5.6946,
+        "Tranche 22 Principal": 250.0365,
+        "Tranche 23 Principal": 34.986,
+        "Tranche 24 Principal": 50.0935,
+        "Tranche 25 Principal": 30.1672,
+        "__Total_Principal__": 530.0091
+      }
+    },
+    {
+      "label": "Dec 2025 Year-End",
+      "as_of": "2025-12-30",
+      "actual_row_date": "2025-12-30",
+      "file": "Daily Cash Fcst - 12.30.25_BU view_deck version final.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 523.36,
+        "re_loans_total_M": 69.58,
+        "ubs_loans_total_M": 320.59,
+        "grand_total_tracked_debt_M": 913.53
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1059,
+        "T2": 48.8502,
+        "T3": 28.8341,
+        "T4": 6.0265,
+        "T5_Cyrus_Initial": 0.0,
+        "T6": 5.7573,
+        "T7": 2.0132,
+        "T8": 14.721,
+        "T9": 20.1862,
+        "T10": 4.4555,
+        "T11": 0.0,
+        "T12_Cyrus_55M": 3.1777,
+        "T13_ESL_15M": 0.0,
+        "T14_ESL_16.5M": 0.0,
+        "T15_Cyrus_16.5M": 6.6365,
+        "T16_ESL_27M": 0.0,
+        "T17_ESL_50M": 0.0,
+        "T18_Cyrus_25M": 14.3456,
+        "T19_ESL_70M": 0.0,
+        "T20_Cyrus_8M": 5.4646,
+        "T22_ESL_175M": 250.0365,
+        "T_Cyrus_7th": 33.5726,
+        "T_ESL_15th": 49.007,
+        "T_Sept2025": 30.1672
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack": 7.585,
+        "RE_Guam": 34.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 311.2325,
+        "UBS_Note_B": 9.3612
+      },
+      "liquidity_M": {
+        "available_cash": 1.21,
+        "available_cash_no_hts": 1.21
+      },
+      "interest_payments_near_date_M": {
+        "2025-11-14": -0.09,
+        "2025-11-21": -0.04,
+        "2025-12-31": -2.77,
+        "2026-01-02": -0.07,
+        "2026-02-02": -0.16
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1059,
+        "Tranche 2 Principal": 48.8502,
+        "Tranche 3 Principal": 28.8341,
+        "Tranche 4 Principal": 6.0265,
+        "Tranche 5 Principal": 0.0,
+        "Tranche 6 Principal": 5.7573,
+        "Tranche 7 Principal": 2.0132,
+        "Tranche 8 Principal": 14.721,
+        "Tranche 9 Principal": 20.1862,
+        "Tranche 10 Principal": 4.4555,
+        "Tranche 11 Principal": 0.0,
+        "Tranche 12 Principal": 3.1777,
+        "Tranche 13 Principal": 0.0,
+        "Tranche 14 Principal": 0.0,
+        "Tranche 15 Principal": 6.6365,
+        "Tranche 16 Principal": 0.0,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 14.3456,
+        "Tranche 20 Principal": 0.0,
+        "Tranche 21 Principal": 5.4646,
+        "Tranche 22 Principal": 250.0365,
+        "Tranche 23 Principal": 33.5726,
+        "Tranche 24 Principal": 49.007,
+        "Tranche 25 Principal": 30.1672,
+        "__Total_Principal__": 523.3577
+      }
+    },
+    {
+      "label": "Mar 2026 Post-Reductions",
+      "as_of": "2026-03-03",
+      "actual_row_date": "2026-03-03",
+      "file": "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 524.16,
+        "re_loans_total_M": 69.58,
+        "ubs_loans_total_M": 326.4,
+        "grand_total_tracked_debt_M": 920.14
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1034,
+        "T2": 49.1323,
+        "T3": 29.0094,
+        "T4": 5.9435,
+        "T5_Cyrus_Initial": 0.0,
+        "T6": 5.752,
+        "T7": 2.0148,
+        "T8": 14.7311,
+        "T9": 20.2363,
+        "T10": 4.4677,
+        "T11": 0.0,
+        "T12_Cyrus_55M": 2.9653,
+        "T13_ESL_15M": 0.0,
+        "T14_ESL_16.5M": 0.0,
+        "T15_Cyrus_16.5M": 6.193,
+        "T16_ESL_27M": 0.0,
+        "T17_ESL_50M": 0.0,
+        "T18_Cyrus_25M": 13.3869,
+        "T19_ESL_70M": 0.0,
+        "T20_Cyrus_8M": 5.0994,
+        "T22_ESL_175M": 253.8704,
+        "T_Cyrus_7th": 31.329,
+        "T_ESL_15th": 49.3,
+        "T_Sept2025": 30.6298
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack": 7.585,
+        "RE_Guam": 34.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 308.8325,
+        "UBS_Note_B": 17.5669
+      },
+      "liquidity_M": {
+        "available_cash": 6.52,
+        "available_cash_no_hts": 6.52
+      },
+      "interest_payments_near_date_M": {
+        "2026-02-04": -0.07,
+        "2026-02-23": -0.12,
+        "2026-03-04": -0.2,
+        "2026-03-31": -2.67,
+        "2026-04-01": -0.16
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1034,
+        "Tranche 2 Principal": 49.1323,
+        "Tranche 3 Principal": 29.0094,
+        "Tranche 4 Principal": 5.9435,
+        "Tranche 5 Principal": 0.0,
+        "Tranche 6 Principal": 5.752,
+        "Tranche 7 Principal": 2.0148,
+        "Tranche 8 Principal": 14.7311,
+        "Tranche 9 Principal": 20.2363,
+        "Tranche 10 Principal": 4.4677,
+        "Tranche 11 Principal": 0.0,
+        "Tranche 12 Principal": 2.9653,
+        "Tranche 13 Principal": 0.0,
+        "Tranche 14 Principal": 0.0,
+        "Tranche 15 Principal": 6.193,
+        "Tranche 16 Principal": 0.0,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 13.3869,
+        "Tranche 20 Principal": 0.0,
+        "Tranche 21 Principal": 5.0994,
+        "Tranche 22 Principal": 253.8704,
+        "Tranche 23 Principal": 31.329,
+        "Tranche 24 Principal": 49.3,
+        "Tranche 25 Principal": 30.6298,
+        "__Total_Principal__": 524.1642
+      }
+    },
+    {
+      "label": "May 2026 BOD",
+      "as_of": "2026-05-08",
+      "actual_row_date": "2026-05-08",
+      "file": "Daily Cash Fcst - 05.08.26_BU view.xlsx",
+      "totals_by_category": {
+        "term_loans_2020_incrementals_total_M": 533.32,
+        "re_loans_total_M": 69.97,
+        "ubs_loans_total_M": 324.8,
+        "grand_total_tracked_debt_M": 928.09
+      },
+      "term_loans_2020_incrementals_detail_M": {
+        "T1": 0.1037,
+        "T2": 50.7055,
+        "T3": 29.947,
+        "T4": 6.0221,
+        "T5_Cyrus_Initial": 0.0,
+        "T6": 5.9009,
+        "T7": 2.0776,
+        "T8": 15.1343,
+        "T9": 20.8214,
+        "T10": 4.5979,
+        "T11": 0.0,
+        "T12_Cyrus_55M": 0.0,
+        "T13_ESL_15M": 0.0,
+        "T14_ESL_16.5M": 0.0,
+        "T15_Cyrus_16.5M": 6.1051,
+        "T16_ESL_27M": 0.0,
+        "T17_ESL_50M": 0.0,
+        "T18_Cyrus_25M": 13.1969,
+        "T19_ESL_70M": 0.0,
+        "T20_Cyrus_8M": 0.0,
+        "T22_ESL_175M": 257.6785,
+        "T_Cyrus_7th": 30.8844,
+        "T_ESL_15th": 50.8928,
+        "T_Sept2025": 31.0892,
+        "T_Cyrus_8th": 8.1602
+      },
+      "re_loans_detail_M": {
+        "RE_Bohemia": 28.0,
+        "RE_Hackensack_2026": 7.975,
+        "RE_Guam": 34.0
+      },
+      "ubs_loans_detail_M": {
+        "UBS_Note_A": 299.435,
+        "UBS_Note_B": 25.3679
+      },
+      "liquidity_M": {
+        "available_cash": 1.51,
+        "available_cash_no_hts": 1.51
+      },
+      "interest_payments_near_date_M": {
+        "2026-03-31": -2.46,
+        "2026-04-30": -0.72,
+        "2026-05-01": -0.15,
+        "2026-06-01": -0.16
+      },
+      "term_loans_2020_sheet_verification_M": {
+        "2020 TL & Incremental TL Principal (Proceeds)": null,
+        "Tranche 1 Principal": 0.1037,
+        "Tranche 2 Principal": 50.7055,
+        "Tranche 3 Principal": 29.947,
+        "Tranche 4 Principal": 6.0221,
+        "Tranche 5 Principal": 0.0,
+        "Tranche 6 Principal": 5.9009,
+        "Tranche 7 Principal": 2.0776,
+        "Tranche 8 Principal": 15.1343,
+        "Tranche 9 Principal": 20.8214,
+        "Tranche 10 Principal": 4.5979,
+        "Tranche 11 Principal": 0.0,
+        "Tranche 12 Principal": 0.0,
+        "Tranche 13 Principal": 0.0,
+        "Tranche 14 Principal": 0.0,
+        "Tranche 15 Principal": 6.1051,
+        "Tranche 16 Principal": 0.0,
+        "Tranche 17 Principal": 0.0,
+        "Tranche 18 Principal": null,
+        "Tranche 19 Principal": 13.1969,
+        "Tranche 20 Principal": 0.0,
+        "Tranche 21 Principal": 0.0,
+        "Tranche 22 Principal": 257.6785,
+        "Tranche 23 Principal": 30.8844,
+        "Tranche 24 Principal": 50.8928,
+        "Tranche 25 Principal": 8.1602,
+        "__Total_Principal__": 533.3175
+      }
+    }
+  ],
+  "key_findings": [
+    "1. TOTAL DEBT TRAJECTORY: Grand total tracked debt (TL + RE + UBS) peaked at ~$1,983M (Jan 2025) before declining to ~$1,461M (May 2026) through asset sales, restructuring, and paydowns.",
+    "2. TERM LOAN GROWTH TO PEAK: 2020 TL + incrementals grew from $660.97M (Sep 2022) to $827.43M (Jan 2025), a $166M increase driven entirely by PIK accrual (60% of interest on T1-T10) and new incremental tranches totaling ~$130M of new issuance.",
+    "3. MAJOR RESTRUCTURING MAY 2025: Term loan total drops from $827M (Jan 2025) to $498M (May 2025), a $329M reduction. This aligns with paydown of ESL tranches (T7-T11, T13, T16, T17 all zero by May 2025) while ESL 15th TL ($50M) and Cyrus 7th ($40M) appear as new instruments.",
+    "4. ESL $175M TRANCHE (T22): The largest single tranche grew from $95M (Sep 2024 label 'ESL $75M') to $183M (Dec 2024), $220M (Jan 2025), peaked at $250M (Oct-Dec 2025), then $258M (May 2026). This is the dominant instrument from 2025 onwards.",
+    "5. UBS LOANS DECLINING: UBS Note A + B combined declined from $374.5M (Sep 2022) to $287.4M (Jan 2025) = $87M reduction through asset sale application. Unusual spike in Note A to $311M at Dec 2025 YE with Note B dropping to $9.4M suggests a reallocation/restructuring between the two notes.",
+    "6. RE LOANS SIGNIFICANT REDUCTION: Total RE loans (actual, ex-Lease OpCo formula artifact) reduced from $143.4M (Jan 2023 peak) to $69.975M (May 2026) = $73M reduction. Key payoffs: Lacey WA (Apr 2023), Lease OpCo (Apr 2023), New Brunswick (Sep 2024), CITI/UBS Manteno (May 2025), Durham NC (Dec 2025). Survivors: Bohemia ($28M), Hackensack ($7.975M 2026 tranche), Guam ($34M).",
+    "7. NEW TRANCHE CADENCE: New incremental term loans were added at nearly every BOD cycle (Dec 2022, Apr 2023, Aug 2023, Jan 2024, May 2024, Dec 2024, May 2025, Oct 2025, May 2026), reflecting ongoing liquidity needs.",
+    "8. AVAILABLE CASH TIGHT: Available cash ranged from $1.21M (Dec 2025) to $72.63M (Jan 2023, aided by equity infusion). Typically $4-15M throughout 2023-2026, indicating persistent liquidity stress.",
+    "9. PIK vs CASH INTEREST: Tranches 1-10 carry 40% cash / 60% PIK interest. Tranche 11 is 100% cash. Most incrementals (T12+) appear to be primarily cash-pay. The PIK component explains principal growth even as some cash payments are made.",
+    "10. SEPT 2025 TL & CYRUS 8TH INCREMENTAL: Sept 2025 TL ($30.2M) first appears in Oct 2025 BOD. Cyrus Eighth Incremental ($8.16M) first appears in May 2026 BOD. These represent the most recent new issuances visible in the data."
+  ]
+}

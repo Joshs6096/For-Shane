@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "analysis_date": "2026-05-11",
+    "primary_file": "Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx",
+    "comparison_files": [
+      "Daily Cash Fcst - 12.30.25_BU view_deck version final.xlsx",
+      "Daily Cash Fcst - 02.17.26_BU view_deck version.xlsx",
+      "Daily Cash Fcst - 03.31.26_BU view_deck version.xlsx",
+      "Daily Cash Fcst - 04.21.26_ BU version_deck version_AprBOD.xlsx"
+    ]
+  },
+  "sheet_names": {
+    "dec_2025": [
+      "RE & Debt init with Manteno",
+      "SOP",
+      "KES & KCD Cash Flow",
+      "LC Forecast Changes",
+      "Trapped Cash",
+      "RC",
+      "UBS reserve",
+      "2020 Term Loans",
+      "Inflows Forecasting",
+      "Inflows Actuals",
+      "Inflows Detail",
+      "Cash Flow",
+      "Disbursement Actuals",
+      "Disbursement Detail",
+      "SC IF 8.12.25",
+      "Risk Management File 11.18.25",
+      "SC B&M payroll",
+      "Logistics 12.19.25",
+      "BU beta",
+      "B&M Anita 11.26.25",
+      "SYW 12.4.25",
+      "Risk Management_5.30.24",
+      "BU HS Allocations 11.04.25",
+      "SHS Cash Changes 12.5.25",
+      "RE Fcst Summary 11.14.25",
+      "guards DC 12.9.25 Rocco",
+      "Treasury SUMMARY 12.30",
+      "FY25 payroll 12.19",
+      "FY26 payroll 12.19",
+      "B&M Stores 8.22.25",
+      "KCD backup_12.23.25BR",
+      "BU beta 9-12-25 Adj",
+      "SC Interco",
+      "FY24 sales taxes",
+      "MT allocation 5.29.25",
+      "Liquidity",
+      "capex forecast 12.15.25",
+      "SHI FY26 Rakesh 8.26.25",
+      "2026 FinDisb_JG 12.4.25",
+      "replacements 7.21.25 AD",
+      "Total TFCO By DC Tot 2.3.25_BM",
+      "RE Fcst Summary 12.10.24",
+      "Legal_BU_11.29.24",
+      "SHI 2.11.25",
+      "SYWR_CF_ZA_6.19.25",
+      "SYWR_IF_Zach_6.19.25",
+      "FY File",
+      "MERCH",
+      "Non-Merch",
+      "Payroll"
+    ],
+    "feb_2026": [
+      "RE & Debt init with Manteno",
+      "Cash Flow",
+      "SOP",
+      "KES & KCD Cash Flow",
+      "LC Forecast Changes",
+      "Trapped Cash",
+      "RC",
+      "UBS reserve",
+      "2020 Term Loans",
+      "Inflows Forecasting",
+      "Inflows Actuals",
+      "Inflows Detail",
+      "Disbursement Actuals",
+      "Disbursement Detail",
+      "BU beta",
+      "FY25 sales taxes_2.5.26",
+      "SC IF 8.12.25",
+      "Risk Management File 2.11.26",
+      "SC B&M payroll",
+      "SHI post-Kairos_1.7.26 Rakesh",
+      "Logistics 1.30.26 UPS",
+      "BU HS Allocations 2.3.25",
+      "SHS Cash Changes 1.30.26",
+      "Liquidity",
+      "capex forecast 2.12.26",
+      "RE Fcst Summary 2.12.26",
+      "KCD backup_2.3.26BR",
+      "SYW 12.4.25",
+      "Risk Management_5.30.24",
+      "guards DC 12.9.25 Rocco",
+      "Treasury SUMMARY 2.17",
+      "B&M Anita 1.25.26",
+      "FY26 payroll 2.13",
+      "FY25 payroll 2.13",
+      "B&M Stores 8.22.25",
+      "BU beta 9-12-25 Adj",
+      "SC Interco",
+      "MT allocation 5.29.25",
+      "SHI FY26 Rakesh 8.26.25",
+      "2026 FinDisb_JG 12.31.25",
+      "replacements 7.21.25 AD",
+      "Total TFCO By DC Tot 2.3.25_BM",
+      "RE Fcst Summary 12.10.24",
+      "Legal_BU_11.29.24",
+      "SHI 2.11.25",
+      "SYWR_CF_ZA_6.19.25",
+      "SYWR_IF_Zach_6.19.25",
+      "FY File",
+      "MERCH",
+      "Non-Merch",
+      "Payroll"
+    ],
+    "mar_2026_post_reductions": [
+      "RE & Debt init with Manteno",
+      "SOP",
+      "KES & KCD Cash Flow",
+      "LC Forecast Changes",
+      "Trapped Cash",
+      "RC",
+      "UBS reserve",
+      "2020 Term Loans",
+      "Inflows Forecasting",
+      "Inflows Actuals",
+      "Inflows Detail",
+      "Disbursement Actuals",
+      "Cash Flow",
+      "Disbursement Detail",
+      "capex forecast 2.27.26",
+      "RE Fcst Summary 2.27.26",
+      "Logistics 2.26.26 FY27",
+      "BU beta",
+      "Risk Management File 2.11.26",
+      "SHS Cash Changes 2.25.26",
+      "BU HS Allocations 2.28.25",
+      "FY25 sales taxes_2.5.26",
+      "KCD backup_3.3.26BR",
+      "SC IF 2.27.26",
+      "SC FY27 Payroll",
+      "SC IF 8.12.25",
+      "SC B&M payroll",
+      "SHI post-Kairos_1.7.26 Rakesh",
+      "Liquidity",
+      "SYW 12.4.25",
+      "Risk Management_5.30.24",
+      "guards DC 12.9.25 Rocco",
+      "Treasury SUMMARY 3.3",
+      "B&M Anita 2.27.26",
+      "FY27 payroll 2.27",
+      "FY26 payroll 2.27",
+      "FY25 payroll 2.27",
+      "B&M Stores 8.22.25",
+      "BU beta 9-12-25 Adj",
+      "SC Interco",
+      "MT allocation 5.29.25",
+      "SHI FY26 Rakesh 8.26.25",
+      "2026 FinDisb_JG 12.31.25",
+      "replacements 7.21.25 AD",
+      "Total TFCO By DC Tot 2.3.25_BM",
+      "RE Fcst Summary 12.10.24",
+      "Legal_BU_11.29.24",
+      "SHI 2.11.25",
+      "SYWR_CF_ZA_6.19.25",
+      "SYWR_IF_Zach_6.19.25",
+      "FY File",
+      "MERCH",
+      "Non-Merch",
+      "Payroll"
+    ],
+    "mar_31_2026": [
+      "(see full list above - 48 sheets)"
+    ],
+    "apr_2026": [
+      "(see full list above - 49 sheets)"
+    ]
+  },
+  "new_tabs_in_mar_2026_vs_dec_2025": {
+    "added": [
+      "FY27 payroll 2.27 (CRITICAL: first FY27 payroll forecast, at post-reduction run rate)",
+      "SC FY27 Payroll (Supply Chain FY27 payroll planning)",
+      "SC IF 2.27.26 (updated Supply Chain inflows forecast)",
+      "capex forecast 2.27.26 (updated CAPEX)",
+      "RE Fcst Summary 2.27.26 (updated Real Estate)",
+      "Logistics 2.26.26 FY27 (FY27 logistics planning)",
+      "SHS Cash Changes 2.25.26 (Home Services cash changes)",
+      "BU HS Allocations 2.28.25 (updated Home Services allocations)"
+    ],
+    "removed": [
+      "SC IF 8.12.25 (old Supply Chain forecast - replaced by SC IF 2.27.26)",
+      "Logistics 12.19.25 (old logistics - replaced by 2.26.26 FY27)",
+      "FY24 sales taxes (removed - no longer needed)"
+    ],
+    "significance": "The introduction of FY27 payroll planning (FY27 payroll 2.27 and SC FY27 Payroll) in the Mar 2026 post-reductions file signals that the reductions establish a new steady-state run rate that is now being projected into FY27"
+  },
+  "keyword_matches_found": {
+    "note": "No direct keywords 'reduction', 'headcount', 'restructuring', 'severance', 'FTE', 'layoff' found in cell values (pending full scan) - the reductions are captured numerically in payroll model tabs, not through narrative text",
+    "payroll_notes_in_fy26_tab": [
+      "1) This FY26 cash flow forecast is based upon flat payroll",
+      "2) No merit increases currently reflected",
+      "3) Real Estate BU bonus estimated at $300k in May",
+      "4) Other executive bonuses not included as those amounts are uncertain"
+    ]
+  },
+  "payroll_analysis": {
+    "fy26_annual_totals_usd_millions": {
+      "dec_2025_baseline": -250.91,
+      "feb_2026": -248.88,
+      "mar_2026_post_reductions_02_27_26": -246.26,
+      "mar_2026_03_06_26": -245.79,
+      "mar_2026_03_13_26": -245.51,
+      "mar_2026_03_20_26": -244.69,
+      "mar_2026_03_27_26": -242.6,
+      "apr_2026_04_03_26": -241.47,
+      "apr_2026_04_10_26": -239.17,
+      "apr_2026_04_17_26": -238.35
+    },
+    "fy27_annual_totals_usd_millions": {
+      "mar_2026_02_27_26_first_fy27_forecast": -245.77,
+      "mar_2026_03_27_26": -240.08,
+      "apr_2026_04_03_26": -240.28,
+      "apr_2026_04_10_26": -236.78,
+      "apr_2026_04_17_26": -235.6
+    },
+    "reduction_by_bu_fy26_dec_vs_mar_usd_millions": {
+      "Finance": {
+        "dec_2025": -11.03,
+        "mar_2026": -10.79,
+        "change": 0.24
+      },
+      "HoldingsCo": {
+        "dec_2025": -2.79,
+        "mar_2026": -2.85,
+        "change": -0.06
+      },
+      "Home_Services": {
+        "dec_2025": -154.61,
+        "mar_2026": -152.82,
+        "change": 1.79
+      },
+      "HR": {
+        "dec_2025": -3.1,
+        "mar_2026": -2.84,
+        "change": 0.26
+      },
+      "KCD": {
+        "dec_2025": -7.62,
+        "mar_2026": -7.6,
+        "change": 0.02
+      },
+      "Legal": {
+        "dec_2025": -4.4,
+        "mar_2026": -4.4,
+        "change": 0.0
+      },
+      "Member_Tech": {
+        "dec_2025": -4.74,
+        "mar_2026": -4.82,
+        "change": -0.08
+      },
+      "MSO": {
+        "dec_2025": -4.4,
+        "mar_2026": -3.65,
+        "change": 0.75
+      },
+      "Real_Estate": {
+        "dec_2025": -10.7,
+        "mar_2026": -10.74,
+        "change": -0.04
+      },
+      "Retail": {
+        "dec_2025": -18.8,
+        "mar_2026": -18.16,
+        "change": 0.64
+      },
+      "Retail_Online": {
+        "dec_2025": -1.34,
+        "mar_2026": -1.24,
+        "change": 0.1
+      },
+      "SYWR": {
+        "dec_2025": -7.71,
+        "mar_2026": -8.48,
+        "change": -0.77
+      },
+      "Supply_Chain": {
+        "dec_2025": -19.67,
+        "mar_2026": -17.86,
+        "change": 1.81
+      }
+    },
+    "reduction_by_bu_fy26_dec_vs_apr_usd_millions": {
+      "Finance": {
+        "dec_2025": -11.03,
+        "apr_2026": -10.15,
+        "change": 0.88
+      },
+      "HoldingsCo": {
+        "dec_2025": -2.79,
+        "apr_2026": -2.62,
+        "change": 0.17
+      },
+      "Home_Services": {
+        "dec_2025": -154.61,
+        "apr_2026": -150.56,
+        "change": 4.05
+      },
+      "HR": {
+        "dec_2025": -3.1,
+        "apr_2026": -2.97,
+        "change": 0.13
+      },
+      "KCD": {
+        "dec_2025": -7.62,
+        "apr_2026": -6.82,
+        "change": 0.8
+      },
+      "Legal": {
+        "dec_2025": -4.4,
+        "apr_2026": -4.25,
+        "change": 0.15
+      },
+      "Member_Tech": {
+        "dec_2025": -4.74,
+        "apr_2026": -4.71,
+        "change": 0.03
+      },
+      "MSO": {
+        "dec_2025": -4.4,
+        "apr_2026": -3.11,
+        "change": 1.29
+      },
+      "Real_Estate": {
+        "dec_2025": -10.7,
+        "apr_2026": -9.51,
+        "change": 1.19
+      },
+      "Retail": {
+        "dec_2025": -18.8,
+        "apr_2026": -17.54,
+        "change": 1.26
+      },
+      "Retail_Online": {
+        "dec_2025": -1.34,
+        "apr_2026": -1.21,
+        "change": 0.13
+      },
+      "SYWR": {
+        "dec_2025": -7.71,
+        "apr_2026": -7.54,
+        "change": 0.17
+      },
+      "Supply_Chain": {
+        "dec_2025": -19.67,
+        "apr_2026": -17.36,
+        "change": 2.31
+      }
+    }
+  },
+  "disbursement_analysis": {
+    "monthly_payroll_comparison_march_month_usd_millions": {
+      "dec_2025_file_for_mar_month": -20.68,
+      "mar_2026_post_reductions_for_mar_month": -20.0,
+      "change": 0.68
+    },
+    "monthly_total_disbursements_comparison_march_month_usd_millions": {
+      "dec_2025_file_for_mar_month": -71.39,
+      "mar_2026_post_reductions_for_mar_month": -71.29,
+      "change": 0.11,
+      "note": "Total disbursements barely changed for the March 2026 month because payroll savings ($0.68M) were largely offset by increases in property taxes (+$1.62M), legal services (+$1.07M), facilities (+$0.25M), and logistics (+$0.12M)"
+    },
+    "april_month_comparison_usd_millions": {
+      "dec_2025_file_for_apr_month": 0.0,
+      "mar_2026_post_reductions_for_apr_month": -63.19,
+      "apr_2026_file_for_apr_month": -36.07,
+      "note": "Dec 2025 file had no April forecast. Mar 2026 post-reductions forecasted full $63.19M April disbursements. Apr 2026 actual file shows only $36.07M (actual April activity through Apr 21) indicating the month was running significantly below forecast, partly because payroll change took effect mid-April"
+    },
+    "biggest_changes_dec_to_mar_for_march_month": {
+      "decreases_savings": [
+        {
+          "category": "Payroll/Benefits",
+          "dec": -20.68,
+          "mar": -20.0,
+          "change": 0.68
+        },
+        {
+          "category": "Supply Chain Logistics (SHS)",
+          "dec": -0.76,
+          "mar": -0.28,
+          "change": 0.48
+        },
+        {
+          "category": "Other Logistics",
+          "dec": -0.86,
+          "mar": -0.47,
+          "change": 0.39
+        },
+        {
+          "category": "CAPEX",
+          "dec": -1.35,
+          "mar": 0.0,
+          "change": 1.35
+        },
+        {
+          "category": "Equipment-Amazon",
+          "dec": -1.2,
+          "mar": 0.0,
+          "change": 1.2
+        },
+        {
+          "category": "Total Equipment",
+          "dec": -3.55,
+          "mar": -2.82,
+          "change": 0.73
+        },
+        {
+          "category": "Total Logistics",
+          "dec": -1.98,
+          "mar": -1.22,
+          "change": 0.75
+        },
+        {
+          "category": "Merch Total",
+          "dec": -12.3,
+          "mar": -11.34,
+          "change": 0.96
+        },
+        {
+          "category": "P-Card Total",
+          "dec": -2.11,
+          "mar": -1.87,
+          "change": 0.24
+        }
+      ],
+      "increases_cost_pressure": [
+        {
+          "category": "Property Tax",
+          "dec": -1.38,
+          "mar": -3.01,
+          "change": -1.62
+        },
+        {
+          "category": "Legal Services",
+          "dec": -1.7,
+          "mar": -2.77,
+          "change": -1.07
+        },
+        {
+          "category": "Rent",
+          "dec": -1.92,
+          "mar": -2.21,
+          "change": -0.29
+        },
+        {
+          "category": "Facilities",
+          "dec": -0.51,
+          "mar": -0.75,
+          "change": -0.25
+        },
+        {
+          "category": "Debt Repayment",
+          "dec": 0.0,
+          "mar": -2.09,
+          "change": -2.09
+        },
+        {
+          "category": "SYWR",
+          "dec": -0.67,
+          "mar": -0.69,
+          "change": -0.03
+        },
+        {
+          "category": "Logistics-UPS",
+          "dec": -0.35,
+          "mar": -0.47,
+          "change": -0.12
+        }
+      ]
+    }
+  },
+  "annual_run_rate_reduction": {
+    "payroll_dec_2025_to_apr_2026_usd_millions": {
+      "dec_2025_fy26_annual": -250.91,
+      "apr_2026_fy26_annual": -238.35,
+      "total_reduction": 12.56,
+      "percent_reduction": 5.0
+    },
+    "payroll_dec_2025_to_apr_2026_fy27_usd_millions": {
+      "mar_2026_fy27_annual_first_forecast": -245.77,
+      "apr_2026_fy27_annual": -235.6,
+      "total_reduction_from_dec_baseline": 15.31,
+      "percent_reduction_from_dec_fy26": 6.1
+    },
+    "weekly_payroll_reduction_pace": {
+      "note": "The Apr 2026 FY26 payroll file contains a week-by-week tracker showing payroll run rate declining by approximately $1.0-2.3M per week from 02/27/26 through 04/17/26",
+      "02_27_26": -246.26,
+      "03_06_26": -245.79,
+      "03_13_26": -245.51,
+      "03_20_26": -244.69,
+      "03_27_26": -242.6,
+      "04_03_26": -241.47,
+      "04_10_26": -239.17,
+      "04_17_26": -238.35
+    }
+  },
+  "cash_flow_comparison": {
+    "structure_note": "The Cash Flow sheet is date-indexed with daily rows and monthly summary rows. Inflow/disbursement categories are in columns 85-113 (CG-DI). Due to the date template structure (2020 base dates), the monthly summaries represent forward forecast periods.",
+    "monthly_summaries_show_identical_data": "The monthly summary rows in the Cash Flow sheet sum to identical amounts across all 5 files (e.g., Payroll/Bens annual sum = -$597.3M in all files), indicating the Cash Flow sheet uses the same historical actuals template. The KEY differences are in the Disbursement Detail and FY26/FY27 payroll tabs which contain the updated forecasts.",
+    "inflows_comparison_dec_vs_mar_march_month_usd_millions": {
+      "Payroll_Bens_CN": {
+        "dec": -20.68,
+        "mar": -20.0,
+        "change": 0.68
+      },
+      "Merch_CIA_CO": {
+        "dec": -0.34,
+        "mar": -0.22,
+        "change": 0.12
+      },
+      "Merch_OnTerms_CP": {
+        "dec": -5.97,
+        "mar": -5.97,
+        "change": 0.0
+      },
+      "Rent_CQ": {
+        "dec": -1.92,
+        "mar": -2.21,
+        "change": -0.29
+      },
+      "Logistics_CR": {
+        "dec": -1.98,
+        "mar": -1.22,
+        "change": 0.75
+      },
+      "Advertising_CS": {
+        "dec": -1.67,
+        "mar": -1.51,
+        "change": 0.16
+      },
+      "Other_NonMerch_CT": {
+        "dec_comment": "Encompasses all other operating disbursements"
+      }
+    }
+  },
+  "summary_findings": "\nWHAT 'POST-REDUCTIONS' MEANS IN THE MARCH 3, 2026 FILING\n\nThe file \"Daily Cash Fcst - 03.03.26_post-reductions_deck version_MarBOD.xlsx\" \nrepresents the first Board of Directors cash flow presentation after a significant \npayroll/headcount reduction program was executed in late February 2026. \nThis is the March BOD (Board of Directors) deck version.\n\nKEY DEFINITION:\n'Post-reductions' = the cash flow model has been updated to reflect the new lower \nheadcount/payroll run rate following an organizational restructuring that took \neffect approximately February 27, 2026 (the date of the new FY26 payroll model).\n\nQUANTIFIED IMPACT:\n\n1. PAYROLL RUN RATE REDUCTION (most important metric):\n   - Dec 2025 FY26 annual payroll: -$250.9M\n   - Mar 3, 2026 (post-reductions): -$246.3M  = -$4.6M initial reduction (1.9%)\n   - Apr 17, 2026 (further reductions): -$238.4M = -$12.6M total reduction (5.0%)\n   The reductions were ongoing weekly, not a one-time cut.\n\n2. LARGEST REDUCTION BY BUSINESS UNIT (Dec 2025 to Apr 2026, FY26):\n   - Supply Chain: -$19.7M \u2192 -$17.4M = -$2.3M savings\n   - MSO (Merchandise Solutions Operations): -$4.4M \u2192 -$3.1M = -$1.3M savings\n   - Real Estate: -$10.7M \u2192 -$9.5M = -$1.2M savings\n   - Home Services: -$154.6M \u2192 -$150.6M = -$4.0M savings (largest absolute $)\n   - Retail: -$18.8M \u2192 -$17.5M = -$1.3M savings\n\n3. FORWARD RUN RATE (FY27 PLANNING):\n   - The Mar 2026 file introduces FY27 payroll planning for the FIRST TIME\n   - FY27 annual payroll initially set at -$245.8M (reflecting reductions)\n   - By Apr 17, 2026, FY27 plan further reduced to -$235.6M\n   - This confirms reductions establish a permanently lower cost structure\n\n4. NON-PAYROLL DISBURSEMENTS:\n   - Overall monthly disbursements barely changed in the March 2026 month itself\n     ($71.39M Dec vs $71.29M Mar = only $0.11M net improvement)\n   - Payroll savings ($0.68M for March) were offset by:\n     * Property taxes: +$1.62M increase\n     * Legal services: +$1.07M increase  \n     * Debt repayment: +$2.09M increase (new in Mar 2026)\n   - Logistics, CAPEX, and equipment spending also decreased\n\n5. STRUCTURAL SIGNIFICANCE:\n   - The filing introduces two new tabs not present in prior files:\n     'FY27 payroll 2.27' and 'SC FY27 Payroll'\n   - This signals the restructuring is being \"locked in\" as the forward run rate\n   - The week-by-week tracker in the Apr 2026 file confirms reductions accelerated \n     through late March and early April (another $7.9M reduction after the Mar 3 filing)\n\n6. APRIL 2026 'PRE PAYROLL CHANGE' CONTEXT:\n   - April 2026 actual disbursements for the April month show only -$10.45M payroll\n     vs Mar 2026 forecast of -$20.84M \u2014 a $10.39M single-month reduction\n   - This represents the payroll change taking full effect in April\n   - At ~$10.4M/month actual vs ~$20.8M/month forecast = approximately 50% \n     reduction in payroll for that pay period, suggesting significant mid-month change\n\nCONCLUSION:\nPost-reductions represents an organizational restructuring (likely headcount reduction) \nexecuted around February 27, 2026 that reduced the annualized payroll run rate by \napproximately $4.6M immediately (1.9%) with further reductions bringing the total \nto $12.6M (5.0%) by mid-April 2026. The largest impacts were in Home Services, \nSupply Chain, and MSO business units. The reductions were still being implemented \nthrough April 2026, not fully captured in the March 3 filing.\n",
+  "payroll_change_april_2026": {
+    "note": "The April 2026 file shows actual payroll disbursements for April significantly below the March 2026 post-reductions forecast",
+    "mar_2026_forecast_for_apr_month": -20.84,
+    "apr_2026_actual_for_apr_month_through_apr_21": -10.45,
+    "single_month_difference": 10.39,
+    "interpretation": "The 'pre payroll change' context suggests there was an additional payroll restructuring event that took effect in April 2026. The approximately $10.4M reduction in actual April payroll vs the March forecast (50% of a full month's payroll) suggests either a significant mid-cycle payroll elimination or the effect of timing differences in how the new reduced payroll schedule was implemented."
+  }
+}
